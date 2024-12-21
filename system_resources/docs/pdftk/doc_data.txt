@@ -1,0 +1,28 @@
+InfoBegin
+InfoKey: Creator
+InfoValue: Adobe InDesign CC 2015 (Macintosh)
+InfoBegin
+InfoKey: Producer
+InfoValue: 3-Heights(TM) PDF Security Shell 4.5.24.6 (http://www.pdf-tools.com)
+InfoBegin
+InfoKey: PDFVersion
+InfoValue: 1.4
+InfoBegin
+InfoKey: ModDate
+InfoValue: D:20180425120603+02'00'
+InfoBegin
+InfoKey: CreationDate
+InfoValue: D:20180417120822+02'00'
+PdfID0: 9c26d6cb4360a5bd35e563f071fd134f
+PdfID1: df2e55493298c04f9a09f0bc3c0666bb
+NumberOfPages: 2
+PageMediaBegin
+PageMediaNumber: 1
+PageMediaRotation: 0
+PageMediaRect: 0 0 595.276 841.89
+PageMediaDimensions: 595.276 841.89
+PageMediaBegin
+PageMediaNumber: 2
+PageMediaRotation: 0
+PageMediaRect: 0 0 595.44 841.92
+PageMediaDimensions: 595.44 841.92

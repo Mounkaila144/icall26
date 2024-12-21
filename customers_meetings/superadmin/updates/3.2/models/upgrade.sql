@@ -1,0 +1,1 @@
+ALTER TABLE `t_customers_meeting` ADD `treated_at` DATETIME NULL DEFAULT NULL AFTER `creation_at`;

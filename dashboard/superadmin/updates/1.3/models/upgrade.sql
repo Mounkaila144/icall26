@@ -1,0 +1,1 @@
+ALTER TABLE `t_system_menu`  ADD `status` enum('ACTIVE','DELETE') COLLATE utf8_bin NOT NULL DEFAULT 'ACTIVE'  AFTER `level` ; 

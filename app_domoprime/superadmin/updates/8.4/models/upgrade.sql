@@ -1,0 +1,1 @@
+ALTER TABLE `t_domoprime_calculation` ADD `signature` VARCHAR(48) NULL DEFAULT NULL AFTER `id`;

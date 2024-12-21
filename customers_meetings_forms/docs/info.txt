@@ -1,0 +1,12 @@
+http://jsfiddle.net/dataweb/28nMJ/37/ 
+
+
+ALTER TABLE `t_customers_meeting_forms` ADD `toto-titi` VARCHAR(255) NOT NULL,ADD `tato-titi` VARCHAR(255) NOT NULL AFTER `data`;
+
+ALTER TABLE `t_customers_meeting_forms` DROP `toto-titi`;
+
+
+ALTER TABLE `t_customers_meeting_forms` CHANGE `toto+titi` `toto-titi` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL;
+
+
+ALTER TABLE `t_customers_meeting_forms` CHANGE `toto+titi` `toto-titi` VARCHAR(255) NOT NULL;

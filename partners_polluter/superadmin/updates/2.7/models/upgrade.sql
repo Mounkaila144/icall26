@@ -1,0 +1,1 @@
+ALTER TABLE `t_partner_polluter_company` ADD `type_id` INT(11) unsigned NULL DEFAULT NULL  AFTER `layer_id`;

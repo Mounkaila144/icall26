@@ -1,0 +1,53 @@
+0- cloud -> json
+1- utiliser lib google oauth
+2- 3 modules Norme ISO
+google_oauth
+utils_google_sheet
+customers_meeting_import_google_sheet
+
+CustomerMeetingGoogleSheetFormat
+
+3 - scope  (utils_google_sheet) rand => settings
+4 - callback (utils_google_sheet)
+   test scope
+5- callback url ? non visible - fixe en dur
+
+"utils_google_sheet_callback"=>array("pattern"=>'/google/oauth/sheet/callback',
+                            "module"=>"google_oauth",
+                            "action"=>"callback",
+6- Settings form marche pas
+7 - pas besoin de DB pour l'oauth
+8- Refresh ?
+cron ? import ?
+9 - ajaxListPartialFormat - UtilsGoogleSheetFormat ????
+10- A supprimer : UtilsGoogleSheetToken
+11- Remettre de l'ordre dans les modèles + schema
+12- Logique négatif
+
+{if $api->isTokenNull()}
+    <button id="google-login" class="btn btn-primary">{__("Connect to Google")}</button>
+
+    <script>
+
+        $('#google-login').click(function() {
+            var url = 'https://accounts.google.com/o/oauth2/v2/auth?' + $.param({
+                client_id: '{$api->getClient_id()}',
+                redirect_uri: '{$api->getRedirect_uri()}',
+                response_type: 'code',
+                scope: '{$api->getScope()}',
+                access_type: 'offline',
+                prompt: 'consent',
+                state: '{url()}'
+            });
+
+            window.location = url;
+        });
+
+    </script>
+{/if}
+
+13- Balise <a href="" target="_blank".....
+14- acces compte google urls callbacks dev 
+    http://www.ecosol16.net/admin/google/oauth/sheet/callback
+    callback souad
+15- souad - google cloud

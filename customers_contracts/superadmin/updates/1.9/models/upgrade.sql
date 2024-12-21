@@ -1,0 +1,1 @@
+ALTER TABLE `t_customers_contract` ADD `polluter_id` INT(11) NULL DEFAULT NULL AFTER `financial_partner_id`;

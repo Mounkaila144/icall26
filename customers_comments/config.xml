@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <title>customers documents</title>
+    <type>customers</type> 
+    <version>1.0</version>
+    <logo>logo.png</logo>
+    <description>this module manage the customer documents.</description>
+    <author>F.Mallet</author>
+     <dependencies>
+        <module>customers</module>       
+    </dependencies>
+</module>

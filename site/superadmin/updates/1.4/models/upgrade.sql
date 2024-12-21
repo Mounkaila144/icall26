@@ -1,0 +1,1 @@
+ALTER TABLE `t_sites` CHANGE `last_connection` `last_connection` TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP;

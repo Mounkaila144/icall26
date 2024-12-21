@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <title>polluters</title>
+    <type>partners</type> 
+    <version>1.0</version>
+    <logo>logo.png</logo>
+    <description>this module manage polluters actions.</description>
+    <author>F.Mallet</author>
+    <dependencies>
+        <module>customers_meetings_forms_documents</module>              
+    </dependencies>
+</module> 

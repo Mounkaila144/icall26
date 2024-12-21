@@ -1,0 +1,1 @@
+ALTER TABLE `t_partner_polluter_contact` ADD  `function` varchar(64) COLLATE utf8_bin DEFAULT '' AFTER `fax`;

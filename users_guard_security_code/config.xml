@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <title>user guard security code</title>
+    <type>users</type> 
+    <version>1.0</version>
+    <logo>logo.png</logo>
+    <description>this module manages the user security code connexion.</description>
+    <author>F.Mallet</author>
+    <dependencies>
+        <module>users</module>
+        <module>users_guard</module>
+    </dependencies>
+</module>

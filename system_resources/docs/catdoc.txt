@@ -1,0 +1,3 @@
+https://linux.die.net/man/1/catdoc
+https://www.artio.net/faqs/joomdoc/do-you-have-any-linksdocumentations-to-downloadinstall-this-libaries-pdf2text-and-catdoc
+http://blog.brush.co.nz/2009/09/catdoc-windows/

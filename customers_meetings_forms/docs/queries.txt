@@ -1,0 +1,14 @@
+Form non affecté par un contrat
+
+SELECT * FROM `t_customers_meeting_forms` 
+INNER JOIN t_customers_meeting ON t_customers_meeting.id =t_customers_meeting_forms.meeting_id 
+LEFT JOIN t_customers_contract ON t_customers_contract.meeting_id=t_customers_meeting.id 
+WHERE t_customers_contract.meeting_id IS NOT NULL AND t_customers_meeting_forms.contract_id IS NULL 
+
+UPDATE `t_customers_meeting_forms` SET is_hold = 'NO' WHERE is_hold='';
+
+
+UPDATE t_customers_meeting_forms
+INNER JOIN t_customers_contract ON t_customers_contract.meeting_id=t_customers_meeting_forms.meeting_id
+SET t_customers_meeting_forms.contract_id = t_customers_contract.id
+WHERE t_customers_meeting_forms.contract_id IS NULL

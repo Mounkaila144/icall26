@@ -1,0 +1,2 @@
+ALTER TABLE `t_customers_contract` ADD `closed_at` DATE  NULL DEFAULT NULL AFTER `opc_at`;
+ALTER TABLE `t_customers_contract` ADD `has_tva` enum('NO','YES') COLLATE utf8_bin NOT NULL DEFAULT 'NO' AFTER `opc_at`;

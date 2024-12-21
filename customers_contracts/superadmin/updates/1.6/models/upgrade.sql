@@ -1,0 +1,1 @@
+ALTER TABLE `t_customers_contract`  ADD `advance_payment` DECIMAL(20,6) NOT NULL AFTER `variables`;

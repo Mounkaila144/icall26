@@ -1,0 +1,1 @@
+ALTER TABLE `t_customers_meeting` ADD `state_updated_at` timestamp   NULL DEFAULT NULL AFTER `confirmed_at`;

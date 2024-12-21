@@ -1,0 +1,1 @@
+ALTER TABLE `t_partner_polluter_company` ADD `prime_precesion` int(11) unsigned  NULL AFTER `mode`;

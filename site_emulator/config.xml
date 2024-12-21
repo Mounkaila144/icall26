@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <title>server services</title>
+    <type>services</type> 
+    <version>1.0</version>
+    <logo>logo.png</logo>
+    <description>this module manage the server services actions.</description>
+    <author>F.MALLET</author>
+     <dependencies>
+        <module>site_services</module>                  
+    </dependencies>
+</module>

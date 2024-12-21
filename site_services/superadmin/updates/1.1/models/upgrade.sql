@@ -1,0 +1,1 @@
+ALTER TABLE `t_site_services_site` ADD `description` TEXT NOT NULL DEFAULT "" AFTER `company`;

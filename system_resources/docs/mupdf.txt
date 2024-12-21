@@ -1,0 +1,5 @@
+sudo apt-get install mupdf mupdf-tools
+
+https://mupdf.com/
+https://mupdf.com/docs/index.html
+http://manpages.ubuntu.com/manpages/bionic/man1/mutool.1.html

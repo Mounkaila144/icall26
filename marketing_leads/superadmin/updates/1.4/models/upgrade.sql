@@ -1,0 +1,2 @@
+ALTER TABLE `t_marketing_leads_wp_forms` ADD `is_duplicate` enum('YES','NO')  NOT NULL DEFAULT 'NO' AFTER `state`;
+ALTER TABLE `t_marketing_leads_wp_forms` ADD `phone_status` varchar(64) NULL DEFAULT NULL AFTER `is_duplicate`;

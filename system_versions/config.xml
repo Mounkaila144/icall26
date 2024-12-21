@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <title>system versions</title>
+    <type>versions</type> 
+    <version>1.0</version>
+    <logo>logo.png</logo>
+    <description>this module manage system versions.</description>
+    <author>F.Mallet</author>
+</module> 

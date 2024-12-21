@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <title>marketing leads</title>
+    <type>marketing</type> 
+    <version>1.0</version>
+    <logo>logo.png</logo>
+    <description>this module manage the marketing leads.</description>
+    <author>Ouafa.Ze</author>
+</module>

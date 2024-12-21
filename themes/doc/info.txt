@@ -1,0 +1,22 @@
+How to create new theme
+=======================
+1- go to frontend themes directory
+2- create directory mkdir [new_theme]
+3- svn propset svn:ignore [directory_of_theme] .
+
+svn propset svn:ignore theme_admin_base .
+svn propset svn:ignore sites_direct .
+svn propset svn:ignore theme_food_store_vitrine_02 .
+svn propset svn:ignore theme_cleaner_vitrine_01 .
+
+svn propdel svn:ignore theme_cleaner_vitrine_01 .
+svn propset svn:ignore theme_com_agency_ecom_01 .
+
+svn propset svn:ignore theme_admin_core .
+
+svn propset svn:ignore theme_food_store_vitrine_03 .
+svn propset svn:ignore theme_ebooks_store_ecom_01 .
+svn propset svn:ignore theme_ebooks_store_ecom_02 .
+svn propset svn:ignore theme_ebooks_store_ecom_03 .
+
+svn propdel svn:ignore theme_ebooks_store_ecom_02 .

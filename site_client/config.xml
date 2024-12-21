@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <title>site client</title>
+    <type>core</type> 
+    <version>1.0</version>
+    <logo></logo>
+    <description>this module manages the site client.</description>
+    <author>F.Mallet</author>
+</module>

@@ -1,0 +1,1 @@
+ALTER TABLE `t_domoprime_iso_customer_request` ADD  `declarants` varchar(255) COLLATE utf8_bin NOT NULL AFTER `parcel_surface`;

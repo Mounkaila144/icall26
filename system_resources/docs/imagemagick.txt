@@ -1,0 +1,22 @@
+https://imagemagick.org/script/download.php
+
+sudo apt-get install imagemagick
+
+convert cee.png cee.pdf
+convert cee.pdf -resize 50% -transparent white -page a4+180+80 -quality 75 cee1.pdf
+pdftk in.pdf stamp cee1.pdf  output out.pdf
+
+https://doc.ubuntu-fr.org/pdftk#tampon
+
+/etc/ImageMagick-6
+policy.xml
+ <policy domain="coder" rights="read|write" pattern="PDF" />
+
+https://imagemagick.org/script/download.php#windows
+ImageMagick-7.0.10-19-Q16-HDRI-x64-dll.exe
+
+
+http://www.imagemagick.org/script/command-line-options.php#page
+
+
+

@@ -1,0 +1,1 @@
+ALTER TABLE `t_customers_meeting` CHANGE `created_by_id` `created_by_id` INT(11) UNSIGNED NOT NULL;

@@ -1,0 +1,2 @@
+ALTER TABLE `t_customers_meeting` CHANGE `status` `status` ENUM('ACTIVE','DELETE','INPROGRESS') CHARACTER SET utf8 COLLATE utf8_bin NOT NULL DEFAULT 'ACTIVE'; 
+ALTER TABLE `t_customers_meeting` CHANGE `customer_id` `customer_id` INT(11) UNSIGNED NULL DEFAULT NULL; 

@@ -1,0 +1,1 @@
+ALTER TABLE `t_customers_meeting` ADD `polluter_id` INT(11) NULL DEFAULT NULL AFTER `assistant_id`;

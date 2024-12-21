@@ -1,0 +1,2 @@
+ALTER TABLE `t_partner_layer_company` ADD `rge_start_at` timestamp  NULL DEFAULT NULL AFTER `country`;
+ALTER TABLE `t_partner_layer_company` ADD `rge_end_at` timestamp  NULL DEFAULT NULL AFTER `rge_start_at`;

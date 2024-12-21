@@ -1,0 +1,2 @@
+ALTER TABLE `t_customers` CHANGE `firstname` `firstname` VARCHAR(128) CHARACTER SET utf8 COLLATE utf8_bin NULL DEFAULT NULL;
+ALTER TABLE `t_customers` CHANGE `lastname` `lastname` VARCHAR(128) CHARACTER SET utf8 COLLATE utf8_bin NULL DEFAULT NULL;

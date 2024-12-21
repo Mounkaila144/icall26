@@ -1,0 +1,26 @@
+UPDATE `t_domoprime_billing` a
+INNER JOIN ( SELECT contract_id,max(id) as max_id FROM `t_domoprime_billing` GROUP BY contract_id) b
+    ON a.id= b.max_id
+SET is_last='YES' 
+
+
+UPDATE `t_domoprime_quotation` SET is_last='NO';
+
+UPDATE `t_domoprime_quotation` a
+INNER JOIN ( SELECT contract_id,max(id) as max_id FROM `t_domoprime_quotation` GROUP BY contract_id) b
+    ON a.id= b.max_id
+SET is_last='YES' 
+WHERE status='ACTIVE'
+
+SELECT count(id),contract_id FROM `t_domoprime_quotation` WHERE is_last='YES' GROUP BY contract_id HAVING count(id) !=1;
+
+SELECT count(id),contract_id FROM `t_domoprime_billing` WHERE is_last='YES' GROUP BY contract_id HAVING count(id) !=1;
+
+SELECT count(id),contract_id FROM `t_domoprime_calculation` WHERE isLast='YES' GROUP BY contract_id HAVING count(id) > 1;
+
+
+
+UPDATE `t_domoprime_calculation` a
+INNER JOIN ( SELECT contract_id,max(id) as max_id FROM `t_domoprime_calculation` GROUP BY contract_id) b
+    ON a.id= b.max_id
+SET isLast='YES';

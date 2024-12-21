@@ -1,0 +1,1 @@
+ALTER TABLE `t_domoprime_pre_meeting_model` ADD `options` VARCHAR(1024) NOT NULL DEFAULT "" AFTER  `name`; 

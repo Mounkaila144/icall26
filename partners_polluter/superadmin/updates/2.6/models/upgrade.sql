@@ -1,0 +1,2 @@
+ALTER TABLE `t_partner_polluter_company` ADD `cumac_min` decimal(10,6) NULL DEFAULT NULL  AFTER `layer_id`;
+ALTER TABLE `t_partner_polluter_company` ADD `end_at` DATETIME NULL DEFAULT NULL AFTER `cumac_min`;

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <title>App Mutual</title>
+    <type>application</type> 
+    <version>1.0</version>
+    <logo>logo.png</logo>
+    <description>this module manage App Mutual</description>
+    <author>Ouafa.Z</author>
+    <dependencies>
+        <module>partners</module>       
+    </dependencies>
+</module> 

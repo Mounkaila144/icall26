@@ -1,0 +1,1 @@
+{__('Number of operations')}: <span style="color:#00ff00;">101:</span>{$number_of_operations->getTotalTop()}, <span style="color:#00ff00;">102:</span>{$number_of_operations->getTotalWall()}, <span style="color:#00ff00;">103:</span>{$number_of_operations->getTotalFloor()}

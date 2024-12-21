@@ -1,0 +1,3 @@
+http://ckeditor.com/
+
+http://docs.ckeditor.com/#!/guide/dev_autogrow

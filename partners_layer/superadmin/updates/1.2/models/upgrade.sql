@@ -1,0 +1,2 @@
+ALTER TABLE `t_partner_layer_company` ADD  `lat` decimal(20,13)  NULL DEFAULT NULL AFTER  `coordinates`;      
+ALTER TABLE `t_partner_layer_company` ADD  `lng` decimal(20,13)  NULL DEFAULT NULL AFTER `lat`;

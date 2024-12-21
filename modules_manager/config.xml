@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <title>module manager</title>
+    <type>core</type> 
+    <version>1.0</version>
+    <logo>logo.png</logo>
+    <description><![CDATA[this module manage module on superadmin & sites]]></description>
+    <author>F.Mallet</author>
+</module>

@@ -1,0 +1,1 @@
+<center><span>©iCall26 {$year}</span></center>

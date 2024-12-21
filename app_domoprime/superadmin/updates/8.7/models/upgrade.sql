@@ -1,0 +1,1 @@
+ALTER TABLE `t_domoprime_calculation` ADD `is_economy_valid` enum('N','Y') COLLATE utf8_bin NOT NULL DEFAULT 'N' AFTER `ana_prime`;

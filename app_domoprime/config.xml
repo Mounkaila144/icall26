@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <title>App Isolation</title>
+    <type>application</type> 
+    <version>1.0</version>
+    <logo>logo.png</logo>
+    <description>this module manage App Isolation.</description>
+    <author>F.Mallet</author>
+       <dependencies>
+        <module>partners_polluter</module>       
+        <module>partners_recipient</module>   
+    </dependencies>
+</module> 

@@ -1,0 +1,1 @@
+ALTER TABLE `t_products_item` ADD `layer_process` varchar(32)  NOT NULL AFTER `details`;

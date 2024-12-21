@@ -1,0 +1,2 @@
+<a href="{url("","url",$application,$site)}"><img alt="" src="{url($banner,'picture',$application,$site)}" class="{$class}" id="{$id}"/></a>
+                                                                              

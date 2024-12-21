@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xfdf xmlns="http://ns.adobe.com/xfdf/" xml:space="preserve">
+    <fields>
+        <field name="name">
+            <value>Metz</value>
+        </field>
+        <field name="address">
+            <value>12 novembre 2008</value>
+        </field>
+        <field name="city">
+            <value>paris</value>
+        </field>
+        <field name="phone">
+            <value>0675986532</value>
+        </field>
+        <field name="test">
+            <value>0675986532</value>
+        </field>
+
+    </fields>
+</xfdf>

@@ -1,0 +1,2 @@
+ALTER TABLE `t_customers_meeting_form` ADD `is_active` ENUM('N','Y') NOT NULL DEFAULT 'N' AFTER `position`;
+ALTER TABLE `t_customers_meeting_form` ADD `is_admin` ENUM('N','Y') NOT NULL DEFAULT 'N' AFTER `position`;

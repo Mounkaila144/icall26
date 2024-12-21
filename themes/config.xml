@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <title>themes</title>
+    <type>superadmin</type> 
+    <version>1.0</version>
+    <logo>logo.png</logo>
+    <description>this module manages the themes.</description>
+    <author>F.Mallet</author>
+</module>

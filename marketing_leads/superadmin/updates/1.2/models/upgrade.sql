@@ -1,0 +1,2 @@
+ALTER TABLE `t_marketing_leads_wp_forms` CHANGE `wp_created_at` `wp_created_at` TIMESTAMP NULL DEFAULT NULL;
+UPDATE `t_marketing_leads_wp_forms` SET `wp_created_at` = NULL WHERE `t_marketing_leads_wp_forms`.`wp_created_at` = '0000-00-00 00:00:00';

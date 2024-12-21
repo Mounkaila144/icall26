@@ -1,0 +1,1 @@
+ALTER TABLE `t_customers_meeting` ADD `is_hold` enum('YES','NO') COLLATE utf8_bin NOT NULL DEFAULT 'NO' AFTER `is_confirmed`;

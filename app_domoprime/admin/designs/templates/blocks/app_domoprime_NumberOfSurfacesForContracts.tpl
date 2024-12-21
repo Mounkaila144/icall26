@@ -1,0 +1,2 @@
+{__('Surfaces')}: <span style="">101:</span><span style="margin-left: 20px">{$number_of_surfaces->getSurfaceTop()} m²</span>, <span style="margin-left: 10px">102:</span><span style="margin-left: 20px">{$number_of_surfaces->getSurfaceWall()} m²</span>, <span style="margin-left: 10px">103:</span><span style="margin-left: 20px">{$number_of_surfaces->getSurfaceFloor()} m²</span>
+</h4>

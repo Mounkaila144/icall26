@@ -1,0 +1,3 @@
+ALTER TABLE `t_domoprime_iso_customer_request` ADD CONSTRAINT `t_domoprime_iso_customer_request_fk0` FOREIGN KEY (`meeting_id`) REFERENCES `t_customers_meeting` (`id`) ON DELETE CASCADE;
+ALTER TABLE `t_domoprime_iso_customer_request` ADD CONSTRAINT `t_domoprime_iso_customer_request_fk1` FOREIGN KEY (`contract_id`) REFERENCES `t_customers_contract` (`id`) ON DELETE CASCADE;
+ALTER TABLE `t_domoprime_iso_customer_request` ADD CONSTRAINT `t_domoprime_iso_customer_request_fk2` FOREIGN KEY (`customer_id`) REFERENCES `t_customers` (`id`) ON DELETE CASCADE;

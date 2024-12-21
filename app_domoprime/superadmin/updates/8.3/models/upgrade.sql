@@ -1,0 +1,1 @@
+ALTER TABLE `t_domoprime_calculation` ADD `polluter_pricing` decimal(10,3) NULL DEFAULT NULL AFTER `subvention`;

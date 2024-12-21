@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <title>language</title>
+    <type>core</type> 
+    <version>1.0</version>
+    <logo>logo.png</logo>
+    <description>this module manages languages.</description>
+    <author>F.Mallet</author>
+</module>

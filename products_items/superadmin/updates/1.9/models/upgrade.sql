@@ -1,0 +1,1 @@
+ALTER TABLE `t_products_item` ADD   `is_default` enum('YES','NO')  NOT NULL DEFAULT 'YES' AFTER  `details`; 

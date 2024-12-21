@@ -1,0 +1,54 @@
+Quotation
+
+==================================================================<br/>
+TEST<br/>
+
+Produits:<br/>
+{foreach $billing.products as $product}
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br/>
+titre: {$product.title}<br/>
+quantity: {$product.quantity}<br/>
+sale_discount_price_with_tax: {$product.sale_discount_price_with_tax}<br/>
+sale_standard_price_with_tax:  {$product.sale_standard_price_with_tax}<br/>
+price_adder_with_tax: {$product.price_adder_with_tax} <br/>
+total_price_adder_with_tax: {$product.total_price_adder_with_tax}<br/>
+total_sale_price_with_tax: {$product.total_sale_price_with_tax}<br/>
+restincharge_price_with_tax: {$product.restincharge_price_with_tax}<br/>
+added_price_without_tax: {$product.added_price_with_tax}<br/>
+{/foreach}
+-------------------------------------------------------------------------------------------------------------<br/>
+Variante: <br/>
+TOP: <br/>
+titre: {$billing.products.top.title}<br/>
+quantity: {$billing.products.top.quantity}<br/>
+price_adder_with_tax: {$billing.products.top.price_adder_with_tax} <br/>
+total_price_adder_with_tax: {$billing.products.top.total_price_adder_with_tax}<br/>
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br/>
+WALL: <br/>
+titre: {$billing.products.wall.title}<br/>
+quantity: {$products.wall.quantity}<br/>
+price_adder_with_tax: {$billing.products.wall.price_adder_with_tax} <br/>
+total_price_adder_with_tax: {$billing.products.wall.total_price_adder_with_tax}<br/>
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br/>
+FLOOR: <br/>
+titre: {$billing.products.floor.title}<br/>
+quantity: {$billing.products.floor.quantity}<br/>
+price_adder_with_tax: {$billing.products.floor.price_adder_with_tax} <br/>
+total_price_adder_with_tax: {$billing.products.floor.total_price_adder_with_tax}<br/>
+
+-------------------------------------------------------------------------------------------------------------<br/>
+total_sale_and_adder_with_tax: {$billing.total_sale_and_adder_with_tax}<br/>
+total_sale_and_adder_tax: {$billing.total_sale_and_adder_tax}<br/>
+total_sale_and_adder_and_fee_tax: {$billing.total_sale_and_adder_and_fee_tax}<br/>
+total_sale_and_adder_and_fee_with_tax: {$billing.total_sale_and_adder_and_fee_with_tax}<br/>
+total_prime_and_adder_and_fee_and_restincharge_with_tax: {$billing.total_prime_and_adder_and_fee_and_restincharge_with_tax}<br/>
+total_sale_and_adder_and_fee_with_tax : {$billing.total_sale_and_adder_and_fee_with_tax}<br/>
+total_sale_with_tax: {$billing.total_sale_with_tax}<br/>
+rest_to_pay_with_tax : {$billing.rest_to_pay_with_tax}<br/>
+total_restincharge_with_tax : {$billing.total_restincharge_with_tax}<br/>
+total_restincharge_with_tax_wall : {$billing.total_restincharge_with_tax_wall}<br/>
+total_restincharge_with_tax_floor: {$billing.total_restincharge_with_tax_floor}<br/>
+total_restincharge_with_tax_top :{$billing.total_restincharge_with_tax_top}<br/>
+prime :{$billing.global_sale_with_tax}<br/>
+total_sale_and_adder_and_fee_without_tax: {$billing.total_sale_and_adder_and_fee_without_tax}<br/>
+==================================================================<br/>

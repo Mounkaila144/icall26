@@ -1,0 +1,51 @@
+Name:
+  wkhtmltopdf 0.9.9
+
+License:
+  Copyright (C) 2008,2009 Wkhtmltopdf Authors.
+
+
+
+  License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+  This is free software: you are free to change and redistribute it. There is NO
+  WARRANTY, to the extent permitted by law.
+
+Authors:
+  Written by Jakob Truelsen. Patches by Mrio Silva, Benoit Garret and Emmanuel
+  Bouthenot.
+
+
+array(16) {
+  [0]=>
+  string(5) "Name:"
+  [1]=>
+  string(19) "  wkhtmltopdf 0.9.9"
+  [2]=>
+  string(0) ""
+  [3]=>
+  string(8) "License:"
+  [4]=>
+  string(46) "  Copyright (C) 2008,2009 Wkhtmltopdf Authors."
+  [5]=>
+  string(0) ""
+  [6]=>
+  string(0) ""
+  [7]=>
+  string(0) ""
+  [8]=>
+  string(80) "  License GPLv3+: GNU GPL version 3 or later ."
+  [9]=>
+  string(80) "  This is free software: you are free to change and redistribute it. There is NO"
+  [10]=>
+  string(43) "  WARRANTY, to the extent permitted by law."
+  [11]=>
+  string(0) ""
+  [12]=>
+  string(8) "Authors:"
+  [13]=>
+  string(78) "  Written by Jakob Truelsen. Patches by Mrio Silva, Benoit Garret and Emmanuel"
+  [14]=>
+  string(12) "  Bouthenot."
+  [15]=>
+  string(0) ""
+}

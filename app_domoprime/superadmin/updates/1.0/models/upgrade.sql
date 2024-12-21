@@ -1,0 +1,1 @@
+ALTER TABLE `t_domoprime_calculation` ADD `polluter_id` INT(11) NULL DEFAULT NULL AFTER `id`;

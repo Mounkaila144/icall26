@@ -1,0 +1,1 @@
+ALTER TABLE `t_partner_polluter_model_i18n` ADD `mapping` text COLLATE utf8_bin NOT NULL AFTER `content`;

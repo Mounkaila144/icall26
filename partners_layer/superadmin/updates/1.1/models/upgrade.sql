@@ -1,0 +1,1 @@
+ALTER TABLE `t_partner_layer_company` ADD `rge` VARCHAR(64) NOT NULL AFTER `siret`;

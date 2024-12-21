@@ -1,0 +1,1 @@
+ALTER TABLE `t_customers_meeting` ADD `assistant_id` int(11) unsigned NOT NULL AFTER `sale2_id`;

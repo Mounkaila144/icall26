@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <title>customers</title>
+    <type>customers</type> 
+    <version>1.0</version>
+    <logo>logo.png</logo>
+    <description>this module manage the customers.</description>
+    <author>F.Mallet</author>
+</module> 

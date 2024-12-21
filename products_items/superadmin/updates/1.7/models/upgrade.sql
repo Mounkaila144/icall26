@@ -1,0 +1,1 @@
+ALTER TABLE `t_products_item` ADD  `is_multiple` enum('YES','NO')  NOT NULL DEFAULT 'NO' AFTER  `details`; 

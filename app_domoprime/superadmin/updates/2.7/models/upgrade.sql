@@ -1,0 +1,1 @@
+ALTER TABLE `t_domoprime_billing` ADD `tax_credit` DECIMAL(20,6) NOT NULL DEFAULT 0.0 AFTER `prime`;  

@@ -1,0 +1,1 @@
+ALTER TABLE `t_customers_contract` ADD `is_signed` enum('YES','NO') COLLATE utf8_bin NOT NULL DEFAULT 'NO' AFTER `dates_opened_at`;

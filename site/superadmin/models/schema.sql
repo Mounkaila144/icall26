@@ -1,0 +1,20 @@
+CREATE TABLE IF NOT EXISTS `t_sites` (  
+  `site_id` int(11) NOT NULL AUTO_INCREMENT,
+  `site_host` varchar(255) CHARACTER SET latin1 NOT NULL,
+  `site_db_name` varchar(64) CHARACTER SET latin1 NOT NULL,
+  `site_db_login` varchar(40) CHARACTER SET latin1 NOT NULL DEFAULT 'root',
+  `site_db_password` varchar(40) CHARACTER SET latin1 NOT NULL,
+  `site_db_host` varchar(128) CHARACTER SET latin1 NOT NULL DEFAULT 'localhost',
+  `site_admin_theme` varchar(64) CHARACTER SET latin1 NOT NULL DEFAULT 'theme1',
+  `site_admin_available` enum('YES','NO') CHARACTER SET latin1 NOT NULL DEFAULT 'YES',
+  `site_frontend_theme` varchar(64) CHARACTER SET latin1 NOT NULL DEFAULT 'theme1',
+  `site_frontend_available` enum('YES','NO') CHARACTER SET latin1 NOT NULL DEFAULT 'YES',
+  `site_available` enum('YES','NO') CHARACTER SET latin1 NOT NULL DEFAULT 'NO',
+  `site_type` varchar(4) CHARACTER SET latin1 NOT NULL DEFAULT 'ECOM',
+  `site_master` varchar(64) CHARACTER SET latin1 NOT NULL, 
+  `site_access_restricted` BOOLEAN NOT NULL,
+  `banner` varchar(40) CHARACTER SET utf8 NOT NULL,
+  `favicon` varchar(40) CHARACTER SET utf8 NOT NULL, 
+  PRIMARY KEY (`site_id`),
+  UNIQUE KEY `site_host` (`site_host`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin;

@@ -1,0 +1,3 @@
+system_versions|nouveau module gestionnaire de versions
+customers_meetings|période pour les RDVs
+system_resources|nouveau module gestionnaire des ressources système

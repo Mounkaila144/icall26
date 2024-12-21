@@ -1,0 +1,1 @@
+{component name="/google_maps/mapFromAddress" address=$address->getFullAddress()}

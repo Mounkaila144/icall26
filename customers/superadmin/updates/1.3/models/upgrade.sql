@@ -1,0 +1,1 @@
+ALTER TABLE `t_customers` CHANGE `mobile` `mobile` VARCHAR(128) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL DEFAULT '';

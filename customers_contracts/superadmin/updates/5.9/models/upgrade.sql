@@ -1,0 +1,1 @@
+ALTER TABLE `t_customers_contract` ADD `is_works_hold` enum('Y','N') COLLATE utf8_bin NOT NULL DEFAULT 'N' AFTER `is_signed`;

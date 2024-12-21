@@ -1,0 +1,1 @@
+ALTER TABLE `t_domoprime_iso_customer_request` ADD  `number_of_children` decimal(20,6) NOT NULL DEFAULT '0.000000' AFTER `surface_floor`;

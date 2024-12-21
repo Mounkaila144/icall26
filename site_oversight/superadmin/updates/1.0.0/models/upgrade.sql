@@ -1,0 +1,1 @@
+ALTER TABLE `t_site_oversight_message` ADD `ip`  VARCHAR(24) AFTER `parameters`;

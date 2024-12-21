@@ -1,0 +1,31 @@
+apt-get install ghostscript
+
+sudo dpkg -i /path-to-downloadedpackage.deb
+
+
+http://security.debian.org/pool/updates/main/g/ghostscript/ghostscript-doc_9.20~dfsg-3.2+deb9u1_all.deb
+
+
+gs \
+   -dBATCH \
+   -dNOPAUSE \
+   -sDEVICE=txtwrite \
+   -dFirstPage=3 \
+   -dLastPage=5 \
+   -sOutputFile=- \
+   /path/to/your/pdf
+
+
+sudo apt-get install poppler-utils
+
+pdftotext /home/lori/Documents/Sample.pdf /home/lori/Documents/Sample.txt
+
+gs -dBATCH -dNOPAUSE -sDEVICE=txtwrite -sOutputFile=textfilename.txt
+
+
+gswin64c -q -dNODISPLAY -dSAFER -dDELAYBIND -dWRITESYSTEMDICT -dSIMPLE -c save -f ps2ascii.ps 1.pdf -c
+
+gswin64c -q -dNODISPLAY -dSAFER -dDELAYBIND -dWRITESYSTEMDICT -dSIMPLE -c save -f ps2ascii.ps 1.pdf -c
+
+
+gswin64c -q -sDEVICE=txtwrite  1.pdf

@@ -1,0 +1,1 @@
+-- ALTER TABLE `t_system_versions_file` ADD `date_version` timestamp  NOT NULL AFTER `changes`;

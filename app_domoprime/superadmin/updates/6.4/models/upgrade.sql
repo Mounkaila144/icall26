@@ -1,0 +1,2 @@
+ALTER TABLE `t_domoprime_quotation` ADD `taxes` varchar(64) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL AFTER  `total_purchase_with_tax`; 
+ALTER TABLE `t_domoprime_billing` ADD `taxes` varchar(64) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL AFTER  `total_purchase_with_tax`; 

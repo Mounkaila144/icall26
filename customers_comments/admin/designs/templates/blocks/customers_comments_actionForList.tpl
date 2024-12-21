@@ -1,0 +1,1 @@
+<a href="#" title="{__('Comments')}" class="Comments-Log-Customer" id="{$customer->get('id')}"><i class="fa fa-file-text-o"/></a>

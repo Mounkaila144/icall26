@@ -1,0 +1,1 @@
+ALTER TABLE `t_customers_contract`  ADD `mensuality` DECIMAL(20,6) NOT NULL AFTER `variables`;

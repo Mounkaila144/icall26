@@ -1,0 +1,2 @@
+ALTER TABLE `t_domoprime_calculation` ADD `budget_to_add_ttc` decimal(10,3) NULL DEFAULT NULL AFTER `subvention`;
+ALTER TABLE `t_domoprime_calculation` ADD `budget_to_add_ht` decimal(10,3) NULL DEFAULT NULL AFTER `budget_to_add_ttc`;

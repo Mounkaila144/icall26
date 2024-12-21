@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8"/>
+
+  <script>
+  /*function subst() {
+      var vars = {};
+      var query_strings_from_url = document.location.search.substring(1).split('&');
+      for (var query_string in query_strings_from_url) {
+          if (query_strings_from_url.hasOwnProperty(query_string)) {
+              var temp_var = query_strings_from_url[query_string].split('=', 2);
+              vars[temp_var[0]] = decodeURI(temp_var[1]);
+          }
+      }
+      var css_selector_classes = ['page', 'frompage', 'topage', 'webpage', 'section', 'subsection', 'date', 'isodate', 'time', 'title', 'doctitle', 'sitepage', 'sitepages'];
+      for (var css_class in css_selector_classes) {
+          if (css_selector_classes.hasOwnProperty(css_class)) {
+              var element = document.getElementsByClassName(css_selector_classes[css_class]);
+              for (var j = 0; j < element.length; ++j) {
+                  element[j].textContent = vars[css_selector_classes[css_class]];
+              }
+          }
+      }
+  }*/
+  </script>
+
+  <style type="text/css">
+  .block{
+    width: 100%;
+  }
+/*  .logos div{
+    width: 150px;
+    height: 150px;    
+  }*/
+  .logos div img{
+    width: 150px;
+    height: 150px;    
+  }
+  .block-left{
+    float: left;
+    width: 48%;
+  }
+  .block-right{
+    float: right;
+    width: 48%;
+  }
+  .info-clt{
+    text-align: left;
+    width: 100%;
+    border: 1px black solid;
+    border-left: none;
+    border-collapse: collapse;
+    background: #ccc;
+  }
+
+  .info-clt tr th,.info-clt tr td{
+    border-top: 1px black solid;
+  }
+
+  .block-page,.tab-info,.mini-block{ 
+    width: 100%;
+    text-align: left;
+    /*border-top: 1px solid #ccc;*/
+    float: left;
+    font-size: 11px;
+   }
+  .tab-info{
+    border-collapse: collapse;
+    padding-top: 20px;
+  }
+   .tab-info tr th{
+    border-bottom: 1px solid #000;
+   }
+   .block-border{
+    /*border: 1px solid #ccc;*/
+    /*margin-top: 50px;*/
+   }
+
+   .date-info{
+    width: 65%;
+    display: inline-block;
+    vertical-align: top;
+   }
+   .prices-info{
+    display: inline-block;
+    width: 32%;
+   }
+  .prices-info>table{
+    width:100%;   
+    text-align: left;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    background: #ddd;
+   }
+.prices-info tr td {
+  border: 1px #ccc solid;
+}
+   .date-input{
+    border: none;
+    border-bottom: 1px solid #000;
+   }
+
+   .page{
+      width: 24cm;
+      min-height: 34.84cm;
+      padding: 10px;
+      margin: 10px auto;
+      padding-bottom: 30px;
+      border: 1px #D3D3D3 solid;
+      border-radius: 5px;
+      background: white;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+   }
+
+</style>
+</head>
+<body onload="/*subst()*/">
+<div class="page">
+  <div class="block logos">
+    <div class="block-left"><img src="http://iso3devo.icall26.net/admin/web/pictures/cee.png"></div>
+    <div class="block-right" style="text-align: right; "><img src="http://iso3devo.icall26.net/web/nocache/data/polluters/company/63/LEYTONOFEE.png"></div>
+  </div>
+
+  <div class="block">
+    <div class="block-left">
+      <p><b>Devis 2019-03-6416</b></p>
+
+      <table class="info-clt">
+        <tr>
+          <th>Code client</th>
+          <td>3203175</td>
+        </tr>
+        <tr>
+          <th>Date</th>
+          <td>11/03/2019</td>
+        </tr>
+        <tr>
+          <th>Unité monétaire</th>
+          <td>Euro / €</td>
+        </tr>
+        <tr>
+          <th>Page</th>
+          <td>[page]/[topage]</td>
+        </tr> 
+        <tr>
+          <th>Posé par</th>
+          <td>Matériel(s) fourni(s) et mis en place par nos soins</td>
+        </tr> 
+        <tr>
+          <th>Adresse travaux</th>
+          <td>Idem adresse devis</td>
+        </tr>                       
+      </table>
+    </div>
+    <div class="block-right">
+      <h3>MONGIN MICHEL</h3>
+      <hr style="width: 100%;">
+      <p>3 RUE DE LA VOIE BLANCHE 21400 OBTREE</p>
+    </div>
+  </div>
+  <div class="block-page">
+    <table class="tab-info">
+      <tr>
+        <th>Détail</th><th>Quantité</th><th>P.U. T.T.C</th><th>Total T.T.C</th>
+      </tr>
+      <tr>
+        <td>Isolation des combles perdus avec de la laine de verre à dérouler ECOLAINE COMBLE de la marque ISOVER, épaisseur avant tassement 280mm / R=7 m2 K/W. Acermi 16/018/1186,norme NF EN 13162</td>
+        <td>105,00 m2</td>
+        <td>20,00</td>
+        <td>2 100,00</td>
+      </tr>
+      <tr>
+        <td><b>Frais de dossier</b></td>
+        <td>1,00</td>
+        <td>1,00</td>
+        <td>1,00</td>
+      </tr>
+    </table>
+  </div>
+  <div class="block-page block-border">
+    <p><b>Termes et conditions</b></p>
+    <p>
+      Les travaux ou prestations objet du présent document donneront lieu à une contribution financière de Direct Energie dans le cadre de son rôle
+      incitatif, directement ou via son (ses) mandataire(s), sous réserve de l’engagement de fournir exclusivement à Direct Energie les documents nécessaires à la valorisation des opérations au titre du dispositif des Certificats d’Economies d’Energie et sous réserve de la validation de l’éligibilité du dossier par Direct Energie puis par l’autorité administrative compétente.
+      Cette offre comprend la prime versée par Direct Energie ou son mandataire au titre du dispositif des Certificats d'Economies d'Energie d'un montant de: 2 100€
+      Le client accepte que AFDL mandataire de VERTIGO collecte et traite ses données à caractère personnel pour les besoins du dépôt d’un
+      dossier CEE sur le registre EMMY conformément aux dispositions réglementaires en vigueur et qu’il communique ces données à DIRECT
+      ENERGIE à des fins de contrôle de la conformité des opérations réalisées chez le client. DIRECT ENERGIE s’engage à respecter la
+      réglementation française et européenne relative à la protection des données à caractère personnel.
+    </p>
+    <div class="mini-block">
+      <div class="date-info">
+        <p>Prévisite technique préalable au travaux le 11/03/2019<br>
+        Apposer signature précédée de la mention "bon pour accord"<br>
+        Le <input type="text" name="" class="date-input"></p>
+      </div>
+      <div class="prices-info">
+        <table>
+          <tr>
+            <td>Total H.T</td><td>Total H.T</td>
+          </tr>
+          <tr>
+            <td>Total TVA 5,50 %</td><td>109,53</td>
+          </tr>
+          <tr>
+            <td>Total T.T.C</td><td>2 101,00</td>
+          </tr>
+          <tr>
+            <td>Certificats d’Economies d’Energie payé par Direct Energie</td><td>-2 100,00</td>
+          </tr>
+          <tr>
+            <td><b>Reste à payer</b></td><td><b>1,00</b></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="page">
+  <div class="block logos">
+    <div class="block-left"><img src="http://iso3devo.icall26.net/admin/web/pictures/cee.png"></div>
+    <div class="block-right" style="text-align: right; "><img src="http://iso3devo.icall26.net/web/nocache/data/polluters/company/63/LEYTONOFEE.png"></div>
+  </div>
+
+  <div class="block">
+    <div class="block-left">
+      <p><b>Devis 2019-03-6416</b></p>
+
+      <table class="info-clt">
+        <tr>
+          <th>Code client</th>
+          <td>3203175</td>
+        </tr>
+        <tr>
+          <th>Date</th>
+          <td>11/03/2019</td>
+        </tr>
+        <tr>
+          <th>Unité monétaire</th>
+          <td>Euro / €</td>
+        </tr>
+        <tr>
+          <th>Page</th>
+          <td>[page]/[topage]</td>
+        </tr> 
+        <tr>
+          <th>Posé par</th>
+          <td>Matériel(s) fourni(s) et mis en place par nos soins</td>
+        </tr> 
+        <tr>
+          <th>Adresse travaux</th>
+          <td>Idem adresse devis</td>
+        </tr>                       
+      </table>
+    </div>
+    <div class="block-right">
+      <h3>MONGIN MICHEL</h3>
+      <hr style="width: 100%;">
+      <p>3 RUE DE LA VOIE BLANCHE 21400 OBTREE</p>
+    </div>
+  </div>
+ 
+  <div class="block-page block-border" style="">
+    <p><b>CONDITIONS GÉNÉRALES DE VENTE</b></p>
+    <p>
+Le présent contrat a pour objet de définir les engagements de ECO ENVIRONNEMENT ci-après le « vendeur » et la personne physique ou morale procédant àl'achat de produits de de la vente et/ou des prestations identifiées au recto.ARTICLE 1 : Définitions• Commande : La commande s'entend de la signature du contrat de vente (devis) par l'Acheteur.• Livraison : La livraison s'entend de la remise directe des produits vendus à l'Acheteur et de leur installation sauf stipulation contraire insérée au contrat de vente(devis).• Réception : La réception des biens commandés s'entend de la signature sans réserve du procès-verbal d'installation et/ou de réception par l'Acheteur.• Garantie décennale : L'assurance de responsabilité civile décennale garantit la réparation des dommages qui se produisent après la réception des travaux. Lagarantie décennale concerne les vices ou dommages de construction qui peuvent affecter la solidité de l'ouvrage et de ses équipements indissociables ou qui larendent inhabitable ou impropre à l'usage auquel il est destiné.•  Force  majeure  :  La  force  majeure  est  la  circonstance  exceptionnelle,  étrangère  à  la  personne  de  celui  qui  l'éprouve,  qui  a  eu  pour  résultat  de  l'empêcherd'exécuter les prestations qu'il devait à son créancier. Pour être qualifié de force majeure, un évènement doit être irrésistible et imprévisible. Ces deux conditionss'apprécient à la date de conclusion du contrat de vente.ARTICLE 2 : GénéralitésLes présentes conditions générales de vente s'appliquent à toute vente et installation de produits destinés à favoriser le renouvellement de l'énergie conclue entrela  Société  ECO  ENVIRONNEMENT  ,  au  capital  de  ,  immatriculée  sous  le  numéro  50405090700022  dont  le  siège  social  est  situé  190  AVENUE  JEAN  LOLIVE,93500 PANTIN, représentée par son GERANT , ci-après dénommée « la Société » ou « le Vendeur » et un client, ci-après dénommé « l'Acheteur ». Les matériauxvendus  et  les  prestations  commandées  sont  identifiés  au  recto.  Les  présentes  conditions  générales  de  vente  établissent  les  conditions  contractuellesexclusivement  applicables  à  tout  achat  et  prestation  de  service  effectué  par  le  Vendeur  au  bénéfice  d'un  Acheteur  ayant  la  qualité  de  consommateur.  La  nullitééventuelle d'une clause contractuelle n'entraîne pas la nullité des conditions générales de vente, chaque clause étant autonome.ARTICLE 3 : AcceptationAu sens des articles 1103 et 1193 du Code Civil, la signature de la présente convention (incluant le Devis au recto) emporte son acceptation ferme et définitive parl'Acheteur  qui  déclare  avoir  pris  connaissance  des  conditions  générales  de  vente  avant  de  passer  commande  et  les  avoir  acceptées  sans  réserve.  Toutecommande signée par l'Acheteur constitue une vente ferme et définitive.ARTICLE 4 : Disponibilité des stocks• Les produits sont vendus, livrés et installés dans la limite des stocks disponibles.En  cas  d'indisponibilité  du  produit  commandé,  le  Vendeur  en  informe  immédiatement  l'Acheteur  et  peut  lui  proposer  un  produit  d'une  qualité  et  d'un  prixéquivalent. En cas de désaccord de l'Acheteur et si le Vendeur avait perçu des sommes avant l'installation, il procède au remboursement des sommes verséesdans un délai de 45 jours maximum à compter du refus du consommateur. En dehors du remboursement du prix du produit indisponible, le Vendeur n'est tenu àaucune indemnité d'annulation.ARTICLE 5 : CommandesLe Vendeur s'oblige à livrer un produit conforme à celui commandé. Il peut néanmoins apporter au produit commandé les modifications qui sont liées à l'évolutiontechnique  imposée  par  la  législation.  Les  commandes  étant  définitives  et  irrévocables,  sous  la  condition  de  la  prise  en  charge  par  l'ANAH  dans  des  conditionsprécisées au verso, toute demande de modification faite par l'Acheteur est soumise à l'acceptation du Vendeur.ARTICLE 6 : LivraisonLa livraison s'entend de la remise directe des produits vendus à l'Acheteur à son domicile dans un délai maximum de 3 (trois) mois à compter de la notification parl'Acheteur  au  Vendeur  du  montant  de  la  subvention  à  verser  par  l'ANAH  émanant  directement  de  L'Association  National  de  l'Habitat.  Sauf  stipulation  contrairefigurant au recto, le Vendeur procède à l'installation des produits vendus.ARTICLE 7 : Exécution des travaux et réception des travauxL'Acheteur  s'engage  à  laisser  libre  accès  aux  locaux  sur  lesquels  l'intervention  du  Vendeur  sera  réalisée.  L'Acheteur  s'engage  à  faciliter  l'intervention  despersonnes en charge de l'installation. A défaut il engage sa responsabilité. En tout état de cause, le Vendeur ne saurait être tenu pour responsable d'un éventuelretard de livraison ou d'installation dû à un refus d'accès au technicien par l'Acheteur. La durée d'exécution des travaux est variable selon les difficultés propres auchantier. Le Vendeur s'engage à en limiter au maximum la durée. La durée d'exécution maximum des travaux est estimée à 72 heures.ARTICLE 8 : RéceptionDès que les produits sont installés conformément aux prévisions contractuelles, l'Acheteur signe le procès-verbal d'installation et/ou de réception. Il appartient àl'Acheteur de vérifier en présence de l'installateur l'état et le bon fonctionnement des produits installés et, en cas d'avarie ou de manquants, d'émettre des réservessur le procès-verbal d'installation.ARTICLE 9 : PrixL'Acheteur reconnait avoir été informé des modes et conditions de règlement désignés au bon de commande. Conformément aux dispositions de l'article L221-10du  Code  de  la  consommation,  l'Acheteur  reconnait  qu'il  ne  lui  a  été  réclamé  aucune  somme  préalablement  à  l'expiration  d'un  délai  de  7  jours  à  compter  de  laconclusion du contrat hors établissement. Les taxes sont appliquées selon la règlementation en vigueur. Le règlement peut s'effectuer par chèque ou virement parmandat  SEPA.  Tout  paiement  non  effectué  dans  les  délais  prévus  donne  droit,  après  mise  en  demeure  effectuée  par  courrier  recommandé  A/R,  au  paiementd'intérêts de retard calculés au taux de 8%. Le vendeur se réserve le droit, lorsque le prix convenu n'est pas payé à l'échéance, soit de demander l'exécution de lavente, soit de résoudre le contrat par simple lettre recommandée avec demande d'avis de réception.
+    </p>
+ 
+  </div>
+</div>
+
+
+<div class="page">
+  <div class="block logos">
+    <div class="block-left"><img src="http://iso3devo.icall26.net/admin/web/pictures/cee.png"></div>
+    <div class="block-right" style="text-align: right; "><img src="http://iso3devo.icall26.net/web/nocache/data/polluters/company/63/LEYTONOFEE.png"></div>
+  </div>
+
+  <div class="block">
+    <div class="block-left">
+      <p><b>Devis 2019-03-6416</b></p>
+
+      <table class="info-clt">
+        <tr>
+          <th>Code client</th>
+          <td>3203175</td>
+        </tr>
+        <tr>
+          <th>Date</th>
+          <td>11/03/2019</td>
+        </tr>
+        <tr>
+          <th>Unité monétaire</th>
+          <td>Euro / €</td>
+        </tr>
+        <tr>
+          <th>Page</th>
+          <td>[page]/[topage]</td>
+        </tr> 
+        <tr>
+          <th>Posé par</th>
+          <td>Matériel(s) fourni(s) et mis en place par nos soins</td>
+        </tr> 
+        <tr>
+          <th>Adresse travaux</th>
+          <td>Idem adresse devis</td>
+        </tr>                       
+      </table>
+    </div>
+    <div class="block-right">
+      <h3>MONGIN MICHEL</h3>
+      <hr style="width: 100%;">
+      <p>3 RUE DE LA VOIE BLANCHE 21400 OBTREE</p>
+    </div>
+  </div>
+ 
+  <div class="block-page block-border" style="">
+    <p><b>CONDITIONS GÉNÉRALES DE VENTE</b></p>
+    <p>
+ARTICLE 11 : Résolution du contratLe contrat de vente peut être résolu dans les hypothèses suivantes : Par le Vendeur : • Le Vendeur se réserve le droit, lorsque le prix convenu n'est pas payé àl'échéance, soit de demander l'exécution de la vente, soit de résoudre le contrat par simple lettre recommandée avec demande d'avis de réception ; • En cas derefus de l'Acheteur de réceptionner la livraison ; Par l'Acheteur : • En cas de retard de livraison : lorsque le produit commandé n'est pas livré au terme de ce délaimaximum de 2 mois suivant la notification au Vendeur de l'aide de l'ANAH, le consommateur peut, après avoir enjoint sans succès par lettre recommandé avecaccusé de réception le Vendeur à exécuter son obligation de livraison dans un délai maximum d'un mois, résoudre le contrat par lettre recommandé avec demanded'avis de réception ou par un écrit sur un autre support durable, sauf les cas de force majeure prévus à l'article 17 des conditions générales de vente ; • En cas delivraison  d'un  produit  non  conforme  aux  caractéristiques  déclarées  du  produit  :  lorsque  le  produit  est  livré  à  l'adresse  indiquée  sur  le  bon  de  commande  par  untransporteur,  il  appartient  à  l'Acheteur  de  vérifier  en  présence  du  livreur  l'état  des  produits  livrés  et,  en  cas  d'avarie  ou  de  manquants,  d'émettre  des  réservesdirectement sur le bon de livraison ou sur le récépissé de transport, et éventuellement de refuser le produit et d'en avertir le Vendeur • En cas de hausse du prixqui ne serait pas justifiée par une modification technique du produit imposée par les pouvoirs publics ; • La vente sera résolue de plein droit si l'Acheteur exerceson droit de rétractation dans le délai légal.ARTICLE 12 : Clause de réserve de propriété - Clause pénale - Clause de déditLe Vendeur demeure propriétaire des produits vendus jusqu'au complet paiement du prix et l'Acheteur s'engage, tant que la propriété ne lui est pas transférée, àprendre toutes les précautions utiles à la bonne conservation des produits.ARTICLE 13 : Clause pénaleDans  tous  les  cas  d'inexécution  de  ses  obligations  par  l'Acheteur,  celui-ci  devra,  à  titre  d'indemnité,  au  Vendeur  un  montant  égale  à  50%  du  montant  de  lacommande (hors aides et subventions diverses), en plus, le cas échéant, du coût de la désinstallation des matériaux installés.ARTICLE 14 : Clause de déditLe Client s'engage à payer en cas d'annulation de sa commande au-delà du délai légal de rétractation, un montant égal à 50% du prix TTC du devis (hors aides) àtitre d'indemnité pour le Vendeur qui aurait déjà tout mis en oeuvre pour répondre de cette commande.ARTICLE 15 : GarantieTous les produits fournis par le Vendeur bénéficient de la garantie légale de conformité prévue aux articles L. 217-4 à L. 217-14 du Code de la consommation oude la garantie des vices cachés prévue aux articles 1641 à 1649 du Code civil. Le Vendeur doit livrer un bien conforme au contrat. A défaut il est responsable desdéfauts lors de la délivrance, mais également de tout ceux résultant de l'emballage, des instructions de montage ou de l'installation lorsqu'elle est à la charge ducontrat ou sous sa responsabilité. L'action en garantie de conformité se prescrit par 2 ans à compter de la délivrance du bien Lorsqu'il y a défaut de conformité, leprofessionnel  propose  au  consommateur  le  remplacement  du  bien  ou  sa  réparation.  Le  choix  dépend  du  consommateur,  sauf  lorsque  celui-ci  engendre  pour  leprofessionnel des coûts disproportionnés par rapport à second moyen. Le consommateur peut obtenir la résolution du contrat ou sa réfaction (réduction du prix dubien) si le défaut est majeur et que le délai de la solution choisie excède 1 mois à partir de la demande ; ou qu'aucun moyen n'est réalisable. Aucun frais ne peutêtre  demandé  au  consommateur  pour  le  remplacement,  la  réparation,  la  résolution  ou  la  réfaction  du  contrat.  Le  Vendeur  est  par  ailleurs  tenu  de  la  garantie  àraison  des  défauts  cachés  de  la  chose  vendue  qui  la  rendent  impropre  à  l'usage  auquel  on  la  destine,  ou  qui  diminuent  tellement  cet  usage,  que  l'Acheteur  nel'aurait  pas  acquise,  ou  n'en  aurait  donné  qu'un  moindre  prix,  s'il  les  avait  connus.  La  garantie  légale  couvre  tous  les  frais  entraînés  par  les  vices  cachés.L'Acheteur à ici le choix soit de rendre la chose et se faire restituer le prix soit de garder la chose et se faire rendre une partie du prix. Le délai pour agir est de 2ans à compter de la découverte du vice. Les produits sont vendus sous la seule garantie du fabricant et sont assortis d'un bon de garantie remis à l'Acheteur par leVendeur.  La  garantie  du  fabricant  sur  le  matériel  s'étend  sur  une  durée  de  3  ans  pour  les  pièces,  5  ans  pour  les  compresseurs,  5  ans  sur  les  onduleurs.  Lescellules composant les modules sont garanties 25 ans à 80% de leur puissance normale. Cette garantie prévoit l'échange gratuit de la pièce défectueuse en usine.Les  frais  de  dépose,  pose  et  transport  sont  à  la  charge  du  client.  La  garantie  sur  une  pièce  de  remplacement  expire  en  même  temps  que  celle  de  la  pièceremplacée. Tous les autres éléments tels que diffuseurs, panneaux solaires, ballons d'eau chaude, sanitaires, télécommandes, composants électroniques, pompesde relevage, disjoncteurs, liaison frigorifiques, câbles électriques, goulottes, etc... sont garantis un an. En cas de dommages dus au transport des articles susvisés,il appartient à l'Acheteur d'en faire la réserve dès la livraison et d'en aviser le Vendeur. En cas d'invocation de la garantie, la présentation du certificat de garantiesera  rigoureusement  exigée.  Le  Vendeur  s'engage  à  intervenir  dans  un  délai  de  30  jours  à  compter  de  la  réception  de  la  demande  d'intervention,  qui  seraobligatoirement formulée par écrit avec accusé de réception, sous réserve d'être en possession des éléments nécessaires à la réparation ou au remplacement. •Garantie  décennale  :  L'assurance  de  responsabilité  civile  décennale  garantit  la  réparation  des  dommages  qui  se  produisent  après  la  réception  des  travaux.  Lagarantie décennale concerne les vices ou dommages de construction qui peuvent affecter la solidité de l'ouvrage et de ses équipements indissociables ou qui larendent  inhabitable  ou  impropre  à  l'usage  auquel  il  est  destiné.  La  garantie  décennale  couvre  le  dommage  résultant  d'un  défaut  de  conformité  affectant  le  grosouvrage  (murs,  charpente,  toiture,  etc.)  mais  également  les  éléments  d'équipement  lorsque  les  dysfonctionnements  les  affectant  rendent  le  bien  dans  sonensemble impropre à sa destination. La garantie décennale couvre les dommages survenus après la réception des travaux, pendant une durée de 10 ans.ARTICLE 16 : Exclusion de garantieLa  garantie  accordée  ne  saurait  concerner  le  vol  ou  la  casse  du  matériel  vendu  et  installé,  si  ce  n'est  celle  consécutive  à  un  usage  normal  et  prévisible  desappareils. La présente garantie impose, pour le cas où elle serait valablement mise en oeuvre, et au choix du Vendeur, soit de réparer le matériel en cause soit dele  remplacer.  En  toute  hypothèse,  cette  garantie  ne  saurait  financièrement  dépasser  le  montant  que  le  fournisseur  justifiera  avoir  payé  pour  l'acquisition  duditproduit.  La  garantie  est  exclue  et  la  responsabilité  du  Vendeur  ne  peut  être  engagée  dans  les  cas  suivants  :  •  non-paiement  partiel  ou  total  du  montant  de  lacommande ;•  détérioration  des  appareils  provenant  directement  ou  indirectement  d'accidents  de  toutes  sortes,  chocs,  surtensions,  foudre,  inondations,  incendie,  et  d'unemanière  générale,  toutes  autres  causes  autre  que  celles  résultant  d'une  utilisation  normale  ;  •  mauvais  fonctionnement  résultant  d'adjonction  de  pièces  oudispositifs  ne  provenant  pas  du  Vendeur  ;  •  intervention  de  quelque  nature  que  ce  soir  par  une  personne  non  agréé  par  le  Vendeur  ;  •  variation  du  courantélectrique, dérangement, panne ou rupture des lignes téléphoniques ; • modifications dommageables de l'environnement de l'appareil (température, hygrométrie,poussières) ; • modification des spécifications d'un appareil ou utilisation non conforme aux caractéristiques techniques - interférence et brouillage de toutes sortes,radioélectrique ou électrique ; • les perturbations de fonctionnement dues à un évènement relevant de la force majeure ; • non-respect des consignes d'utilisationdes matériaux et ou des notices d'utilisation du matériel délivré ; • utilisation des appareils dans des conditions non conformes à leur usage ;
+
+    </p>
+  </div>
+</div>
+
+<script type="text/javascript">
+  
+  /*var pdfInfo = {};
+  var x = document.location.search.substring(1).split('&');
+  for (var i in x) { var z = x[i].split('=',2); pdfInfo[z[0]] = unescape(z[1]); }
+  function getPdfInfo() {
+    var page = pdfInfo.page || 1;
+    var pageCount = pdfInfo.topage || 1;
+    document.getElementById('pdfkit_page_current').textContent = page;
+    document.getElementById('pdfkit_page_count').textContent = pageCount;
+  }*/
+</script>
+</body>
+</html>

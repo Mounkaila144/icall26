@@ -1,0 +1,2 @@
+ALTER TABLE `t_domoprime_billing` CHANGE `meeting_id` `meeting_id` INT(11) UNSIGNED NULL DEFAULT NULL;
+ALTER TABLE `t_domoprime_billing` CHANGE `contract_id` `contract_id` INT(11) UNSIGNED NULL DEFAULT NULL;

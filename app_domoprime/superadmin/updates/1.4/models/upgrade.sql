@@ -1,0 +1,1 @@
+ALTER TABLE `t_domoprime_asset` ADD `day`  int(11) unsigned NOT NULL AFTER `month`; 

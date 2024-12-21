@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <title>Resgistration.</title>
+    <type>Resgistration.</type> 
+    <version>1.0</version>
+    <logo>logo.png</logo>
+    <description>this module manage the Resgistration.</description>
+    <author></author>
+</module> 

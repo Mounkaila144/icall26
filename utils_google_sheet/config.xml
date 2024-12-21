@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <title>default</title>
+    <type>core</type> 
+    <version>1.0</version>
+    <logo>logo.png</logo>
+    <description>this module manage the default actions.</description>
+    <author>F.Mallet</author>
+</module>

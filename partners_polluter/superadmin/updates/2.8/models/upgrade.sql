@@ -1,0 +1,1 @@
+ALTER TABLE `t_partner_polluter_company` ADD `mode` ENUM('contract','work') DEFAULT 'contract' AFTER `type_id`;

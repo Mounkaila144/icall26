@@ -1,0 +1,10 @@
+https://linux.die.net/man/1/pdftotext
+http://www.xpdfreader.com/download.html
+
+sudo apt-get install poppler-utils
+
+https://www.howtogeek.com/228796/how-to-extract-and-save-images-from-a-pdf-file-in-linux/
+https://www.xpdfreader.com/pdftotext-man.html
+https://poppler.freedesktop.org/
+https://sourceforge.net/projects/poppler-win32/
+http://blog.alivate.com.au/poppler-windows/

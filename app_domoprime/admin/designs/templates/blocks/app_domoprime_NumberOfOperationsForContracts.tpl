@@ -1,0 +1,3 @@
+<h4>
+{__('Number of operations')}: <span>101:</span><span style="margin-left: 20px">{$number_of_operations->getTotalTop()}</span>, <span style="margin-left: 10px">102:</span><span style="margin-left: 20px">{$number_of_operations->getTotalWall()}</span>, <span style="margin-left: 10px">103:</span><span style="margin-left: 20px">{$number_of_operations->getTotalFloor()}</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

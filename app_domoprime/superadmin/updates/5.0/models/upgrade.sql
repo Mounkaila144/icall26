@@ -1,0 +1,2 @@
+ ALTER TABLE `t_domoprime_calculation` ADD `number_of_parts` int(8) unsigned NOT NULL DEFAULT 0 AFTER `number_of_people`;
+ ALTER TABLE `t_domoprime_quotation` ADD `number_of_parts` int(8) unsigned NOT NULL DEFAULT 0 AFTER `year`;        

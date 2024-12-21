@@ -1,0 +1,1 @@
+ALTER TABLE `t_partner_polluter_company` ADD `is_default` ENUM('NO','YES') NOT NULL DEFAULT 'NO' AFTER `country`;

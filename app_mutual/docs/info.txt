@@ -1,0 +1,31 @@
+RDV
+===
+
+t_customers_meeting_mutual_products
+    meeting_id (CustomerMeting)
+    product_id ((MutualProduct)
+    status
+    ...
+
+
+NEW
+Tab: Produits Mutuelle
+
+event; mutual_products
+tabs.php :
+
+"dashboard-site-customers-meeting-new"=>array(
+            "customer-meeting-informations"=>array(
+                        "title"=>"Produits Mutuelle",
+                      //  "help"=>"help categories",
+                      //  "picture"=>"/pictures/icons/category.png",  
+                        "component"=>"/..../newMeeting",     
+             ) 
+    ),  
+
++ JS
+voir 
+ {component name="/customers_meetings_forms/save" COMMENT=false JS=true} 
+
+VIEW
+Tab: Produits Mutuelle

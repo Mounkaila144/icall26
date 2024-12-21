@@ -1,0 +1,1 @@
+ALTER TABLE `t_customers_contracts_zone` ADD `max_contracts` INT UNSIGNED NOT NULL AFTER `is_active`  ;

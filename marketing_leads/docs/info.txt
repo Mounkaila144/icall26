@@ -1,0 +1,1 @@
+customers_contract/MultipleUpdateProcess => process rapport export

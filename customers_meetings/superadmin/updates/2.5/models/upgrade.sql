@@ -1,0 +1,1 @@
+ALTER TABLE `t_customers_meeting` ADD  `sale_comments` TEXT NOT NULL AFTER `remarks`;

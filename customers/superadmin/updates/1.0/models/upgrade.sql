@@ -1,0 +1,1 @@
+ALTER TABLE `t_customers` ADD `mobile2` varchar(20) COLLATE utf8_bin NOT NULL DEFAULT '' AFTER `mobile`;

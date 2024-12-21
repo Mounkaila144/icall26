@@ -1,0 +1,2616 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<w:document xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" xmlns:cx2="http://schemas.microsoft.com/office/drawing/2015/10/21/chartex" xmlns:cx3="http://schemas.microsoft.com/office/drawing/2016/5/9/chartex" xmlns:cx4="http://schemas.microsoft.com/office/drawing/2016/5/10/chartex" xmlns:cx5="http://schemas.microsoft.com/office/drawing/2016/5/11/chartex" xmlns:cx6="http://schemas.microsoft.com/office/drawing/2016/5/12/chartex" xmlns:cx7="http://schemas.microsoft.com/office/drawing/2016/5/13/chartex" xmlns:cx8="http://schemas.microsoft.com/office/drawing/2016/5/14/chartex" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:aink="http://schemas.microsoft.com/office/drawing/2016/ink" xmlns:am3d="http://schemas.microsoft.com/office/drawing/2017/model3d" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml" xmlns:w16cid="http://schemas.microsoft.com/office/word/2016/wordml/cid" xmlns:w16se="http://schemas.microsoft.com/office/word/2015/wordml/symex" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" mc:Ignorable="w14 w15 w16se w16cid wp14">
+    <w:body>
+        <w:p w14:paraId="7C326484" w14:textId="77777777" w:rsidR="00654783" w:rsidRDefault="00654783" w:rsidP="00654783">
+            <w:pPr>
+                <w:ind w:left="-709" w:right="-709"/>
+            </w:pPr>
+        </w:p>
+        <w:p w14:paraId="344706F4" w14:textId="77777777" w:rsidR="00654783" w:rsidRPr="00D343CF" w:rsidRDefault="00654783" w:rsidP="00654783">
+            <w:pPr>
+                <w:autoSpaceDE w:val="0"/>
+                <w:spacing w:before="60" w:after="60" w:line="168" w:lineRule="auto"/>
+                <w:ind w:left="-709" w:right="-709"/>
+                <w:jc w:val="center"/>
+                <w:rPr>
+                    <w:rFonts w:ascii="Segoe Print" w:hAnsi="Segoe Print" w:cs="Arial"/>
+                    <w:b/>
+                    <w:color w:val="0871A5"/>
+                    <w:sz w:val="14"/>
+                </w:rPr>
+            </w:pPr>
+        </w:p>
+        <w:p w14:paraId="0B394FC7" w14:textId="77777777" w:rsidR="00754998" w:rsidRDefault="00754998" w:rsidP="00754998">
+            <w:pPr>
+                <w:autoSpaceDE w:val="0"/>
+                <w:spacing w:before="60" w:after="60" w:line="168" w:lineRule="auto"/>
+                <w:ind w:left="-709" w:right="-709"/>
+                <w:jc w:val="center"/>
+                <w:rPr>
+                    <w:rFonts w:ascii="Liberation Sans" w:hAnsi="Liberation Sans" w:cs="Liberation Sans"/>
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:ascii="Segoe Print" w:hAnsi="Segoe Print" w:cs="Arial"/>
+                    <w:b/>
+                    <w:color w:val="0871A5"/>
+                    <w:sz w:val="32"/>
+                </w:rPr>
+                <w:t>"Coup de pouce Isolation"</w:t>
+            </w:r>
+        </w:p>
+        <w:p w14:paraId="30B64AAE" w14:textId="77777777" w:rsidR="00754998" w:rsidRDefault="00754998" w:rsidP="00754998">
+            <w:pPr>
+                <w:pStyle w:val="Sansinterligne"/>
+                <w:spacing w:before="60" w:after="60"/>
+                <w:ind w:left="-709" w:right="-709"/>
+                <w:jc w:val="both"/>
+                <w:rPr>
+                    <w:rFonts w:eastAsia="LiberationSans-Bold" w:cs="LiberationSans-Bold"/>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:eastAsia="LiberationSans-Bold" w:cs="LiberationSans-Bold"/>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:t xml:space="preserve">Le dispositif national des certificats d’économies d’énergie (CEE) mis en place par le </w:t>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:cs="DaxOT-Light"/>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:t>Ministère de la Transition Ecologique et Solidaire</w:t>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:eastAsia="LiberationSans-Bold" w:cs="LiberationSans-Bold"/>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:t xml:space="preserve"> impose à l’ensemble des fournisseurs d’énergie (électricité, gaz, fioul domestique, chaleur ou froid, carburants automobiles), de réaliser des économies et de promouvoir les comportements vertueux auprès des consommateurs d’énergie.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w14:paraId="5C5BB054" w14:textId="395B1238" w:rsidR="00754998" w:rsidRDefault="00754998" w:rsidP="00754998">
+            <w:pPr>
+                <w:pStyle w:val="Sansinterligne"/>
+                <w:spacing w:before="60" w:after="60"/>
+                <w:ind w:left="-709" w:right="-709"/>
+                <w:jc w:val="both"/>
+                <w:rPr>
+                    <w:rFonts w:eastAsia="LiberationSans-Bold" w:cs="LiberationSans-Bold"/>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:eastAsia="LiberationSans-Bold" w:cs="LiberationSans-Bold"/>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:t xml:space="preserve">Dans le cadre de son </w:t>
+            </w:r>
+            <w:r w:rsidRPr="0025245C">
+                <w:rPr>
+                    <w:rFonts w:eastAsia="LiberationSans-Bold" w:cs="LiberationSans-Bold"/>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:t xml:space="preserve">partenariat </w:t>
+            </w:r>
+            <w:r w:rsidRPr="00B87B1B">
+                <w:rPr>
+                    <w:rFonts w:eastAsia="LiberationSans-Bold" w:cs="LiberationSans-Bold"/>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:t>avec</w:t>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:eastAsia="LiberationSans-Bold" w:cs="LiberationSans-Bold"/>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:t xml:space="preserve"> TOTAL</w:t>
+            </w:r>
+            <w:r w:rsidRPr="00B87B1B">
+                <w:rPr>
+                    <w:rFonts w:eastAsia="LiberationSans-Bold" w:cs="LiberationSans-Bold"/>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:t xml:space="preserve"> Direct Energie,</w:t>
+            </w:r>
+            <w:r w:rsidRPr="0025245C">
+                <w:rPr>
+                    <w:rFonts w:eastAsia="LiberationSans-Bold" w:cs="LiberationSans-Bold"/>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:t xml:space="preserve"> la société Vertigo s’engage </w:t>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:eastAsia="LiberationSans-Bold" w:cs="LiberationSans-Bold"/>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:t xml:space="preserve">à vous apporter une prime d’un montant de </w:t>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:eastAsia="LiberationSans-Bold" w:cs="LiberationSans-Bold"/>
+                    <w:color w:val="4F81BD"/>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:fldChar w:fldCharType="begin"/>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:eastAsia="LiberationSans-Bold" w:cs="LiberationSans-Bold"/>
+                    <w:color w:val="4F81BD"/>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:instrText xml:space="preserve"> DOCPROPERTY  "Prime (€)"  \* MERGEFORMAT </w:instrText>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:eastAsia="LiberationSans-Bold" w:cs="LiberationSans-Bold"/>
+                    <w:color w:val="4F81BD"/>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:fldChar w:fldCharType="separate"/>
+            </w:r>
+            <w:r w:rsidR="006655DD">
+                <w:rPr>
+                    <w:rFonts w:eastAsia="LiberationSans-Bold" w:cs="LiberationSans-Bold"/>
+                    <w:color w:val="4F81BD"/>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:t>_____________</w:t>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:eastAsia="LiberationSans-Bold" w:cs="LiberationSans-Bold"/>
+                    <w:color w:val="4F81BD"/>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:fldChar w:fldCharType="end"/>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:eastAsia="LiberationSans-Bold" w:cs="LiberationSans-Bold"/>
+                    <w:color w:val="4F81BD"/>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:t xml:space="preserve"> €</w:t>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:eastAsia="LiberationSans-Bold" w:cs="LiberationSans-Bold"/>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:t xml:space="preserve"> dans le cadre de votre projet d’i</w:t>
+            </w:r>
+            <w:r w:rsidRPr="00A83EE9">
+                <w:rPr>
+                    <w:rFonts w:eastAsia="LiberationSans-Bold" w:cs="LiberationSans-Bold"/>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:t xml:space="preserve">solation thermique </w:t>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:eastAsia="LiberationSans-Bold" w:cs="LiberationSans-Bold"/>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:t>de planchers bas. Le montant de la prime est calculé en fonction de la surface d’isolant posé et varie de 30€ du m² pour les ménages modestes à 20€ du m² pour les autres revenus.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w14:paraId="44886C6B" w14:textId="77777777" w:rsidR="00754998" w:rsidRPr="00C92D56" w:rsidRDefault="00754998" w:rsidP="00754998">
+            <w:pPr>
+                <w:pStyle w:val="Sansinterligne"/>
+                <w:spacing w:before="60" w:after="60"/>
+                <w:ind w:left="-709" w:right="-709"/>
+                <w:jc w:val="both"/>
+                <w:rPr>
+                    <w:rFonts w:eastAsia="LiberationSans-Bold" w:cs="LiberationSans-Bold"/>
+                    <w:sz w:val="16"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+            </w:pPr>
+        </w:p>
+        <w:tbl>
+            <w:tblPr>
+                <w:tblW w:w="9960" w:type="dxa"/>
+                <w:jc w:val="center"/>
+                <w:tblLayout w:type="fixed"/>
+                <w:tblLook w:val="0000" w:firstRow="0" w:lastRow="0" w:firstColumn="0" w:lastColumn="0" w:noHBand="0" w:noVBand="0"/>
+            </w:tblPr>
+            <w:tblGrid>
+                <w:gridCol w:w="2547"/>
+                <w:gridCol w:w="1134"/>
+                <w:gridCol w:w="6279"/>
+            </w:tblGrid>
+            <w:tr w:rsidR="00754998" w14:paraId="5E770866" w14:textId="77777777" w:rsidTr="00004FED">
+                <w:trPr>
+                    <w:trHeight w:val="121"/>
+                    <w:jc w:val="center"/>
+                </w:trPr>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="2547" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:left w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                        </w:tcBorders>
+                        <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w14:paraId="40B41FE9" w14:textId="77777777" w:rsidR="00754998" w:rsidRPr="00654783" w:rsidRDefault="00754998" w:rsidP="00004FED">
+                        <w:pPr>
+                            <w:pStyle w:val="Sansinterligne"/>
+                            <w:spacing w:before="60" w:after="60"/>
+                            <w:ind w:left="-114" w:right="-107"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="LiberationSans-Bold" w:cs="LiberationSans-Bold"/>
+                                <w:sz w:val="18"/>
+                                <w:szCs w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="00654783">
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="LiberationSans-Bold" w:cs="LiberationSans-Bold"/>
+                                <w:sz w:val="18"/>
+                                <w:szCs w:val="20"/>
+                            </w:rPr>
+                            <w:t>Nature des travaux</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="1134" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:left w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                        </w:tcBorders>
+                        <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w14:paraId="5938FBB8" w14:textId="77777777" w:rsidR="00754998" w:rsidRPr="00654783" w:rsidRDefault="00754998" w:rsidP="00004FED">
+                        <w:pPr>
+                            <w:pStyle w:val="Sansinterligne"/>
+                            <w:spacing w:before="60" w:after="60"/>
+                            <w:ind w:left="-709" w:right="-709"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="LiberationSans-Bold" w:cs="LiberationSans-Bold"/>
+                                <w:sz w:val="18"/>
+                                <w:szCs w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="00654783">
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="LiberationSans-Bold" w:cs="LiberationSans-Bold"/>
+                                <w:sz w:val="18"/>
+                                <w:szCs w:val="20"/>
+                            </w:rPr>
+                            <w:t>Fiche CEE</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="6279" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:left w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:right w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                        </w:tcBorders>
+                        <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w14:paraId="7A1DA605" w14:textId="77777777" w:rsidR="00754998" w:rsidRPr="00654783" w:rsidRDefault="00754998" w:rsidP="00004FED">
+                        <w:pPr>
+                            <w:pStyle w:val="Sansinterligne"/>
+                            <w:spacing w:before="60" w:after="60"/>
+                            <w:ind w:left="-709" w:right="-709"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="LiberationSans-Bold" w:cs="LiberationSans-Bold"/>
+                                <w:color w:val="0070C0"/>
+                                <w:sz w:val="18"/>
+                                <w:szCs w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="00654783">
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="LiberationSans-Bold" w:cs="LiberationSans-Bold"/>
+                                <w:sz w:val="18"/>
+                                <w:szCs w:val="20"/>
+                            </w:rPr>
+                            <w:t>Conditions à respecter</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+            </w:tr>
+            <w:tr w:rsidR="00754998" w14:paraId="565001A6" w14:textId="77777777" w:rsidTr="00004FED">
+                <w:trPr>
+                    <w:trHeight w:val="121"/>
+                    <w:jc w:val="center"/>
+                </w:trPr>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="2547" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:left w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                        </w:tcBorders>
+                        <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w14:paraId="178A1131" w14:textId="77777777" w:rsidR="00754998" w:rsidRPr="009D441F" w:rsidRDefault="00754998" w:rsidP="00004FED">
+                        <w:pPr>
+                            <w:pStyle w:val="Sansinterligne"/>
+                            <w:spacing w:before="60" w:after="60"/>
+                            <w:ind w:right="30"/>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="LiberationSans-Bold" w:cs="LiberationSans-Bold"/>
+                                <w:color w:val="0070C0"/>
+                                <w:sz w:val="20"/>
+                                <w:szCs w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="LiberationSans-Bold" w:cs="LiberationSans-Bold"/>
+                                <w:color w:val="0070C0"/>
+                                <w:sz w:val="20"/>
+                                <w:szCs w:val="20"/>
+                            </w:rPr>
+                            <w:t>Isolation thermique des planchers bas</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="1134" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:left w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                        </w:tcBorders>
+                        <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w14:paraId="26C23A00" w14:textId="77777777" w:rsidR="00754998" w:rsidRPr="009D441F" w:rsidRDefault="00754998" w:rsidP="00004FED">
+                        <w:pPr>
+                            <w:pStyle w:val="Sansinterligne"/>
+                            <w:spacing w:before="60" w:after="60"/>
+                            <w:ind w:left="-709" w:right="-709"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="LiberationSans-Bold" w:cs="LiberationSans-Bold"/>
+                                <w:color w:val="0070C0"/>
+                                <w:sz w:val="20"/>
+                                <w:szCs w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="LiberationSans-Bold" w:cs="LiberationSans-Bold"/>
+                                <w:color w:val="0070C0"/>
+                                <w:sz w:val="20"/>
+                                <w:szCs w:val="20"/>
+                            </w:rPr>
+                            <w:t>BAR-EN-103</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="6279" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:left w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:bottom w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:right w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                        </w:tcBorders>
+                        <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w14:paraId="0437EA7F" w14:textId="77777777" w:rsidR="00754998" w:rsidRPr="00C2041B" w:rsidRDefault="00754998" w:rsidP="00004FED">
+                        <w:pPr>
+                            <w:spacing w:after="0"/>
+                            <w:ind w:left="95" w:right="-106"/>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="LiberationSans-Bold"/>
+                                <w:b/>
+                                <w:color w:val="0070C0"/>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="00D7424D">
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="LiberationSans-Bold"/>
+                                <w:color w:val="0070C0"/>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="20"/>
+                            </w:rPr>
+                            <w:t>Mise en place d’un doublage isolant sur/sous un plancher bas situé entre un volume chauffé et un sous-sol non chauffé, un vide sanitaire ou un passage ouvert</w:t>
+                        </w:r>
+                        <w:r w:rsidRPr="00C2041B">
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="LiberationSans-Bold"/>
+                                <w:b/>
+                                <w:color w:val="0070C0"/>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="20"/>
+                            </w:rPr>
+                            <w:t>. La résistance thermique R de l'isolation installée est supérieure ou égale à 3 m2m².K/W.</w:t>
+                        </w:r>
+                    </w:p>
+                    <w:p w14:paraId="702BAB1A" w14:textId="77777777" w:rsidR="00754998" w:rsidRPr="00654783" w:rsidRDefault="00754998" w:rsidP="00004FED">
+                        <w:pPr>
+                            <w:spacing w:after="0"/>
+                            <w:ind w:left="95" w:right="-106"/>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="LiberationSans-Bold"/>
+                                <w:color w:val="0070C0"/>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="00D7424D">
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="LiberationSans-Bold"/>
+                                <w:color w:val="0070C0"/>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="20"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve">Ces travaux sont susceptibles de faire l’objet d’un contrôle par un organisme tiers. </w:t>
+                        </w:r>
+                        <w:r w:rsidRPr="00C2041B">
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="LiberationSans-Bold"/>
+                                <w:b/>
+                                <w:color w:val="0070C0"/>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="20"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve">De plus la visite technique préalable à l’établissement du devis </w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="LiberationSans-Bold"/>
+                                <w:b/>
+                                <w:color w:val="0070C0"/>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="20"/>
+                            </w:rPr>
+                            <w:t>est</w:t>
+                        </w:r>
+                        <w:r w:rsidRPr="00C2041B">
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="LiberationSans-Bold"/>
+                                <w:b/>
+                                <w:color w:val="0070C0"/>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="20"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> obligatoire</w:t>
+                        </w:r>
+                        <w:r w:rsidRPr="00D7424D">
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="LiberationSans-Bold"/>
+                                <w:color w:val="0070C0"/>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="20"/>
+                            </w:rPr>
+                            <w:t>.</w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="LiberationSans-Bold"/>
+                                <w:color w:val="0070C0"/>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="20"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> Au cours de cette</w:t>
+                        </w:r>
+                        <w:r w:rsidRPr="00C2041B">
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="LiberationSans-Bold"/>
+                                <w:b/>
+                                <w:color w:val="0070C0"/>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="20"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> </w:t>
+                        </w:r>
+                        <w:r w:rsidRPr="00C2041B">
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="LiberationSans-Bold"/>
+                                <w:color w:val="0070C0"/>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="20"/>
+                            </w:rPr>
+                            <w:t>visite du</w:t>
+                        </w:r>
+                        <w:r w:rsidRPr="00D7424D">
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="LiberationSans-Bold"/>
+                                <w:color w:val="0070C0"/>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="20"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> bâtiment </w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="LiberationSans-Bold"/>
+                                <w:color w:val="0070C0"/>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="20"/>
+                            </w:rPr>
+                            <w:t>le professionnel qualifié RGE</w:t>
+                        </w:r>
+                        <w:r w:rsidRPr="00D7424D">
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="LiberationSans-Bold"/>
+                                <w:color w:val="0070C0"/>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="20"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> valide que la mise en place des isolants en plancher bas de ce bâtiment est en adéquation avec ce dernier.</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+            </w:tr>
+        </w:tbl>
+        <w:p w14:paraId="565C2B39" w14:textId="77777777" w:rsidR="00754998" w:rsidRDefault="00754998" w:rsidP="00754998">
+            <w:pPr>
+                <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+                <w:ind w:left="-709" w:right="-709"/>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+            </w:pPr>
+        </w:p>
+        <w:p w14:paraId="28F31575" w14:textId="662C5072" w:rsidR="00754998" w:rsidRDefault="00754998" w:rsidP="00754998">
+            <w:pPr>
+                <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+                <w:ind w:left="-709" w:right="-709"/>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+            </w:pPr>
+            <w:proofErr w:type="gramStart"/>
+            <w:r w:rsidRPr="00654783">
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:t>au</w:t>
+            </w:r>
+            <w:proofErr w:type="gramEnd"/>
+            <w:r w:rsidRPr="00654783">
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:t xml:space="preserve"> bénéfice de : </w:t>
+            </w:r>
+        </w:p>
+        <w:p w14:paraId="0A5603BB" w14:textId="77777777" w:rsidR="005274A4" w:rsidRPr="0011775F" w:rsidRDefault="005274A4" w:rsidP="005274A4">
+            <w:pPr>
+                <w:pStyle w:val="Paragraphedeliste"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="7"/>
+                </w:numPr>
+                <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+                <w:ind w:right="-709"/>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+            </w:pPr>
+            <w:bookmarkStart w:id="0" w:name="titresoc"/>
+            <w:r>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:t xml:space="preserve">Raison sociale : </w:t>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:fldChar w:fldCharType="begin"/>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:instrText xml:space="preserve"> DOCPROPERTY  société  \* MERGEFORMAT </w:instrText>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:fldChar w:fldCharType="separate"/>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:t>___________________</w:t>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:fldChar w:fldCharType="end"/>
+            </w:r>
+        </w:p>
+        <w:bookmarkEnd w:id="0"/>
+        <w:p w14:paraId="3B718DAA" w14:textId="49F8D9B2" w:rsidR="00754998" w:rsidRPr="00654783" w:rsidRDefault="00754998" w:rsidP="00754998">
+            <w:pPr>
+                <w:pStyle w:val="Paragraphedeliste"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="5"/>
+                </w:numPr>
+                <w:spacing w:after="0" w:line="276" w:lineRule="auto"/>
+                <w:ind w:right="-709"/>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00654783">
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:t xml:space="preserve">Nom : </w:t>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:fldChar w:fldCharType="begin"/>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:instrText xml:space="preserve"> DOCPROPERTY  nom_signataire  \* MERGEFORMAT </w:instrText>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:fldChar w:fldCharType="separate"/>
+            </w:r>
+            <w:r w:rsidR="006655DD">
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:t>________________________</w:t>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:fldChar w:fldCharType="end"/>
+            </w:r>
+        </w:p>
+        <w:p w14:paraId="0E548DCD" w14:textId="0C361BAC" w:rsidR="00754998" w:rsidRPr="00654783" w:rsidRDefault="00754998" w:rsidP="00754998">
+            <w:pPr>
+                <w:pStyle w:val="Paragraphedeliste"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="5"/>
+                </w:numPr>
+                <w:spacing w:after="0" w:line="276" w:lineRule="auto"/>
+                <w:ind w:right="-709"/>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00654783">
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:t xml:space="preserve">Prénom : </w:t>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:fldChar w:fldCharType="begin"/>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:instrText xml:space="preserve"> DOCPROPERTY  prenom_signataire  \* MERGEFORMAT </w:instrText>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:fldChar w:fldCharType="separate"/>
+            </w:r>
+            <w:r w:rsidR="006655DD">
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:t>________________________</w:t>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:fldChar w:fldCharType="end"/>
+            </w:r>
+        </w:p>
+        <w:p w14:paraId="5CD0992F" w14:textId="420796AF" w:rsidR="00754998" w:rsidRPr="00654783" w:rsidRDefault="00754998" w:rsidP="00754998">
+            <w:pPr>
+                <w:pStyle w:val="Paragraphedeliste"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="5"/>
+                </w:numPr>
+                <w:spacing w:after="0" w:line="276" w:lineRule="auto"/>
+                <w:ind w:right="-709"/>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00654783">
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:t xml:space="preserve">Adresse : </w:t>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:fldChar w:fldCharType="begin"/>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:instrText xml:space="preserve"> DOCPROPERTY  "rue siege"  \* MERGEFORMAT </w:instrText>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:fldChar w:fldCharType="separate"/>
+            </w:r>
+            <w:r w:rsidR="006655DD">
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:t>______________________</w:t>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:fldChar w:fldCharType="end"/>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:t xml:space="preserve"> </w:t>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:fldChar w:fldCharType="begin"/>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:instrText xml:space="preserve"> DOCPROPERTY  "code postal siege"  \* MERGEFORMAT </w:instrText>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:fldChar w:fldCharType="separate"/>
+            </w:r>
+            <w:r w:rsidR="006655DD">
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:t>______________________</w:t>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:fldChar w:fldCharType="end"/>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:t xml:space="preserve"> </w:t>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:fldChar w:fldCharType="begin"/>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:instrText xml:space="preserve"> DOCPROPERTY  "ville siege"  \* MERGEFORMAT </w:instrText>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:fldChar w:fldCharType="separate"/>
+            </w:r>
+            <w:r w:rsidR="006655DD">
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:t>______________________</w:t>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:fldChar w:fldCharType="end"/>
+            </w:r>
+        </w:p>
+        <w:p w14:paraId="49918441" w14:textId="209CC3A4" w:rsidR="00754998" w:rsidRPr="00654783" w:rsidRDefault="00754998" w:rsidP="00754998">
+            <w:pPr>
+                <w:pStyle w:val="Paragraphedeliste"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="5"/>
+                </w:numPr>
+                <w:spacing w:after="0" w:line="276" w:lineRule="auto"/>
+                <w:ind w:right="-709"/>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00654783">
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:t xml:space="preserve">Téléphone : </w:t>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:fldChar w:fldCharType="begin"/>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:instrText xml:space="preserve"> DOCPROPERTY  tel_contact  \* MERGEFORMAT </w:instrText>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:fldChar w:fldCharType="separate"/>
+            </w:r>
+            <w:r w:rsidR="006655DD">
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:t>___________________</w:t>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:fldChar w:fldCharType="end"/>
+            </w:r>
+        </w:p>
+        <w:p w14:paraId="6E8B85D5" w14:textId="545AEED1" w:rsidR="00754998" w:rsidRDefault="00754998" w:rsidP="00754998">
+            <w:pPr>
+                <w:pStyle w:val="Paragraphedeliste"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="5"/>
+                </w:numPr>
+                <w:spacing w:after="0" w:line="276" w:lineRule="auto"/>
+                <w:ind w:right="-709"/>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00654783">
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:t xml:space="preserve">Adresse E-mail : </w:t>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:fldChar w:fldCharType="begin"/>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:instrText xml:space="preserve"> DOCPROPERTY  "mail contact"  \* MERGEFORMAT </w:instrText>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:fldChar w:fldCharType="separate"/>
+            </w:r>
+            <w:r w:rsidR="006655DD">
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:t>_____________________</w:t>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:fldChar w:fldCharType="end"/>
+            </w:r>
+        </w:p>
+        <w:p w14:paraId="799A1C82" w14:textId="77777777" w:rsidR="00754998" w:rsidRDefault="00754998" w:rsidP="00754998">
+            <w:pPr>
+                <w:pStyle w:val="Paragraphedeliste"/>
+                <w:spacing w:after="0" w:line="276" w:lineRule="auto"/>
+                <w:ind w:left="11" w:right="-709"/>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+            </w:pPr>
+        </w:p>
+        <w:p w14:paraId="2844A93B" w14:textId="77777777" w:rsidR="00754998" w:rsidRPr="00B80F6E" w:rsidRDefault="00754998" w:rsidP="00754998">
+            <w:pPr>
+                <w:pStyle w:val="Paragraphedeliste"/>
+                <w:spacing w:after="0" w:line="276" w:lineRule="auto"/>
+                <w:ind w:left="11" w:right="-709"/>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+            </w:pPr>
+        </w:p>
+        <w:tbl>
+            <w:tblPr>
+                <w:tblStyle w:val="Grilledutableau"/>
+                <w:tblW w:w="10448" w:type="dxa"/>
+                <w:tblInd w:w="-709" w:type="dxa"/>
+                <w:tblBorders>
+                    <w:top w:val="none" w:sz="0" w:space="0" w:color="auto"/>
+                    <w:left w:val="none" w:sz="0" w:space="0" w:color="auto"/>
+                    <w:bottom w:val="none" w:sz="0" w:space="0" w:color="auto"/>
+                    <w:right w:val="none" w:sz="0" w:space="0" w:color="auto"/>
+                    <w:insideH w:val="none" w:sz="0" w:space="0" w:color="auto"/>
+                    <w:insideV w:val="none" w:sz="0" w:space="0" w:color="auto"/>
+                </w:tblBorders>
+                <w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/>
+            </w:tblPr>
+            <w:tblGrid>
+                <w:gridCol w:w="5224"/>
+                <w:gridCol w:w="5224"/>
+            </w:tblGrid>
+            <w:tr w:rsidR="00754998" w14:paraId="4868F6E7" w14:textId="77777777" w:rsidTr="00004FED">
+                <w:trPr>
+                    <w:trHeight w:val="1127"/>
+                </w:trPr>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="5224" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w14:paraId="6D1CF59A" w14:textId="3F88B03A" w:rsidR="00754998" w:rsidRDefault="00754998" w:rsidP="00004FED">
+                        <w:pPr>
+                            <w:ind w:right="71"/>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                                <w:szCs w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="004370B5">
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                                <w:szCs w:val="20"/>
+                            </w:rPr>
+                            <w:t>Date de cette proposition :</w:t>
+                        </w:r>
+                        <w:r w:rsidRPr="009820FA">
+                            <w:rPr>
+                                <w:color w:val="4472C4" w:themeColor="accent1"/>
+                                <w:sz w:val="20"/>
+                                <w:szCs w:val="20"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> </w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:color w:val="4472C4" w:themeColor="accent1"/>
+                                <w:sz w:val="20"/>
+                                <w:szCs w:val="20"/>
+                            </w:rPr>
+                            <w:fldChar w:fldCharType="begin"/>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:color w:val="4472C4" w:themeColor="accent1"/>
+                                <w:sz w:val="20"/>
+                                <w:szCs w:val="20"/>
+                            </w:rPr>
+                            <w:instrText xml:space="preserve"> DOCPROPERTY  "date commande"  \* MERGEFORMAT </w:instrText>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:color w:val="4472C4" w:themeColor="accent1"/>
+                                <w:sz w:val="20"/>
+                                <w:szCs w:val="20"/>
+                            </w:rPr>
+                            <w:fldChar w:fldCharType="end"/>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="5224" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w14:paraId="0B07057E" w14:textId="77777777" w:rsidR="00754998" w:rsidRPr="009820FA" w:rsidRDefault="00754998" w:rsidP="00004FED">
+                        <w:pPr>
+                            <w:ind w:right="71"/>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                                <w:szCs w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="009820FA">
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                                <w:szCs w:val="20"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve">Signature : </w:t>
+                        </w:r>
+                    </w:p>
+                    <w:p w14:paraId="276A5FA8" w14:textId="77777777" w:rsidR="00754998" w:rsidRPr="009820FA" w:rsidRDefault="00754998" w:rsidP="00004FED">
+                        <w:pPr>
+                            <w:ind w:right="71"/>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                                <w:szCs w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="009820FA">
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                                <w:szCs w:val="20"/>
+                            </w:rPr>
+                            <w:t>Benjamin HENRY</w:t>
+                        </w:r>
+                    </w:p>
+                    <w:p w14:paraId="36E4824E" w14:textId="77777777" w:rsidR="00754998" w:rsidRDefault="00754998" w:rsidP="00004FED">
+                        <w:pPr>
+                            <w:ind w:right="71"/>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                                <w:szCs w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="009820FA">
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                                <w:szCs w:val="20"/>
+                            </w:rPr>
+                            <w:t>Directeur Général de VERTIGO</w:t>
+                        </w:r>
+                    </w:p>
+                    <w:p w14:paraId="7767AEBE" w14:textId="77777777" w:rsidR="00754998" w:rsidRDefault="00754998" w:rsidP="00004FED">
+                        <w:pPr>
+                            <w:ind w:right="71"/>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                                <w:szCs w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                    </w:p>
+                    <w:p w14:paraId="5FA7A901" w14:textId="77777777" w:rsidR="00754998" w:rsidRDefault="00754998" w:rsidP="00004FED">
+                        <w:pPr>
+                            <w:ind w:right="71"/>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                                <w:szCs w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                    </w:p>
+                    <w:p w14:paraId="3E0B807A" w14:textId="77777777" w:rsidR="00754998" w:rsidRDefault="00754998" w:rsidP="00004FED">
+                        <w:pPr>
+                            <w:ind w:right="71"/>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                                <w:szCs w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                    </w:p>
+                    <w:p w14:paraId="5A4C9E7D" w14:textId="77777777" w:rsidR="00754998" w:rsidRDefault="00754998" w:rsidP="00004FED">
+                        <w:pPr>
+                            <w:ind w:right="71"/>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                                <w:szCs w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                    </w:p>
+                </w:tc>
+            </w:tr>
+        </w:tbl>
+        <w:p w14:paraId="7DD4DF6B" w14:textId="77777777" w:rsidR="00754998" w:rsidRDefault="00754998" w:rsidP="00754998">
+            <w:pPr>
+                <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+                <w:ind w:left="-709" w:right="-709"/>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+            </w:pPr>
+            <w:proofErr w:type="gramStart"/>
+            <w:r w:rsidRPr="00654783">
+                <w:rPr>
+                    <w:b/>
+                    <w:color w:val="FF0000"/>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:t>/!\</w:t>
+            </w:r>
+            <w:proofErr w:type="gramEnd"/>
+            <w:r w:rsidRPr="00654783">
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:t xml:space="preserve"> Attention, seules les propositions remises avant l’acceptation du devis ou du bon de commande sont valables, et vous ne pouvez pas cumuler plusieurs offres CEE différentes pour la même opération.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w14:paraId="6A8C1477" w14:textId="77777777" w:rsidR="00754998" w:rsidRPr="00D343CF" w:rsidRDefault="00754998" w:rsidP="00754998">
+            <w:pPr>
+                <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+                <w:ind w:left="-709" w:right="-709"/>
+                <w:rPr>
+                    <w:sz w:val="8"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+            </w:pPr>
+        </w:p>
+        <w:p w14:paraId="1AF9F82B" w14:textId="77777777" w:rsidR="00754998" w:rsidRDefault="00754998" w:rsidP="00754998">
+            <w:pPr>
+                <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+                <w:ind w:left="-709" w:right="-709"/>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="00654783">
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+                <w:t>Tous les ménages peuvent bénéficier de cette offre. Des primes plus importantes seront attribuées aux ménages considérés comme modestes c’est-à-dire justifiant de revenus fiscaux de référence inférieurs aux plafonds de la grille ci-dessous :</w:t>
+            </w:r>
+        </w:p>
+        <w:p w14:paraId="02B2426C" w14:textId="77777777" w:rsidR="00754998" w:rsidRDefault="00754998" w:rsidP="00754998">
+            <w:pPr>
+                <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+                <w:ind w:left="-709" w:right="-709"/>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+            </w:pPr>
+        </w:p>
+        <w:tbl>
+            <w:tblPr>
+                <w:tblW w:w="9304" w:type="dxa"/>
+                <w:tblInd w:w="-287" w:type="dxa"/>
+                <w:tblLayout w:type="fixed"/>
+                <w:tblLook w:val="0000" w:firstRow="0" w:lastRow="0" w:firstColumn="0" w:lastColumn="0" w:noHBand="0" w:noVBand="0"/>
+            </w:tblPr>
+            <w:tblGrid>
+                <w:gridCol w:w="2988"/>
+                <w:gridCol w:w="3086"/>
+                <w:gridCol w:w="3230"/>
+            </w:tblGrid>
+            <w:tr w:rsidR="00754998" w:rsidRPr="00654783" w14:paraId="6C1B16A0" w14:textId="77777777" w:rsidTr="00004FED">
+                <w:trPr>
+                    <w:trHeight w:val="231"/>
+                </w:trPr>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="2988" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                            <w:left w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                            <w:bottom w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                        </w:tcBorders>
+                        <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+                    </w:tcPr>
+                    <w:p w14:paraId="0BAAD093" w14:textId="77777777" w:rsidR="00754998" w:rsidRPr="00654783" w:rsidRDefault="00754998" w:rsidP="00004FED">
+                        <w:pPr>
+                            <w:suppressAutoHyphens/>
+                            <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="16"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="00654783">
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="16"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                            <w:t>Nombre de personnes composant le ménage</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="3086" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                            <w:left w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                            <w:bottom w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                        </w:tcBorders>
+                        <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+                    </w:tcPr>
+                    <w:p w14:paraId="331058BE" w14:textId="77777777" w:rsidR="00754998" w:rsidRPr="00654783" w:rsidRDefault="00754998" w:rsidP="00004FED">
+                        <w:pPr>
+                            <w:suppressAutoHyphens/>
+                            <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="16"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="00654783">
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="16"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                            <w:t>Plafonds de revenus du ménage en Île-de-France (€)</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="3230" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                            <w:left w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                            <w:bottom w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                            <w:right w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                        </w:tcBorders>
+                        <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+                    </w:tcPr>
+                    <w:p w14:paraId="15294A7B" w14:textId="77777777" w:rsidR="00754998" w:rsidRPr="00654783" w:rsidRDefault="00754998" w:rsidP="00004FED">
+                        <w:pPr>
+                            <w:suppressAutoHyphens/>
+                            <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="16"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="00654783">
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="16"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                            <w:t>Plafonds de revenus du ménage pour les autres régions (€)</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+            </w:tr>
+            <w:tr w:rsidR="00D7095F" w:rsidRPr="00654783" w14:paraId="39F83277" w14:textId="77777777" w:rsidTr="00004FED">
+                <w:trPr>
+                    <w:trHeight w:val="231"/>
+                </w:trPr>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="2988" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                            <w:left w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                            <w:bottom w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                        </w:tcBorders>
+                        <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+                    </w:tcPr>
+                    <w:p w14:paraId="663FFAB0" w14:textId="77777777" w:rsidR="00D7095F" w:rsidRPr="00654783" w:rsidRDefault="00D7095F" w:rsidP="00D7095F">
+                        <w:pPr>
+                            <w:suppressAutoHyphens/>
+                            <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:bookmarkStart w:id="1" w:name="_GoBack" w:colFirst="1" w:colLast="2"/>
+                        <w:r w:rsidRPr="00654783">
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                            <w:t>1</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="3086" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                            <w:left w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                            <w:bottom w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                        </w:tcBorders>
+                        <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w14:paraId="3F810C3A" w14:textId="27F13D4F" w:rsidR="00D7095F" w:rsidRPr="00654783" w:rsidRDefault="00D7095F" w:rsidP="00D7095F">
+                        <w:pPr>
+                            <w:suppressAutoHyphens/>
+                            <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="00654783">
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                            <w:t>2</w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                            <w:t>5</w:t>
+                        </w:r>
+                        <w:r w:rsidRPr="00654783">
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> </w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                            <w:t>068</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="3230" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                            <w:left w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                            <w:bottom w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                            <w:right w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                        </w:tcBorders>
+                        <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w14:paraId="54BEE230" w14:textId="14F0A8B9" w:rsidR="00D7095F" w:rsidRPr="00654783" w:rsidRDefault="00D7095F" w:rsidP="00D7095F">
+                        <w:pPr>
+                            <w:suppressAutoHyphens/>
+                            <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="00654783">
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                            <w:t>1</w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                            <w:t>9</w:t>
+                        </w:r>
+                        <w:r w:rsidRPr="00654783">
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> </w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                            <w:t>074</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+            </w:tr>
+            <w:tr w:rsidR="00D7095F" w:rsidRPr="00654783" w14:paraId="4DDE769C" w14:textId="77777777" w:rsidTr="00004FED">
+                <w:trPr>
+                    <w:trHeight w:val="231"/>
+                </w:trPr>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="2988" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                            <w:left w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                            <w:bottom w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                        </w:tcBorders>
+                        <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+                    </w:tcPr>
+                    <w:p w14:paraId="01B4CFB5" w14:textId="77777777" w:rsidR="00D7095F" w:rsidRPr="00654783" w:rsidRDefault="00D7095F" w:rsidP="00D7095F">
+                        <w:pPr>
+                            <w:suppressAutoHyphens/>
+                            <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="00654783">
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                            <w:t>2</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="3086" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                            <w:left w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                            <w:bottom w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                        </w:tcBorders>
+                        <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w14:paraId="10910961" w14:textId="70E80C11" w:rsidR="00D7095F" w:rsidRPr="00654783" w:rsidRDefault="00D7095F" w:rsidP="00D7095F">
+                        <w:pPr>
+                            <w:suppressAutoHyphens/>
+                            <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="00654783">
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                            <w:t>3</w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                            <w:t>6 792</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="3230" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                            <w:left w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                            <w:bottom w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                            <w:right w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                        </w:tcBorders>
+                        <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w14:paraId="272191AE" w14:textId="284931FD" w:rsidR="00D7095F" w:rsidRPr="00654783" w:rsidRDefault="00D7095F" w:rsidP="00D7095F">
+                        <w:pPr>
+                            <w:suppressAutoHyphens/>
+                            <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="00654783">
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                            <w:t>2</w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                            <w:t>7 896</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+            </w:tr>
+            <w:tr w:rsidR="00D7095F" w:rsidRPr="00654783" w14:paraId="03FD60C8" w14:textId="77777777" w:rsidTr="00004FED">
+                <w:trPr>
+                    <w:trHeight w:val="231"/>
+                </w:trPr>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="2988" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                            <w:left w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                            <w:bottom w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                        </w:tcBorders>
+                        <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+                    </w:tcPr>
+                    <w:p w14:paraId="6A791390" w14:textId="77777777" w:rsidR="00D7095F" w:rsidRPr="00654783" w:rsidRDefault="00D7095F" w:rsidP="00D7095F">
+                        <w:pPr>
+                            <w:suppressAutoHyphens/>
+                            <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="00654783">
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                            <w:t>3</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="3086" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                            <w:left w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                            <w:bottom w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                        </w:tcBorders>
+                        <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w14:paraId="41F073CC" w14:textId="3D119FDD" w:rsidR="00D7095F" w:rsidRPr="00654783" w:rsidRDefault="00D7095F" w:rsidP="00D7095F">
+                        <w:pPr>
+                            <w:suppressAutoHyphens/>
+                            <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="00654783">
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                            <w:t>4</w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                            <w:t>4 188</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="3230" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                            <w:left w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                            <w:bottom w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                            <w:right w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                        </w:tcBorders>
+                        <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w14:paraId="409735F2" w14:textId="6579D906" w:rsidR="00D7095F" w:rsidRPr="00654783" w:rsidRDefault="00D7095F" w:rsidP="00D7095F">
+                        <w:pPr>
+                            <w:suppressAutoHyphens/>
+                            <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="00654783">
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                            <w:t>3</w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                            <w:t>3 547</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+            </w:tr>
+            <w:tr w:rsidR="00D7095F" w:rsidRPr="00654783" w14:paraId="56E5083A" w14:textId="77777777" w:rsidTr="00004FED">
+                <w:trPr>
+                    <w:trHeight w:val="231"/>
+                </w:trPr>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="2988" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                            <w:left w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                            <w:bottom w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                        </w:tcBorders>
+                        <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+                    </w:tcPr>
+                    <w:p w14:paraId="2A76804C" w14:textId="77777777" w:rsidR="00D7095F" w:rsidRPr="00654783" w:rsidRDefault="00D7095F" w:rsidP="00D7095F">
+                        <w:pPr>
+                            <w:suppressAutoHyphens/>
+                            <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="00654783">
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                            <w:t>4</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="3086" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                            <w:left w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                            <w:bottom w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                        </w:tcBorders>
+                        <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w14:paraId="1F249A76" w14:textId="08129171" w:rsidR="00D7095F" w:rsidRPr="00654783" w:rsidRDefault="00D7095F" w:rsidP="00D7095F">
+                        <w:pPr>
+                            <w:suppressAutoHyphens/>
+                            <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                            <w:t>51 597</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="3230" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                            <w:left w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                            <w:bottom w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                            <w:right w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                        </w:tcBorders>
+                        <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w14:paraId="5A4652D8" w14:textId="154FA2B1" w:rsidR="00D7095F" w:rsidRPr="00654783" w:rsidRDefault="00D7095F" w:rsidP="00D7095F">
+                        <w:pPr>
+                            <w:suppressAutoHyphens/>
+                            <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="00654783">
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                            <w:t>3</w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                            <w:t>9 192</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+            </w:tr>
+            <w:tr w:rsidR="00D7095F" w:rsidRPr="00654783" w14:paraId="1A3B706C" w14:textId="77777777" w:rsidTr="00004FED">
+                <w:trPr>
+                    <w:trHeight w:val="231"/>
+                </w:trPr>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="2988" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                            <w:left w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                            <w:bottom w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                        </w:tcBorders>
+                        <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+                    </w:tcPr>
+                    <w:p w14:paraId="2B797828" w14:textId="77777777" w:rsidR="00D7095F" w:rsidRPr="00654783" w:rsidRDefault="00D7095F" w:rsidP="00D7095F">
+                        <w:pPr>
+                            <w:suppressAutoHyphens/>
+                            <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="00654783">
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                            <w:t>5</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="3086" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                            <w:left w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                            <w:bottom w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                        </w:tcBorders>
+                        <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w14:paraId="6E035D43" w14:textId="31A40C93" w:rsidR="00D7095F" w:rsidRPr="00654783" w:rsidRDefault="00D7095F" w:rsidP="00D7095F">
+                        <w:pPr>
+                            <w:suppressAutoHyphens/>
+                            <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="00654783">
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                            <w:t>5</w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                            <w:t>9 026</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="3230" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                            <w:left w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                            <w:bottom w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                            <w:right w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                        </w:tcBorders>
+                        <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w14:paraId="121DBF2A" w14:textId="2D58B623" w:rsidR="00D7095F" w:rsidRPr="00654783" w:rsidRDefault="00D7095F" w:rsidP="00D7095F">
+                        <w:pPr>
+                            <w:suppressAutoHyphens/>
+                            <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="00654783">
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                            <w:t>4</w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                            <w:t>4 860</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+            </w:tr>
+            <w:tr w:rsidR="00D7095F" w:rsidRPr="00654783" w14:paraId="37C98160" w14:textId="77777777" w:rsidTr="00004FED">
+                <w:trPr>
+                    <w:trHeight w:val="231"/>
+                </w:trPr>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="2988" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                            <w:left w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                            <w:bottom w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                        </w:tcBorders>
+                        <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+                    </w:tcPr>
+                    <w:p w14:paraId="7554A19E" w14:textId="77777777" w:rsidR="00D7095F" w:rsidRPr="00654783" w:rsidRDefault="00D7095F" w:rsidP="00D7095F">
+                        <w:pPr>
+                            <w:suppressAutoHyphens/>
+                            <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="00654783">
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                            <w:t>Par personne supplémentaire</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="3086" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                            <w:left w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                            <w:bottom w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                        </w:tcBorders>
+                        <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w14:paraId="4AC9280E" w14:textId="03A5B320" w:rsidR="00D7095F" w:rsidRPr="00654783" w:rsidRDefault="00D7095F" w:rsidP="00D7095F">
+                        <w:pPr>
+                            <w:suppressAutoHyphens/>
+                            <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="00654783">
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve">+ 7 </w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                            <w:t>422</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="3230" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                            <w:left w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                            <w:bottom w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                            <w:right w:val="single" w:sz="2" w:space="0" w:color="000000"/>
+                        </w:tcBorders>
+                        <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w14:paraId="22126C17" w14:textId="45F142DD" w:rsidR="00D7095F" w:rsidRPr="00654783" w:rsidRDefault="00D7095F" w:rsidP="00D7095F">
+                        <w:pPr>
+                            <w:suppressAutoHyphens/>
+                            <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Times New Roman" w:eastAsia="LiberationSans-Bold" w:hAnsi="Times New Roman" w:cs="LiberationSans-Bold"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:szCs w:val="20"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="00654783">
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve">+ 5 </w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="LiberationSans-Bold" w:hAnsi="Calibri" w:cs="Arial"/>
+                                <w:kern w:val="1"/>
+                                <w:sz w:val="18"/>
+                                <w:lang w:eastAsia="zh-CN"/>
+                            </w:rPr>
+                            <w:t>651</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+            </w:tr>
+            <w:bookmarkEnd w:id="1"/>
+        </w:tbl>
+        <w:p w14:paraId="50DC75FC" w14:textId="36C3A713" w:rsidR="00654783" w:rsidRDefault="00654783" w:rsidP="009820FA">
+            <w:pPr>
+                <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+                <w:ind w:left="-709" w:right="-709"/>
+                <w:rPr>
+                    <w:sz w:val="20"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+            </w:pPr>
+        </w:p>
+        <w:p w14:paraId="402E0A98" w14:textId="305F762C" w:rsidR="00B1314D" w:rsidRPr="0099592D" w:rsidRDefault="00B1314D" w:rsidP="0099587C">
+            <w:pPr>
+                <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+                <w:ind w:right="-709"/>
+                <w:rPr>
+                    <w:sz w:val="6"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+            </w:pPr>
+        </w:p>
+        <w:tbl>
+            <w:tblPr>
+                <w:tblpPr w:leftFromText="141" w:rightFromText="141" w:vertAnchor="text" w:horzAnchor="margin" w:tblpXSpec="center" w:tblpY="122"/>
+                <w:tblW w:w="10490" w:type="dxa"/>
+                <w:tblLayout w:type="fixed"/>
+                <w:tblLook w:val="0000" w:firstRow="0" w:lastRow="0" w:firstColumn="0" w:lastColumn="0" w:noHBand="0" w:noVBand="0"/>
+            </w:tblPr>
+            <w:tblGrid>
+                <w:gridCol w:w="10490"/>
+            </w:tblGrid>
+            <w:tr w:rsidR="000A743A" w14:paraId="28C23F16" w14:textId="77777777" w:rsidTr="00B945D4">
+                <w:trPr>
+                    <w:trHeight w:val="1670"/>
+                </w:trPr>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="10490" w:type="dxa"/>
+                        <w:tcBorders>
+                            <w:top w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:left w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                            <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+                            <w:right w:val="single" w:sz="4" w:space="0" w:color="000000"/>
+                        </w:tcBorders>
+                        <w:shd w:val="clear" w:color="auto" w:fill="99CCFF"/>
+                    </w:tcPr>
+                    <w:p w14:paraId="15DC5E83" w14:textId="33BF733A" w:rsidR="003B1C26" w:rsidRPr="00654783" w:rsidRDefault="003B1C26" w:rsidP="00B945D4">
+                        <w:pPr>
+                            <w:pStyle w:val="Sansinterligne"/>
+                            <w:spacing w:before="60" w:after="60"/>
+                            <w:jc w:val="both"/>
+                            <w:rPr>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="18"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="00654783">
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="LiberationSans-Bold" w:cs="LiberationSans-Bold"/>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="18"/>
+                                <w:u w:val="single"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve">Où se renseigner pour bénéficier de cette offre ? </w:t>
+                        </w:r>
+                    </w:p>
+                    <w:p w14:paraId="42227F7D" w14:textId="79DD74E9" w:rsidR="003B1C26" w:rsidRPr="001E0F3A" w:rsidRDefault="007F14C0" w:rsidP="00B945D4">
+                        <w:pPr>
+                            <w:pStyle w:val="Sansinterligne"/>
+                            <w:spacing w:before="60" w:after="60"/>
+                            <w:rPr>
+                                <w:sz w:val="16"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:hyperlink r:id="rId11" w:history="1">
+                            <w:r w:rsidR="003B1C26" w:rsidRPr="001E0F3A">
+                                <w:rPr>
+                                    <w:rStyle w:val="Lienhypertexte"/>
+                                    <w:sz w:val="16"/>
+                                </w:rPr>
+                                <w:t>https://total.direct-energie.com/particuliers/electricite-et-gaz/depannage-et-services/obtenir-une-prime-pour-les-certificats-d-economie-d-energie</w:t>
+                            </w:r>
+                        </w:hyperlink>
+                    </w:p>
+                    <w:p w14:paraId="4081A538" w14:textId="2FD275DB" w:rsidR="003B1C26" w:rsidRPr="00654783" w:rsidRDefault="009F38D8" w:rsidP="00B945D4">
+                        <w:pPr>
+                            <w:pStyle w:val="Sansinterligne"/>
+                            <w:spacing w:before="60" w:after="60"/>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="LiberationSans-Bold" w:cs="LiberationSans-Bold"/>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="18"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="007A6B05">
+                            <w:rPr>
+                                <w:noProof/>
+                            </w:rPr>
+                            <w:drawing>
+                                <wp:anchor distT="0" distB="0" distL="114300" distR="114300" simplePos="0" relativeHeight="251668481" behindDoc="0" locked="0" layoutInCell="1" allowOverlap="1" wp14:anchorId="3A94D174" wp14:editId="7527EB1A">
+                                    <wp:simplePos x="0" y="0"/>
+                                    <wp:positionH relativeFrom="column">
+                                        <wp:posOffset>5234940</wp:posOffset>
+                                    </wp:positionH>
+                                    <wp:positionV relativeFrom="paragraph">
+                                        <wp:posOffset>20320</wp:posOffset>
+                                    </wp:positionV>
+                                    <wp:extent cx="317500" cy="408305"/>
+                                    <wp:effectExtent l="0" t="0" r="6350" b="0"/>
+                                    <wp:wrapNone/>
+                                    <wp:docPr id="2" name="Image 2"/>
+                                    <wp:cNvGraphicFramePr>
+                                        <a:graphicFrameLocks xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" noChangeAspect="1"/>
+                                    </wp:cNvGraphicFramePr>
+                                    <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+                                        <a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                                            <pic:pic xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                                                <pic:nvPicPr>
+                                                    <pic:cNvPr id="1" name=""/>
+                                                    <pic:cNvPicPr/>
+                                                </pic:nvPicPr>
+                                                <pic:blipFill>
+                                                    <a:blip r:embed="rId12" cstate="print">
+                                                        <a:extLst>
+                                                            <a:ext uri="{28A0092B-C50C-407E-A947-70E740481C1C}">
+                                                                <a14:useLocalDpi xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main" val="0"/>
+                                                            </a:ext>
+                                                        </a:extLst>
+                                                    </a:blip>
+                                                    <a:stretch>
+                                                        <a:fillRect/>
+                                                    </a:stretch>
+                                                </pic:blipFill>
+                                                <pic:spPr>
+                                                    <a:xfrm>
+                                                        <a:off x="0" y="0"/>
+                                                        <a:ext cx="317500" cy="408305"/>
+                                                    </a:xfrm>
+                                                    <a:prstGeom prst="rect">
+                                                        <a:avLst/>
+                                                    </a:prstGeom>
+                                                </pic:spPr>
+                                            </pic:pic>
+                                        </a:graphicData>
+                                    </a:graphic>
+                                </wp:anchor>
+                            </w:drawing>
+                        </w:r>
+                        <w:r w:rsidR="003B1C26" w:rsidRPr="00654783">
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="LiberationSans-Bold" w:cs="LiberationSans-Bold"/>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="18"/>
+                                <w:u w:val="single"/>
+                            </w:rPr>
+                            <w:t>Où s’informer sur les aides pour les travaux d’économies d’énergie ?</w:t>
+                        </w:r>
+                        <w:r w:rsidR="003B1C26" w:rsidRPr="00654783">
+                            <w:rPr>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="18"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> </w:t>
+                        </w:r>
+                    </w:p>
+                    <w:p w14:paraId="48AC21C5" w14:textId="3FDB18AA" w:rsidR="003B1C26" w:rsidRPr="00654783" w:rsidRDefault="003B1C26" w:rsidP="00B945D4">
+                        <w:pPr>
+                            <w:pStyle w:val="Sansinterligne"/>
+                            <w:spacing w:before="60" w:after="60"/>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="00654783">
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="LiberationSans-Bold" w:cs="LiberationSans-Bold"/>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="18"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve">Site du Ministère de la Transition Ecologique et Solidaire : </w:t>
+                        </w:r>
+                        <w:r w:rsidRPr="00654783">
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="LiberationSans-Bold" w:cs="LiberationSans-Bold"/>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="18"/>
+                            </w:rPr>
+                            <w:br/>
+                        </w:r>
+                        <w:hyperlink r:id="rId13" w:history="1">
+                            <w:r w:rsidR="002D4FAE" w:rsidRPr="005C5766">
+                                <w:rPr>
+                                    <w:rStyle w:val="Lienhypertexte"/>
+                                    <w:sz w:val="16"/>
+                                </w:rPr>
+                                <w:t>https://www.ecologique-solidaire.gouv.fr/politiques/certificats-economies-denergie</w:t>
+                            </w:r>
+                        </w:hyperlink>
+                    </w:p>
+                    <w:p w14:paraId="0E9866E6" w14:textId="77777777" w:rsidR="003B1C26" w:rsidRPr="00654783" w:rsidRDefault="003B1C26" w:rsidP="00B945D4">
+                        <w:pPr>
+                            <w:pStyle w:val="Sansinterligne"/>
+                            <w:spacing w:before="60" w:after="60"/>
+                            <w:rPr>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="18"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="00654783">
+                            <w:rPr>
+                                <w:noProof/>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="18"/>
+                            </w:rPr>
+                            <w:drawing>
+                                <wp:anchor distT="0" distB="0" distL="114300" distR="114300" simplePos="0" relativeHeight="251666433" behindDoc="0" locked="0" layoutInCell="1" allowOverlap="1" wp14:anchorId="78DB5F43" wp14:editId="40D2917C">
+                                    <wp:simplePos x="0" y="0"/>
+                                    <wp:positionH relativeFrom="column">
+                                        <wp:posOffset>4384040</wp:posOffset>
+                                    </wp:positionH>
+                                    <wp:positionV relativeFrom="paragraph">
+                                        <wp:posOffset>61595</wp:posOffset>
+                                    </wp:positionV>
+                                    <wp:extent cx="1409700" cy="209550"/>
+                                    <wp:effectExtent l="0" t="0" r="0" b="0"/>
+                                    <wp:wrapNone/>
+                                    <wp:docPr id="10" name="Image 10"/>
+                                    <wp:cNvGraphicFramePr>
+                                        <a:graphicFrameLocks xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" noChangeAspect="1"/>
+                                    </wp:cNvGraphicFramePr>
+                                    <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+                                        <a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                                            <pic:pic xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                                                <pic:nvPicPr>
+                                                    <pic:cNvPr id="0" name="Picture 9"/>
+                                                    <pic:cNvPicPr>
+                                                        <a:picLocks noChangeAspect="1" noChangeArrowheads="1"/>
+                                                    </pic:cNvPicPr>
+                                                </pic:nvPicPr>
+                                                <pic:blipFill>
+                                                    <a:blip r:embed="rId14">
+                                                        <a:extLst>
+                                                            <a:ext uri="{28A0092B-C50C-407E-A947-70E740481C1C}">
+                                                                <a14:useLocalDpi xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main" val="0"/>
+                                                            </a:ext>
+                                                        </a:extLst>
+                                                    </a:blip>
+                                                    <a:srcRect/>
+                                                    <a:stretch>
+                                                        <a:fillRect/>
+                                                    </a:stretch>
+                                                </pic:blipFill>
+                                                <pic:spPr bwMode="auto">
+                                                    <a:xfrm>
+                                                        <a:off x="0" y="0"/>
+                                                        <a:ext cx="1409700" cy="209550"/>
+                                                    </a:xfrm>
+                                                    <a:prstGeom prst="rect">
+                                                        <a:avLst/>
+                                                    </a:prstGeom>
+                                                    <a:solidFill>
+                                                        <a:srgbClr val="FFFFFF"/>
+                                                    </a:solidFill>
+                                                    <a:ln>
+                                                        <a:noFill/>
+                                                    </a:ln>
+                                                </pic:spPr>
+                                            </pic:pic>
+                                        </a:graphicData>
+                                    </a:graphic>
+                                    <wp14:sizeRelH relativeFrom="page">
+                                        <wp14:pctWidth>0</wp14:pctWidth>
+                                    </wp14:sizeRelH>
+                                    <wp14:sizeRelV relativeFrom="page">
+                                        <wp14:pctHeight>0</wp14:pctHeight>
+                                    </wp14:sizeRelV>
+                                </wp:anchor>
+                            </w:drawing>
+                        </w:r>
+                        <w:r w:rsidRPr="00654783">
+                            <w:rPr>
+                                <w:b/>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="18"/>
+                            </w:rPr>
+                            <w:t>F</w:t>
+                        </w:r>
+                        <w:r w:rsidRPr="00654783">
+                            <w:rPr>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="18"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve">aciliter, </w:t>
+                        </w:r>
+                        <w:r w:rsidRPr="00654783">
+                            <w:rPr>
+                                <w:b/>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="18"/>
+                            </w:rPr>
+                            <w:t>A</w:t>
+                        </w:r>
+                        <w:r w:rsidRPr="00654783">
+                            <w:rPr>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="18"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve">ccompagner et </w:t>
+                        </w:r>
+                        <w:r w:rsidRPr="00654783">
+                            <w:rPr>
+                                <w:b/>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="18"/>
+                            </w:rPr>
+                            <w:t>I</w:t>
+                        </w:r>
+                        <w:r w:rsidRPr="00654783">
+                            <w:rPr>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="18"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve">nformer pour la </w:t>
+                        </w:r>
+                        <w:r w:rsidRPr="00654783">
+                            <w:rPr>
+                                <w:b/>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="18"/>
+                            </w:rPr>
+                            <w:t>R</w:t>
+                        </w:r>
+                        <w:r w:rsidRPr="00654783">
+                            <w:rPr>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="18"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve">énovation </w:t>
+                        </w:r>
+                        <w:r w:rsidRPr="00654783">
+                            <w:rPr>
+                                <w:b/>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="18"/>
+                            </w:rPr>
+                            <w:t>É</w:t>
+                        </w:r>
+                        <w:r w:rsidRPr="00654783">
+                            <w:rPr>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="18"/>
+                            </w:rPr>
+                            <w:t>nergétique </w:t>
+                        </w:r>
+                    </w:p>
+                    <w:p w14:paraId="71E9933B" w14:textId="534DFBB6" w:rsidR="000A743A" w:rsidRPr="00654783" w:rsidRDefault="007F14C0" w:rsidP="00B945D4">
+                        <w:pPr>
+                            <w:pStyle w:val="Sansinterligne"/>
+                            <w:tabs>
+                                <w:tab w:val="center" w:pos="3364"/>
+                            </w:tabs>
+                            <w:spacing w:before="60" w:after="60"/>
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="LiberationSans-Bold" w:cs="LiberationSans-Bold"/>
+                                <w:i/>
+                                <w:sz w:val="18"/>
+                                <w:szCs w:val="18"/>
+                                <w:u w:val="single"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:hyperlink r:id="rId15" w:history="1">
+                            <w:r w:rsidR="003B1C26" w:rsidRPr="00094E80">
+                                <w:rPr>
+                                    <w:rStyle w:val="Lienhypertexte"/>
+                                    <w:sz w:val="16"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t>https://www.faire.fr</w:t>
+                            </w:r>
+                        </w:hyperlink>
+                    </w:p>
+                </w:tc>
+            </w:tr>
+        </w:tbl>
+        <w:p w14:paraId="3B70B692" w14:textId="5A3FD0CE" w:rsidR="005B7889" w:rsidRDefault="005B7889" w:rsidP="009C1658">
+            <w:pPr>
+                <w:tabs>
+                    <w:tab w:val="left" w:pos="1312"/>
+                </w:tabs>
+                <w:ind w:right="-709"/>
+                <w:rPr>
+                    <w:sz w:val="2"/>
+                    <w:szCs w:val="20"/>
+                </w:rPr>
+            </w:pPr>
+        </w:p>
+        <w:sectPr w:rsidR="005B7889" w:rsidSect="00E82826">
+            <w:headerReference w:type="default" r:id="rId16"/>
+            <w:footerReference w:type="default" r:id="rId17"/>
+            <w:type w:val="continuous"/>
+            <w:pgSz w:w="11906" w:h="16838"/>
+            <w:pgMar w:top="1417" w:right="1417" w:bottom="426" w:left="1418" w:header="708" w:footer="57" w:gutter="0"/>
+            <w:cols w:space="708"/>
+            <w:docGrid w:linePitch="360"/>
+        </w:sectPr>
+    </w:body>
+</w:document>

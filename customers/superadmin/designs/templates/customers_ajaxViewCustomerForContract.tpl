@@ -1,0 +1,1 @@
+{include file="./blocks/customers_info.tpl"}

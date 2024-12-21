@@ -1,0 +1,1 @@
+ALTER TABLE `t_customers_meetings_comments` ADD `type` ENUM('SYSTEM','USER','') NOT NULL DEFAULT '' AFTER `comment`;

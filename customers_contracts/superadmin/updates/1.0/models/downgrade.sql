@@ -1,0 +1,1 @@
+ALTER TABLE `t_customers_contract` DROP `apf_at`;

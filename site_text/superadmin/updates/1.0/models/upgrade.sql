@@ -1,0 +1,2 @@
+ALTER TABLE `t_site_text` ADD `default_value` varchar(255) COLLATE utf8_bin DEFAULT '' AFTER `value`;
+ALTER TABLE `t_site_text` ADD `path` varchar(255) COLLATE utf8_bin DEFAULT '' AFTER `default_value`;

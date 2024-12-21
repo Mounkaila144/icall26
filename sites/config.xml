@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <title>sites</title>
+    <type>superadmin</type> 
+    <version>1.0</version>
+    <logo></logo>
+    <description>this module manages the sites.</description>
+    <author>F.Mallet</author>
+</module>

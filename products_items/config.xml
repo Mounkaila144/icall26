@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <title>products items</title>
+    <type>products</type> 
+    <version>1.0</version>
+    <logo>logo.png</logo>
+    <description>this module manage the products items.</description>
+    <author>F.Mallet</author>
+</module> 

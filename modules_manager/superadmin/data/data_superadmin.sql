@@ -1,0 +1,5 @@
+--
+-- Contenu de la table `t_modules_admin`
+--
+--INSERT INTO `t_modules_admin` (`id`, `name`, `logo`, `type`, `version`,`is_active`, `created_at`, `updated_at`) VALUES
+--(1, 'tests','logo.png','test','V1.2','YES','2013-02-19 20:10:41', '2013-02-20 23:16:25');

@@ -1,0 +1,1 @@
+ALTER TABLE `t_customers_meeting` ADD `in_at_range_id` INT(11) UNSIGNED NOT NULL  AFTER `in_at`;

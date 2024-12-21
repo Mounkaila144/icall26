@@ -1,0 +1,1 @@
+ALTER TABLE t_domoprime_billing_model_i18n  MODIFY COLUMN body mediumtext;

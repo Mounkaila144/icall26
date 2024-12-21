@@ -1,0 +1,33 @@
+http://www.ecma-international.org/publications/standards/Ecma-376.htm
+https://blogs.sap.com/2017/04/24/openxml-in-word-processing-custom-xml-part-mapping-flat-data/
+https://blog.formpl.us/how-to-generate-word-documents-from-templates-using-python-cb039ea2c890
+
+
+nodejs
+
+
+docx merge fields
+fill data docx
+docx fill form ubuntu
+docx merge form ubuntu
+form  docx merge ubuntu
+fill form  docx ubuntu
+merge form docx ubuntu
+merge form docx command line
+
+
+populate form docx command line
+xml data to docx
+inject data form docx
+
+extract field docx ubuntu
+process form docx
+
+extract form fields .docx
+
+inject fields data .docx
+
+populate .docx  ubuntu
+docx merger ubuntu
+
+Populating MS Word Templates with Python

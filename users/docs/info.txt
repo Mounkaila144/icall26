@@ -1,0 +1,18 @@
+- data object
+
+ -> data - object base
+    - conditions : - validator -> permission
+
+ -> fct theme
+     -> ajout champs 
+     -> suppression champs
+
+
+
+
+ -> data module => event
+        -> ajouter des data dans une position
+        
+
+    
+- liste

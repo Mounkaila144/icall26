@@ -1,0 +1,496 @@
+<style type="text/css">
+body {
+  /*font-family: arial;*/
+font-family:Microsoft Sans Serif;
+
+}
+.thTotal {
+    border-right: 1px solid #000;
+}
+.textCorners {
+    text-align: center;
+    vertical-align: middle;
+}
+.campanyInfo td {
+    font-size: 12px;
+}
+div {
+    font-size: 12px;
+}
+.alignementVerticalCenter{
+text-align: right;
+vertical-align: middle;
+}
+.tableDevis th {
+    background: #F0F0F0;
+}
+.tdCampanyInfo {
+    padding-left: 10px;
+}
+.marginLeftInfo{
+margin-left:10px;
+}
+.infoTable th {
+    background: #F0F0F0;
+}
+.logo{
+position:absolute;
+width:20%;
+}
+.infos{
+margin-left:400px;
+border:1px solid #000;
+border-radius: 5px;
+padding:10px;
+width:35%;
+}
+.tableDevis{
+border-collapse: collapse;
+/*margin-left:500px;*/
+/*position:relative;*/
+/*display:inline-block;*/
+/*margin-top:20px;*/
+/*float:left;*/
+}
+.tableDevis th,.tableDevis td {
+   border:1px solid #000;
+/*padding:5px 20px 5px 20px;*/
+padding:4px;
+text-align:center;
+/*width:120px;*/
+width:130px;
+height:8px;
+}
+.totalTable th,totalTable td{
+width:25%;
+}
+.totalTable {
+    border: 1px solid #000;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.totalTable th{
+    background: #F0F0F0;
+}
+.totalTable th,.totalTable th{
+    padding:5px;
+}
+/*.infoTable th,.infoTable td {
+   border:1px solid #000;
+padding:5px;
+text-align:center;
+}*/
+.tableTableau {
+    border-collapse: collapse;
+}
+.tableau{
+/*margin-left:-50px;*/
+margin-top: 5px;
+}
+.tableTableau th,.tableTableau td {
+   border:1px solid #000;
+padding: 3.5px;
+}
+.alignement{
+vertical-align:middle;
+text-align:center;
+}
+.firstTd{
+width:49%;
+}
+.resultat{
+border-left:none;
+}
+.textFooter{
+text-align:center;
+font-size:11px;
+}
+.headTableDevis td{
+/*padding-right:10px;*/
+vertical-align: top;
+}
+.headTableDevis{
+margin-left:68px;
+
+}
+.alignementRight{
+text-align:right;
+padding-right:4px;
+}
+.corners {
+margin-top:90px;
+position:absolute;
+right:0;
+margin-right:100px;
+width:39%;
+/*height:90px;*/
+  padding: 10px;
+}
+.topcorners, .bottomcorners {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+}
+.topcorners {
+  top: 0;
+  border-top: 1px solid;
+}
+.bottomcorners {
+  bottom: 0;
+  border-bottom: 1px solid;
+}
+.leftcorners {
+  left: 0;
+  border-left: 1px solid;
+}
+.rightcorners {
+  right: 0;
+  border-right: 1px solid;
+}
+.borderContent{
+border:1px solid #000;
+padding: 10px;
+margin-top:8px;
+
+}
+.logoo{
+margin-top:10px;
+
+}
+.divCarre{
+text-align:center;
+border:1px solid #000;
+width:10px;
+height:8px;
+display:inline;
+font-size:9px;
+text-transform: uppercase;
+}
+.point{
+position:absolute;
+}
+.parametre{
+position:absolute;
+top:-3px;
+margin-left:8px;
+text-transform: uppercase;
+}
+.reponse{
+position:relative;
+}
+</style>
+<page backleft="21px" backright="21px" backtop="10px">
+
+<div class="borderContent" style="height:925px;position:relative;">
+<div style="display:inline;width:480px;height:80px;position:absolute;margin-left:10px;"><img class="logoo"  style="width:480px;height:90px;" src="http://{$smarty.server.HTTP_HOST}/admin/web/pictures/cee1.png"/></div>
+
+<div style="display:inline;width:30%; position:absolute;margin-left:520px;margin-top:10px;">
+{if $polluter.logo != null}<img   class="logoo" style="width:180px;height:80px;" src="{$polluter.logo.url}" />{/if}</div>
+{*<div style="display:inline;width:30%; position:absolute;margin-left:520px;margin-top:10px;">
+{if $recipient.logo != null}<img   class="logoo" style="width:180px;height:80px;" src="{$recipient.logo.url}" />{/if}</div>*}
+<div style="margin-top:100px;">Le dispositif national des certificats d’économies d’énergie (CEE) mis en place par le Ministère de l’environnement,de l’énergie et de la mer impose à l’ensemble des fournisseurs d’énergie (électricité, gaz, fioul domestique, chaleur ou froid, carburants automobiles), de réaliser des économies et de promouvoir les comportements vertueux auprès des consommateurs d’énergie.</div>
+<div style="margin-top:5px">
+Dans le cadre de son partenariat avec <span style="font-weight:bold;">{if $polluter == null}BOLLORE ENERGY{else}{$polluter.commercial}{/if}</span>, la société <span style="font-weight:bold;">{if $recipient.name == null} VERTIGO{else} {$recipient.name}{/if}</span> s’engage à vous apporter une prime d’un
+montant de <b>15,30 € par m2 isolé</b>, soit un montant de  <b>{$products.top.prime} € </b>dans le cadre de votre projet d’isoler vos combles.</div>
+<div class="tableau">
+<table class="tableTableau " style="width:100%;align: center;">
+  <thead>
+    <tr>
+      <td class="alignement" style="width:29%;">Nature des travaux</td>
+      <td class="alignement" style="width:20%;">Fiche CEE</td>
+      <td class="alignement" style="width:50%;">Conditions à respecter</td>
+    </tr>
+  </thead>
+  <tbody>
+{*foreach $products as $product*} 
+<tr>
+  <td style="width:29%;">{*$product.product.meta_title*}Isolation des combles</td>
+  <td style="width:15%;">{*$product.product.reference*}BAR-EN-101</td>
+  <td style="width:29%;"><div style='text-align:center'>voir conditions sur le devis</div>www.ecologique-solidaire.gouv.fr/operations-standardisees</td>
+</tr>
+{*/foreach*}
+         </tbody>
+</table>
+</div>
+<div style="margin-top: 3px;">Voir conditions sur le devis : www.ecologique-solidaire.gouv.fr/operations-standardisees.</div>
+<span style="margin-top: 3px;">au bénéfice de :</span>
+<ul>  
+  <li style="padding-bottom:-30px;"><span>Nom: </span><span class="reponse"> <span class="parametre">{$customer.lastname}</span><span class="point">……………………………………………………………….</span></span></li>
+  <li style="padding-bottom:-30px;"><span>Prénom :</span><span class="reponse"> <span class="parametre">{$customer.firstname|upper}</span><span class="point"> ………………………………………………………………. </span></span></li>
+  <li  style="padding-bottom:-30px;"><span>Adresse :</span><span class="reponse"> <span class="parametre">{$customer.address.address1|upper}</span><span class="point"> ………………………………………………………………. </span></span></li>
+  <li  style="padding-bottom:-30px;"><span>Téléphone :</span><span class="reponse"> <span class="parametre">{$customer.phone|upper}</span><span class="point"> ………………………………………………………………. </span></span></li>
+  <li  style="padding-bottom:-36px;"><span>Adresse E-mail :</span><span class="reponse"> <span class="parametre">{$customer.email|upper}</span><span class="point"> ………………………………………………………………. </span></span> </li>
+</ul>
+<div>Date de cette proposition : {$quotation.dated_at.ddmmyyyy}</div>
+<div>Signature :</div>
+{if $recipient.contacts.0.lastname == null && $recipient.contacts.0.firstname == null}
+<div> {if $recipient.signature !=null}<img   class="logoo" style="width:13%;" src="{$recipient.signature.url}" />{/if}</div>
+{else}
+<div><b>{$recipient.contacts.0.lastname} {$recipient.contacts.0.firstname}</b><br>
+<b>{$recipient.contacts.0.function}</b> <span style="font-weight:bold;">{if $recipient.name == null} de VERTIGO{else} de {$recipient.name}{/if}</span></div>
+{/if}
+{*<div><span style="font-weight:bold;">Président de VERTIGO (SAS - SIREN 834 398 976)</span></div>*}
+<div style="margin-top:5px;">/!\ Attention, seules les propositions remises avant l’acceptation du devis ou du bon de commande sont valables, et vous ne pouvez pas cumuler plusieurs offres CEE différentes pour la même opération. </div>
+<div style="margin-top: 3px;">Cette offre est réservée aux ménages dont les revenus sont inférieurs aux plafonds de la grille ci-dessous :</div>
+<div class="tableau">
+<table border="1" class="tableTableau" style="width:100%;text-align: center;">
+  <tr>
+    <td class="alignement" style="width:33%;">Nombre de personnes<br> composant le ménage</td>
+    <td class="alignement" style="width:33%;">Plafonds de revenus du ménage en<br> Île-de- France (€)</td>
+    <td class="alignement" style="width:33%;">Plafonds de revenus du ménage pour<br> les autres régions (€)</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>24 107</td>
+    <td>18 342</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>35 382</td>
+    <td>26 826</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>42 495</td>
+    <td>32 260</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>49 620</td>
+    <td>37 690</td>
+  </tr>  
+  <tr>
+    <td>5</td>
+    <td>56 765</td>
+    <td>43 141</td>
+  </tr>
+  <tr>
+    <td>Par personne supplémentaire</td>
+    <td>+ 7 136</td>
+    <td>+ 5 434</td>
+  </tr>
+</table>
+</div>
+<div class="borderContent" style="height:90px;position:relative;background-color:#bfe4ff;margin-top:13px;margin-bottom: 35px;">
+<div style="margin-top:6px;width:80%;text-decoration: underline;">Où se renseigner pour bénéficier de cette offre ?</div>
+<div style="margin-top:6px;text-align:center;width:96%;">{if $company.web != null}{$company.web} {/if} https://www.direct-energie.com/particuliers/electricite- et-gaz/depannage- et-services/obtenir- une-prime- pour-les-certificats- d-economie- d-energie</div>
+<div style="margin-top:6px;width:80%;text-decoration: underline;">Où s’informer sur les aides pour les travaux d’économies d’énergie ?</div>
+<div style="margin-top:6px;text-align:center;width:80%;">Site du Ministère de l’environnement, de l’énergie et de la mer : </div>
+<div style="margin-top:6px;text-align:center;width:80%;">www.developpement-durable.gouv.fr/aides- financieres-renovation- energetique</div>
+<div style="margin-top:6px;text-align:center;width:80%;">Plateforme Rénovation info service : <img style="width:25%;"  src="http://{$smarty.server.HTTP_HOST}/admin/web/pictures/0808800700.png"/></div> 
+<img style="width:8%;position:absolute;margin-left:570px;margin-top:60px;" src="http://{$smarty.server.HTTP_HOST}/admin/web/pictures/ministere_ecologique1.png"/>
+</div>
+</div>
+<signature style="width:200px;height:85px;margin-top:5px;font-size:20px;margin:auto;margin-top:20px;text-align:center;" ></signature> 
+<page_footer>
+
+</page_footer>
+</page>
+
+
+<page>
+<img class="logo" src="{$company.picture.url}" />
+<div style="position:relative;">
+<table class="headTableDevis">
+<tr>
+<td>
+<div>
+<table class="tableDevis" >
+<thead>
+<tr >
+<th style="border-top-left-radius: 10px;border-top-right-radius: 10px;">Devis</th>
+
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;font-weight:bold;">{$quotation.reference}</td>
+
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+<td>
+<div>
+<table class="tableDevis">
+<thead>
+<tr>
+<th style="border-top-left-radius: 10px;border-top-right-radius: 10px;">Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;font-weight:bold;">{$quotation.dated_at.ddmmyyyy}</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+<td>
+<div style="margin-top:0px;">
+<table class="tableDevis" >
+<thead>
+<tr>
+<th style="border-top-left-radius: 10px;border-top-right-radius: 10px;">Client</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;font-weight:bold;">{$customer.lastname|upper}-{$customer.address.postcode|upper}</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="corners" >
+  <div class="topcorners leftcorners"></div>
+  <div class="topcorners rightcorners"></div>
+  <div class="bottomcorners rightcorners"></div>
+  <div class="bottomcorners leftcorners"></div>
+ <div class="textCorners" style="font-weight: bold;">  {$customer.lastname|upper} {$customer.firstname|upper}</div>
+<div class="textCorners" style="font-weight: bold;margin-top: 8px;">{$customer.address.address1|upper}</div>
+<div class="textCorners" style="font-weight: bold;margin-top: 8px;">{$customer.address.postcode|upper}  {$customer.address.city|upper}</div>
+</div>
+
+<div style="margin-top: 20px;font-weight:bold;">{$company.name}</div>
+{*<div style="margin-top: 5px;font-weight:bold;">{$company.address1|upper} </div>*}
+<div style="margin-top: 5px;font-weight:bold;">{$company.address1}</div>
+<div style="margin-top: 5px;font-weight:bold;">{$company.city}, {$company.postcode}</div>
+<table class="campanyInfo">
+<tr>
+<td>Tél</td>
+<td class="tdCampanyInfo"><span>:</span><span class="marginLeftInfo">{$company.phone}</span></td>
+</tr>
+<tr>
+<td>R.C.S</td>
+<td class="tdCampanyInfo"><span>:</span><span class="marginLeftInfo">{$company.rcs}</span></td>
+</tr>
+<tr>
+<td>SIRET</td>
+<td class="tdCampanyInfo"><span>:</span><span class="marginLeftInfo">{$company.siret}</span></td>
+</tr>
+<tr>
+<td>Tva Intra</td>
+<td class="tdCampanyInfo"><span>:</span><span class="marginLeftInfo">{$company.tva}</span></td>
+</tr>
+<tr>
+<td>N° RGE</td>
+<td class="tdCampanyInfo"><span>:</span><span class="marginLeftInfo">{$company.rge}</span></td>
+</tr>
+
+</table>
+<div style="margin-top:5px;">Suite a la pré-visite du: {$contract.pre_meeting_at.ddmmyyyy} à {$contract.pre_meeting_at.time} veuillez trouver ci-joint votre devis</div>
+<div class="tableau">
+<table class="tableTableau infoTable" style="width:100%;align: center;">
+  <thead>
+    <tr>
+                        <th class="alignement" style="border-top-left-radius: 10px;">Référence</th>
+      <th class="alignement">Désignation</th>
+      <th class="alignement" style="width:12%;">Quantité</th>
+      {*<th class="alignement" style="width:12%;">Unité</th>*}
+      <th class="alignement" style="width:12%;">P.U. HT</th>
+      <th class="alignement" style="width:12%;border-top-right-radius: 10px;">Montant HT</th>
+    </tr>
+  </thead>
+  <tbody>
+{foreach $products as $product name=test} 
+
+{foreach $product.items as $items} 
+       <tr>
+      <td class="" style="width:12%;" {*if $smarty.foreach.test.last}style="border-bottom-left-radius: 10px;"{/if*}>{$items.item.input1}</td>
+      <td class="firstTd">              
+      <div class="divTable">{$items.item.description}</div>
+      </td>
+      <td class="alignementVerticalCenter">{*40*}{$items.quantity} m²</td>
+      <td class="alignementVerticalCenter">{$items.sale_price_without_tax}</td>
+      <td class="alignementVerticalCenter" {*if $smarty.foreach.test.last}style="border-bottom-right-radius: 10px;"{/if*}>{$items.total_sale_price_without_tax}</td>
+    </tr>
+
+{/foreach}
+
+{/foreach}
+<tr>
+<td class="" style="border-bottom-left-radius: 10px;">CEE.DE</td>
+<td class="firstTd" style="font-size:10.5px;">En acceptant le présent devis, j’atteste sur l’honneur avoir reçu du professionnel partenaire de <span style="font-weight:bold;">{if $polluter == null}BOLLORE ENERGY{else}{$polluter.commercial}{/if}</span>, les conseils adaptés à mes besoins d’économies d’énergie et délègue l’exclusivité de l’obtention des certificats d’économies d’énergie à <span style="font-weight:bold;">{if $polluter == null}BOLLORE ENERGY{else}{$polluter.commercial}{/if}</span> en contrepartie d’une Prime incitative dont le montant est indiqué sur ce devis et avoir reçu le document Cadre de Contribution signé par le professionnel partenaire de <span style="font-weight:bold;">{if $polluter == null}BOLLORE ENERGY{else}{$polluter.commercial}{/if}</span>, les travaux ou prestations objet du présent document donneront lieu à une contribution financière de <span style="font-weight:bold;">{if $polluter == null}BOLLORE ENERGY{else}{$polluter.commercial}{/if}</span> dans le cadre de son rôle incitatif, directement ou via son (ses) mandataire(s), sous réserve de l’engagement de fournir exclusivement à <b>{if $polluter == null}BOLLORE ENERGY{else}{$polluter.commercial}{/if}</b> les documents nécessaires à la valorisation des opérations au titre du dispositif des Certificats d’Economies d’Energie et sous réserve de la validation de l’éligibilité du dossier par <b>{if $polluter == null}BOLLORE ENERGY{else}{$polluter.commercial}{/if}</b> puis par l’autorité administrative compétente. <br><span style="font-weight:bold;margin-top:8px;font-size:10px;">Cette offre comprend la prime versée par <b>{if $polluter == null}BOLLORE ENERGY{else}{$polluter.commercial}{/if}</b> au titre du dispositif des Certificats d'Economies d'Energie d'un montant de: {$quotation.prime}</span></td>
+<td class="alignementRight"></td>
+<td class="alignementRight"></td>
+<td class="alignementRight" style="border-bottom-right-radius: 10px;"></td>
+</tr>
+  </tbody>
+</table>
+</div>
+<div style="margin-top:3px;">
+<table  style="width:51%;">
+<tr>
+<td >
+{*
+<table class="tableTableau infoTable totalTable">
+<thead>
+<tr>
+<th class="alignement" style="border-top-left-radius: 10px;width:12%;">Code</th>
+<th class="alignement" style="width:34%;">Base HT</th>
+<th class="alignement" >Taux TVA</th>
+<th class="alignement" style="border-top-right-radius: 10px;width:34%;">Montant TVA</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alignement" style="border-bottom-left-radius: 10px;">2</td>
+<td class="alignementRight">{$quotation.total_sale_without_tax}</td>
+<td class="alignementRight">5.50</td>
+<td class="alignementRight" style="border-bottom-right-radius: 10px;">{$quotation.total_tax}</td>
+</tr>
+</tbody>
+</table>
+*}
+<div style="width:400px;">
+<div style="width:98%;height:100px;border:1px solid #000;border-radius:6px;">
+<div style="margin-left:10px;"><div style="margin-top:9px;">Fait le:  .........../......../...............  à: ........................................</div>
+<div style="margin-top:3px;font-style:italic;font-size:10px;">(Mention obligatoire "Bon pour accord")</div>
+</div>
+<signature style="width:200px;height:85px;margin-top:5px;font-size:20px;margin:auto;margin-top:20px;text-align:center;"  name="signature"> </signature>
+</div>
+</div>
+</td>
+<td>
+
+<table class="totalTable" style="width:100%;margin-left:59px;" cellspacing="0">
+  <tr>
+    <th class="thTotal" style="width:38%;border-top-left-radius: 10px;font-weight: normal !important;" >Total HT</th>
+    <td class="alignementRight" style="width:38%;border-top-right-radius: 10px;">{$quotation.total_sale_without_tax}</td>
+  </tr>
+  <tr>
+    <th class="thTotal" style="width:38%;">Taux TVA</th>
+    <td class="alignementRight" style="width:38%;border-bottom:1px solid #000;font-weight:bold;">{*$quotation.total_sale_without_tax*}5.50%</td>
+  </tr>
+  <tr>
+    <th class="thTotal" style="width:38%;font-weight: normal !important;">Total TVA</th>
+    <td class="alignementRight" style="width:38%;">{$quotation.total_tax}</td>
+  </tr>
+<tr>
+    <th class="thTotal" style="width:38%;font-weight: normal !important;">Total TTC</th>
+    <td class="alignementRight" style="width:38%;">{$quotation.total_sale_with_tax}</td>
+  </tr>
+<tr>
+    <th class="thTotal" style="width:38%;font-weight: normal !important;">Prime C.E.E.</th>
+    <td class="alignementRight" style="width:38%;">{$quotation.prime}</td>
+  </tr>
+<tr>
+    <th class="thTotal" colspan="2" style="border-top:2px solid #000;height:5px !important;line-height:2px;padding:0px;position:relative;"><span style="margin:4px;">NET A PAYER en euros  </span><span style="margin-top:5px;margin-left:102px;">{$restincharge} €</span></th>
+ 
+  </tr>
+</table>
+
+</td>
+</tr>
+</table>
+</div>
+<page_footer>
+{*<div style=""><img style="width:90%;margin-left:30px;"  src="{$company.footer.url}" /></div>*}
+<div style="text-align:center;font-size:10px;margin-top:3px;">SARL AU CAPITAL DE 30 100 € - N° SIRET {$company.siret}</div>
+</page_footer>
+</page>

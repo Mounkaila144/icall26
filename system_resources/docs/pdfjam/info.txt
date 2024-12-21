@@ -1,0 +1,9 @@
+https://github.com/DavidFirth/pdfjam
+
+apt-get install -y pdfjam
+
+pdfjam --paper 'a4paper' --scale 0.3 --offset '0cm -7cm' 1.pdf
+
+pdfjam origin.pdf  --paper 'a4paper' --trim '1cm 2cm 1cm 2cm' --clip true | pdfnup --frame true --outfile 1.pdf
+
+gs -o o.pdf -sDEVICE=pdfwrite -c "<< /PageOffset [216 504] >> setpagedevice" -f origin.pdf

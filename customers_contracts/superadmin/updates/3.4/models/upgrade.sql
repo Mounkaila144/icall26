@@ -1,0 +1,1 @@
+ALTER TABLE `t_customers_contract` ADD `created_by_id` int(11) UNSIGNED NOT NULL DEFAULT 0 AFTER `advance_payment`;

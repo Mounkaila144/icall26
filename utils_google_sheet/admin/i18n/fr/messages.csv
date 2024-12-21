@@ -1,0 +1,24 @@
+"Connect to Google";"Connexion à Google";
+"cancel";"Annuler";
+"view";"Voir";
+"Save";"Enregistrer";
+"File";"Fichier";
+"Redirect Url";"Lien de Redirection";
+"logout";"Déconnexion";
+"delete";"supprimer";
+"Secret file will be deleted. Confirm ?";"Le fichier secret.json sera supprimé. Confirmer ?";
+"Google connexion will be logout. Confirm ?";"Vous serez déconnecté de Google. Confirmer ?";
+"Close";"Fermer";
+"Secret File Content";"Contenu du secret.json";
+"upload";"charger";
+"add secret.json file";"ajouter le fichier secret.json";
+"Access Token";"Token d'accès";
+"Refresh Token";"Token de rafraîchissement";
+"Setting_Google_Sheet";"Configuration google sheets";
+"Missing token parameters."; "Paramètres de jeton manquants.";
+"Error during code exchange: ..."; "Erreur lors de l'échange du code : ...";
+"Error: No 'code' parameter in the request."; "Erreur : Aucun paramètre 'code' dans la requête.";
+"Error: "; "Erreur : ";
+"Setting Google Sheet";"Configuration google sheets";
+
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <title>ckeditor editor</title>
+    <type>editors</type> 
+    <version>1.0</version>
+    <logo></logo>
+    <description>this module manage ckeditor editor</description>
+    <author>F.Mallet</author>  
+</module>

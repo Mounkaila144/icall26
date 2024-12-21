@@ -1,0 +1,1 @@
+ALTER TABLE `t_customers_meeting` CHANGE `lock_time` `lock_time` DATETIME NULL DEFAULT NULL;

@@ -1,0 +1,2 @@
+ALTER TABLE `t_marketing_leads_wp_forms` ADD `duplicate_wpf` enum('YES','NO')  NOT NULL DEFAULT 'NO' AFTER `state`;
+ALTER TABLE `t_marketing_leads_wp_forms` ADD `zone` varchar(64) NULL DEFAULT NULL AFTER `duplicate_wpf`;

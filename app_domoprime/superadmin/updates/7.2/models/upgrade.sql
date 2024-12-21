@@ -1,0 +1,1 @@
+ALTER TABLE `t_domoprime_billing` ADD `subvention_type_id`  int(11) unsigned NULL DEFAULT NULL AFTER `work_id`;

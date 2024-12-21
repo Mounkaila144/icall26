@@ -1,0 +1,1 @@
+ALTER TABLE `t_domoprime_calculation` ADD `budget` decimal(10,3) NULL DEFAULT NULL AFTER `prime`;

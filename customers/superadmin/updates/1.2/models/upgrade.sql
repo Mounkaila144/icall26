@@ -1,0 +1,1 @@
+ALTER TABLE `t_customers` ADD `company` varchar(255) COLLATE utf8_bin NOT NULL DEFAULT '' AFTER `id`;

@@ -1,0 +1,2 @@
+ALTER TABLE `t_customers_meeting` ADD `callback_cancel_at` timestamp NULL DEFAULT NULL AFTER `out_at`;
+ALTER TABLE `t_customers_meeting` ADD `is_callback_cancelled` enum('YES','NO')  NOT NULL DEFAULT 'NO' AFTER `out_at`;

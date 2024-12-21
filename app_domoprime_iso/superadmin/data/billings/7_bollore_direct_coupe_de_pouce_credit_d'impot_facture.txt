@@ -1,0 +1,385 @@
+<style type="text/css">
+body {
+  /*font-family: arial;*/
+font-family:Microsoft Sans Serif;
+
+}
+.thTotal {
+    border-right: 1px solid #000;
+}
+.textCorners {
+    text-align: center;
+    vertical-align: middle;
+}
+.campanyInfo td {
+    font-size: 12px;
+}
+div {
+    font-size: 12px;
+}
+.alignementVerticalCenter{
+text-align: right;
+vertical-align: middle;
+}
+.tableDevis th {
+    background: #F0F0F0;
+}
+.tdCampanyInfo {
+    padding-left: 10px;
+}
+.marginLeftInfo{
+margin-left:10px;
+}
+.infoTable th {
+    background: #F0F0F0;
+}
+.logo{
+position:absolute;
+width:20%;
+}
+.infos{
+margin-left:400px;
+border:1px solid #000;
+border-radius: 5px;
+padding:10px;
+width:35%;
+}
+.tableDevis{
+border-collapse: collapse;
+/*margin-left:500px;*/
+/*position:relative;*/
+/*display:inline-block;*/
+/*margin-top:20px;*/
+/*float:left;*/
+}
+.tableDevis th,.tableDevis td {
+   border:1px solid #000;
+/*padding:5px 20px 5px 20px;*/
+padding:4px;
+text-align:center;
+/*width:120px;*/
+width:130px;
+height:8px;
+}
+.totalTable th,totalTable td{
+width:25%;
+}
+.totalTable {
+    border: 1px solid #000;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.totalTable th{
+    background: #F0F0F0;
+}
+.totalTable th,.totalTable th{
+    padding:5px;
+}
+/*.infoTable th,.infoTable td {
+   border:1px solid #000;
+padding:5px;
+text-align:center;
+}*/
+.tableTableau {
+    border-collapse: collapse;
+}
+.tableau{
+/*margin-left:-50px;*/
+margin-top: 15px;
+}
+.tableTableau th,.tableTableau td {
+   border:1px solid #000;
+padding: 3.5px;
+}
+.alignement{
+vertical-align:middle;
+text-align:center;
+}
+.firstTd{
+width:49%;
+}
+.resultat{
+border-left:none;
+}
+.textFooter{
+text-align:center;
+font-size:11px;
+}
+.headTableDevis td{
+/*padding-right:10px;*/
+vertical-align: top;
+}
+.headTableDevis{
+margin-left:68px;
+
+}
+.alignementRight{
+text-align:right;
+padding-right:4px;
+}
+.corners {
+margin-top:90px;
+position:absolute;
+right:0;
+margin-right:100px;
+width:39%;
+/*height:90px;*/
+  padding: 10px;
+}
+.topcorners, .bottomcorners {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+}
+.topcorners {
+  top: 0;
+  border-top: 1px solid;
+}
+.bottomcorners {
+  bottom: 0;
+  border-bottom: 1px solid;
+}
+.leftcorners {
+  left: 0;
+  border-left: 1px solid;
+}
+.rightcorners {
+  right: 0;
+  border-right: 1px solid;
+}
+</style>
+<page>
+
+<img class="logo" src="{$company.picture.url}" />
+<div style="position:relative;">
+<table class="headTableDevis">
+<tr>
+<td>
+<div>
+<table class="tableDevis" >
+<thead>
+<tr >
+<th style="border-top-left-radius: 10px;border-top-right-radius: 10px;">Facture</th>
+
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;font-weight:bold;">{$billing.reference}</td>
+
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+<td>
+<div>
+<table class="tableDevis">
+<thead>
+<tr>
+<th style="border-top-left-radius: 10px;border-top-right-radius: 10px;">Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;font-weight:bold;">{$billing.dated_at.ddmmyyyy}</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+<td>
+<div style="margin-top:0px;">
+<table class="tableDevis" >
+<thead>
+<tr>
+<th style="border-top-left-radius: 10px;border-top-right-radius: 10px;">Client</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;font-weight:bold;">{$billing.customer.lastname|upper}-{$billing.customer.address.postcode|upper}</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="corners" >
+  <div class="topcorners leftcorners"></div>
+  <div class="topcorners rightcorners"></div>
+  <div class="bottomcorners rightcorners"></div>
+  <div class="bottomcorners leftcorners"></div>
+ <div class="textCorners" style="font-weight: bold;">  {$billing.customer.lastname|upper} {$billing.customer.firstname|upper}</div>
+<div class="textCorners" style="font-weight: bold;margin-top: 8px;">{$billing.customer.address.address1|upper}</div>
+<div class="textCorners" style="font-weight: bold;margin-top: 8px;">{$billing.customer.address.postcode|upper}  {$billing.customer.address.city|upper}</div>
+</div>
+
+<div style="margin-top: 20px;font-weight:bold;">{$company.name}</div>
+{*<div style="margin-top: 5px;font-weight:bold;">{$company.address1|upper} </div>*}
+<div style="margin-top: 5px;font-weight:bold;">{$company.address1}</div>
+<div style="margin-top: 5px;font-weight:bold;">{$company.city}, {$company.postcode}</div>
+<table class="campanyInfo">
+<tr>
+<td>Tél</td>
+<td class="tdCampanyInfo"><span>:</span><span class="marginLeftInfo">{$company.phone}</span></td>
+</tr>
+<tr>
+<td>R.C.S</td>
+<td class="tdCampanyInfo"><span>:</span><span class="marginLeftInfo">{$company.rcs}</span></td>
+</tr>
+<tr>
+<td>SIRET</td>
+<td class="tdCampanyInfo"><span>:</span><span class="marginLeftInfo">{$company.siret}</span></td>
+</tr>
+<tr>
+<td>Tva Intra</td>
+<td class="tdCampanyInfo"><span>:</span><span class="marginLeftInfo">{$company.tva}</span></td>
+</tr>
+<tr>
+<td>N° RGE</td>
+<td class="tdCampanyInfo"><span>:</span><span class="marginLeftInfo">{$company.rge}</span></td>
+</tr>
+
+</table>
+{*<div style="margin-top: 40px;">Nous avons le plaisir de vous adresser votre<span style="font-weight: bold;"> devis d'isolation.</span> Seul le montant présenté ci-dessous restera à votre charge.</div>*}
+
+<div class="tableau">
+<table class="tableTableau infoTable" style="width:100%;align: center;">
+  <thead>
+    <tr>
+                        <th class="alignement" style="border-top-left-radius: 10px;">Référence</th>
+      <th class="alignement">Désignation</th>
+      <th class="alignement" style="width:12%;">Quantité</th>
+      {*<th class="alignement" style="width:12%;">Unité</th>*}
+      <th class="alignement" style="width:12%;">P.U. HT</th>
+      <th class="alignement" style="width:12%;border-top-right-radius: 10px;">Montant HT</th>
+    </tr>
+  </thead>
+  <tbody>
+{foreach $billing.products as $product name=test} 
+
+{foreach $product.items as $items} 
+       <tr>
+      <td class="" style="width:12%;" {*if $smarty.foreach.test.last}style="border-bottom-left-radius: 10px;"{/if*}>{$items.item.input1}</td>
+      <td class="firstTd">              
+      <div class="divTable">{$items.item.description}</div>
+      </td>
+      <td class="alignementVerticalCenter">{*40*}{$items.quantity} m²</td>
+      <td class="alignementVerticalCenter">{$items.sale_price_without_tax}</td>
+      <td class="alignementVerticalCenter" {*if $smarty.foreach.test.last}style="border-bottom-right-radius: 10px;"{/if*}>{$items.total_sale_price_without_tax}</td>
+    </tr>
+
+{/foreach}
+
+{/foreach}
+<tr>
+<td class="">CEE.DE</td>
+{*<td class="firstTd">Les travaux ou prestations objet du présent document donneront lieu à une contribution financière de <span style="font-weight:bold;">{if $billing.polluter == null}BOLLORE ENERGY{else}{$billing.polluter.commercial}{/if}</span> dans le cadre de son rôle incitatif, directement ou via son (ses) mandataire(s), sous réserve de l’engagement de fournir exclusivement à {if $billing.polluter == null}BOLLORE ENERGY{else}{$billing.polluter.commercial}{/if} les documents nécessaires à la valorisation des opérations au titre du dispositif des Certificats d’Economies d’Energie et sous réserve de la validation de l’éligibilité du dossier par {if $billing.polluter == null}BOLLORE ENERGY{else}{$billing.polluter.commercial}{/if} puis par l’autorité administrative compétente. <br><span style="font-weight:bold;margin-top:8px;">Cette offre comprend la prime versée par {if $billing.polluter == null}BOLLORE ENERGY{else}{$billing.polluter.commercial}{/if} au titre du dispositif des Certificats d'Economies d'Energie d'un montant de: {$billing.prime}</span></td>*}
+<td class="firstTd"  style="font-size:9px;">
+Les travaux ou prestations objet du présent document donneront lieu à une contribution financière de <span style="font-weight:bold;">{if $polluter == null}Direct énergie{else}{$polluter.commercial}{/if}</span>, versée par <span style="font-weight:bold;">{if $polluter == null}Direct énergie{else}{$polluter.commercial}{/if}</span> dans le cadre de son rôle incitatif sous forme de prime, directement ou via son (ses) mandataire(s), sous réserve de l’engagement de fournir exclusivement à <span style="font-weight:bold;">{if $polluter == null}Direct énergie{else}{$polluter.commercial}{/if}</span> les documents nécessaires à la valorisation des opérations au titre du dispositif des Certificats d’Economies d’Energie et sous réserve de la validation de l’éligibilité du dossier par <span style="font-weight:bold;">{if $polluter == null}Direct énergie{else}{$polluter.commercial}{/if}</span> puis par l’autorité administrative compétente.
+<br><span style="font-weight:bold;margin-top:5px;font-size:10px;text-align: justify;"> Le montant de cette contribution financière, hors champ d’application de la TVA,est susceptible de varier en fonction des travaux effectivement réalisés et du volume des CEE attribués à l’opération et est estimé à:   {$billing.prime}</span>
+</td>
+<td class="alignementRight"></td>
+<td class="alignementRight"></td>
+<td class="alignementRight" ></td>
+</tr>
+<tr >
+<td class="" style="border-bottom-left-radius: 10px;"></td>
+<td class="firstTd" style="padding-bottom:20px;">
+<span>Date de la pré-visite le : {$billing.contract.pre_meeting_at.ddmmyyyy} {if $billing.contract.pre_meeting_at.time} à {$billing.contract.pre_meeting_at.time} {/if}</span><br>
+<span>Date d'installation : {$billing.contract.opc_at.ddmmyyyy} </span>
+<br><span >Adresse d'installation identique à celle de facturation</span></td>
+<td class="alignementRight"></td>
+<td class="alignementRight"></td>
+<td class="alignementRight" style="border-bottom-right-radius: 10px;"></td>
+</tr>
+  </tbody>
+</table>
+</div>
+<div style="margin-top:10px;">
+<table  style="width:51%;">
+<tr>
+<td >
+{*
+<table class="tableTableau infoTable totalTable">
+<thead>
+<tr>
+<th class="alignement" style="border-top-left-radius: 10px;width:12%;">Code</th>
+<th class="alignement" style="width:34%;">Base HT</th>
+<th class="alignement" >Taux TVA</th>
+<th class="alignement" style="border-top-right-radius: 10px;width:34%;">Montant TVA</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alignement" style="border-bottom-left-radius: 10px;">2</td>
+<td class="alignementRight">{$billing.total_sale_without_tax}</td>
+<td class="alignementRight">5.50</td>
+<td class="alignementRight" style="border-bottom-right-radius: 10px;">{$billing.total_tax}</td>
+</tr>
+</tbody>
+</table>
+*}
+<div style="width:400px;">
+<div style="width:98%;height:100px;{*border:1px solid #000;border-radius:6px;*}">
+<span style="margin-top:20px;">{*Fait le:*} </span>
+<signature style="width:200px;height:85px;margin-top:5px;font-size:20px;margin:auto;margin-top:20px;text-align:center;"  name="signature"> </signature>
+</div>
+</div>
+</td>
+<td>
+
+<table class="totalTable" style="width:100%;margin-left:59px;" cellspacing="0">
+  <tr>
+    <th class="thTotal" style="width:38%;border-top-left-radius: 10px;font-weight: normal !important;" >Total HT</th>
+    <td class="alignementRight" style="width:38%;border-top-right-radius: 10px;">{$billing.total_sale_without_tax}</td>
+  </tr>
+  <tr>
+    <th class="thTotal" style="width:38%;">Taux TVA</th>
+    <td class="alignementRight" style="width:38%;border-bottom:1px solid #000;font-weight:bold;">{*$billing.total_sale_without_tax*}5.50%</td>
+  </tr>
+  <tr>
+    <th class="thTotal" style="width:38%;font-weight: normal !important;">Total TVA</th>
+    <td class="alignementRight" style="width:38%;">{$billing.total_tax}</td>
+  </tr>
+<tr>
+    <th class="thTotal" style="width:38%;font-weight: normal !important;">Total TTC</th>
+    <td class="alignementRight" style="width:38%;">{$billing.total_sale_with_tax}</td>
+  </tr>
+<tr>
+    <th class="thTotal" style="width:38%;font-weight: normal !important;">Prime C.E.E.</th>
+    <td class="alignementRight" style="width:38%;">{$billing.prime}</td>
+  </tr>
+<tr>
+    <th class="thTotal" colspan="2" style="border-top:2px solid #000;height:5px !important;line-height:2px;padding:0px;position:relative;"><span style="margin:4px;">NET A PAYER en euros  </span><span style="margin-top:5px;margin-left:102px;">{$billing.restincharge} €</span></th>
+ 
+  </tr>
+</table>
+
+</td>
+</tr>
+</table>
+</div>
+
+<page_footer>
+<div style=""><img style="width:90%;margin-left:30px;height:80px;"  src="{$company.footer.url}" /></div>
+</page_footer>
+
+{*<page_footer>
+<table>
+<tr>
+<td><div style="margin-top:10px;margin-left:8px;font-size:9px;">Remarque : </div></td>
+<td><div style="margin-top:10px;margin-left:210px;font-size:10px;">Facture payable le {$billing.contract.payment_at.ddmmyyyy} pour la somme de 1,00 Euro.</div></td>
+</tr>
+</table>
+<div style="margin-top:10px;margin-left:10px;font-size:9px;">
+<div style="font-size:9px;">Pénalités de retard (taux annuel) : 10,00% - Escompte pour paiement anticipé (taux mensuel) : 1,50%</div>
+<div style="font-size:9px;">Indemnité forfaitaire pour frais de recouvrement en cas de retard de paiement : 40,00 €</div>
+<div style="margin-top:6px;font-size:9px;"><span style="font-weight:bold;">RESERVE DE PROPRIETE :</span><span>Nous nous réservons la propriété des marchandises jusqu'au paiement du prix par l'acheteur. Notre droit de revendication porte aussi bien sur les marchandises que sur leur prix si elles
+ont déjà été revendues (Loi du 12 mai 1980).</span></div>
+</div>
+</page_footer>*}
+</page>

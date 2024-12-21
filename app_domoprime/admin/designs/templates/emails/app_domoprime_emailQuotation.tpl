@@ -1,0 +1,1 @@
+{eval $model->get('body')}

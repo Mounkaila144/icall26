@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<models>
+    <model>
+        <id>592</id>
+        <name>pac</name>
+        <extension>pdf</extension>
+        <created_at>2020-03-19 00:07:18</created_at>
+        <updated_at>2020-03-19 00:07:18</updated_at>
+        <i18n>
+            <id>592</id>
+            <value>pac</value>
+            <comments></comments>
+            <file>model.pdf</file>
+            <initiator_signature></initiator_signature>
+            <signature></signature>
+            <variables></variables>
+            <lang>fr</lang>
+            <content></content>
+            <created_at>2020-03-19 00:07:18</created_at>
+            <updated_at>2020-03-19 00:07:18</updated_at>
+        </i18n>
+    </model>
+</models>

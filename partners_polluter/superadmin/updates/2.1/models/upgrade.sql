@@ -1,0 +1,1 @@
+ALTER TABLE `t_domoprime_polluter_class` ADD `prime` decimal(20,6) NOT NULL DEFAULT '0.000000' AFTER `multiple_wall`;

@@ -1,0 +1,2 @@
+ALTER TABLE `t_site_services_server` ADD `is_processed` ENUM('NO','YES') NOT NULL DEFAULT 'NO' AFTER `is_active`;
+ALTER TABLE `t_site_services_server` ADD `is_inprogress` ENUM('NO','YES') NOT NULL DEFAULT 'NO' AFTER `is_processed`;

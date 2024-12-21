@@ -1,0 +1,1 @@
+ALTER TABLE `t_customers_meeting` ADD `type_id` int(11) unsigned NOT NULL AFTER `state_id`;

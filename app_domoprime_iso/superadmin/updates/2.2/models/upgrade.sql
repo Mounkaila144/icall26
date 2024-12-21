@@ -1,0 +1,2 @@
+ALTER TABLE `t_domoprime_iso_customer_request` ADD  `pack_quantity` decimal(20,6) NOT NULL DEFAULT '0.000000' AFTER `packboiler_quantity`;
+ALTER TABLE `t_domoprime_iso_customer_request` ADD  `boiler_quantity` decimal(20,6) NOT NULL DEFAULT '0.000000' AFTER `pack_quantity`;

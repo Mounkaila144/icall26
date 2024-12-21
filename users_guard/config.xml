@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <title>user guard</title>
+    <type>core</type> 
+    <version>1.0</version>
+    <logo>logo.png</logo>
+    <description>this module manages the user group,permissions.</description>
+    <author>F.Mallet</author>
+    <dependencies>
+        <module>users</module>
+    </dependencies>
+</module>

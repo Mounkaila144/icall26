@@ -1,0 +1,1 @@
+ALTER TABLE `t_system_menu`  ADD `type` enum('SYSTEM','USER') COLLATE utf8_bin NOT NULL DEFAULT 'SYSTEM'  AFTER `status`;  

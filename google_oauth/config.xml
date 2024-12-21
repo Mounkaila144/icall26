@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <title>google_oauth</title>
+    <type>google</type> 
+    <version>1.0</version>
+    <logo>logo.png</logo>
+    <description>this module manage the google oauth actions.</description>
+    <author>E.Oumaima</author>
+</module>

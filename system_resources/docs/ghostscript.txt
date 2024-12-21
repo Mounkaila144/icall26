@@ -1,0 +1,5 @@
+apt-get install ghostscript
+
+sudo dpkg -i /path-to-downloadedpackage.deb
+
+http://security.debian.org/pool/updates/main/g/ghostscript/ghostscript-doc_9.20~dfsg-3.2+deb9u1_all.deb

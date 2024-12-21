@@ -1,0 +1,2 @@
+ALTER TABLE `t_partner_polluter_company` ADD `signature` varchar(255) COLLATE utf8_bin NOT NULL AFTER `logo`;
+ALTER TABLE `t_partner_polluter_company` ADD `footer` varchar(512) COLLATE utf8_bin NOT NULL AFTER `logo`;

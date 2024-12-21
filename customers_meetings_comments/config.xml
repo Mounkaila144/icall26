@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <title>customers comments for meeting</title>
+    <type>meeting</type> 
+    <version>1.0</version>
+    <logo>logo.png</logo>
+    <description>this module manage the customer documents.</description>
+    <author>F.Mallet</author>
+     <dependencies>
+        <module>customers</module>   
+        <module>customers_meetings</module>       
+    </dependencies>
+</module>

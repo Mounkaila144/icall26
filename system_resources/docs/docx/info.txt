@@ -1,0 +1,29 @@
+https://uhp.digital/en/how-to-edit-word-document-templates-with-php-and-convert-it-to-pdf/
+https://askubuntu.com/questions/396825/convert-docx-to-pdf
+https://stackoverflow.com/questions/21203626/is-there-any-gnu-linux-command-line-utility-that-converts-docx-files-to-pdf
+https://vitux.com/convert-documents-to-pdf-on-the-debian-command-line/
+https://blog.mypapit.net/2018/01/convert-microsoft-office-docx-files-pdf-using-linux-command-line.html
+
+https://www.liquidweb.com/kb/installing-libreoffice-on-ubuntu-16-04/
+
+lowriter
+libreoffice
+
+sudo add-apt-repository ppa:libreoffice/ppa
+sudo apt update
+sudo apt install libreoffice
+
+
+
+libreoffice --headless --convert-to pdf test.docx --outdir  /pdf
+
+libreoffice --convert-to pdf test.docx 
+
+apt-get install unoconv
+
+
+
+unoconv -d document --format=odt document.docx
+
+
+unoconv -f pdf test.docx

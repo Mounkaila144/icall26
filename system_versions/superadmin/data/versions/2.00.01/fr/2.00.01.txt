@@ -1,0 +1,8 @@
+tools_permissions|Outil permission:champs path  ajouté
+tools_permissions|Outil permission:champs theme ajouté
+customers_meetings_imports|Exportation des RDVs: Champs adresse,ville non obligatoire
+fonctionnalité system debug
+customers_meetings|Amélioration de la vitesse de la requête pour la liste des RDVs
+customers_contracts|Amélioration de la vitesse de la requête pour la liste des contrats
+customers_meetings_forms|Amélioration de la vitesse de la requête pour le formulaire RDV
+customers_contracts_export|Amélioration de la vitesse de la requête pour l'exportation des contrats

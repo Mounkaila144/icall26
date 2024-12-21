@@ -1,0 +1,101 @@
+<?php
+
+class DomoprimeQuotationItemForm  extends mfForm {
+    
+    function configure() {
+       // var_dump(count($this->getDefault('items')));
+        $this->setValidators(array(
+            'product_id'=>new mfValidatorInteger(),
+            'quantity'=>new mfValidatorI18nNumber(),        
+            'items'=>new mfValidatorSchemaForEach(new mfValidatorInteger(),count($this->getDefault('items'))),
+        ));
+    }
+}
+
+class DomoprimeQuotationNewForMeetingForm extends mfForm {
+         
+    protected $contract=null,$settings=null,$products=null;
+    
+   function __construct(CustomerMeeting $meeting,$defaults = array()) {       
+       $this->meeting=$meeting;
+       $this->settings=DomoprimeSettings::load();
+       $this->form_request=new DomoprimeCustomerRequest($this->meeting) ;
+       parent::__construct($defaults);
+   }
+    
+   function getSettings()
+    {
+        return $this->settings;
+    }
+    
+     function getFormRequest()
+    {
+        return $this->form_request;
+    }
+    
+    
+    function getSurfaces()
+    {
+        if ($this->surfaces)
+            return $this->surfaces;
+        $this->surfaces=new mfArray();
+         foreach ($this->getSettings()->getSurfaceNamingsForProducts() as $product_id=>$surface)
+         {          
+             $surface=$this->getFormRequest()->get($surface);
+             if ($surface > 0)
+                $this->surfaces[$product_id]=$surface;
+         }                  
+         return $this->surfaces;
+    }
+    
+     function getSurfaceFromProduct($product,$default)
+    {
+        return isset($this->surfaces[$product->get('id')])?$this->surfaces[$product->get('id')]:$default;
+    }
+    
+    function configure()
+    {                      
+       ProductItem::loadProductsAndItemsForMeeting($this->getMeeting(),$this->getSurfaces()->getKeys());  
+       $this->products=$this->getMeeting()->getActiveProductsWithTax();          
+       if (!$this->getDefaults())
+       {
+           $defaults=array();
+           foreach ($this->products as $product)           
+               $defaults[]=array('quantity'=>$this->getSurfaceFromProduct($product, 0.0));           
+           $this->setDefault('products',$defaults);
+           $this->setDefault('dated_at',$this->getSettings()->getDatedAtByDefault());      
+       }    
+       $this->createEmbedFormForEach('products', 'DomoprimeQuotationItemForm', count($this->getDefault('products')));
+       $this->setValidator('dated_at',new mfValidatorI18nDate(array("date_format"=>"a")));
+    }
+    
+    function isChecked($product,$item)
+    {              
+        foreach ($this->getDefault('products') as $p)
+        {
+            if (!isset($p['items']))
+                continue;                
+            foreach ($p['items'] as $i)
+            {                              
+                if ($product->get('id')==$p['product_id'] && $item->get('id') == $i)
+                {                    
+                    return true;
+                }    
+            }    
+        }    
+        return false;
+    }        
+       
+    function getMeeting()
+    {
+        return $this->meeting;
+    }
+    
+    function getProducts()
+    {
+        return $this->products;
+    }
+    
+   
+}
+

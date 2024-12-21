@@ -1,0 +1,1 @@
+ALTER TABLE `t_customers_meeting` ADD `confirmed_by_id` INT(11) UNSIGNED NOT NULL AFTER `creation_at`;

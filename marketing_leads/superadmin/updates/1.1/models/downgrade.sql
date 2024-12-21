@@ -1,0 +1,1 @@
+ALTER TABLE `t_marketing_leads_wp_forms` DROP `wp_created_at`;

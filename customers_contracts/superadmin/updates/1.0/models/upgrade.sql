@@ -1,0 +1,1 @@
+ALTER TABLE `t_customers_contract` ADD `apf_at` DATE  NULL DEFAULT NULL AFTER `opc_at`;

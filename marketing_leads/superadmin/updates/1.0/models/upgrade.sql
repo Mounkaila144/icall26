@@ -1,0 +1,1 @@
+ALTER TABLE `t_marketing_leads_wp_forms` ADD `state` ENUM('NEW','NOT EXPORTED','EXPORTED') CHARACTER SET utf8 COLLATE utf8_bin NOT NULL DEFAULT 'NEW' AFTER `city`;

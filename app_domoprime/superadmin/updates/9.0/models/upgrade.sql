@@ -1,0 +1,1 @@
+ALTER TABLE `t_domoprime_billing` ADD `mode` ENUM('simple','multiple') NOT NULL DEFAULT 'simple' AFTER `dated_at`;     

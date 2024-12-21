@@ -1,0 +1,1 @@
+UPDATE `t_permissions` SET `name` = 'meetings_forms' WHERE `t_permissions`.`name` ='"meetings_forms' LIMIT 1 

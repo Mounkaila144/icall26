@@ -1,0 +1,1 @@
+ALTER TABLE `t_customers_contract` CHANGE `opc_range_id` `opc_range_id` INT(11) UNSIGNED NULL DEFAULT NULL;

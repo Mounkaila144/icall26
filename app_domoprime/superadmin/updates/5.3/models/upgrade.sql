@@ -1,0 +1,1 @@
+ALTER TABLE `t_domoprime_billing` ADD `number_of_parts` int(8) unsigned NOT NULL DEFAULT 0 AFTER  `ana_pack_prime`;

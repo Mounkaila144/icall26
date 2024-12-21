@@ -1,0 +1,1 @@
+ALTER TABLE `t_customers_contract` ADD `is_revivable` ENUM('NO','YES') NOT NULL DEFAULT 'YES' AFTER `variables`;

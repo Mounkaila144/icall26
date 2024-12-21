@@ -1,0 +1,1 @@
+ALTER TABLE `t_customers_meeting` ADD `created_by_id` DATETIME NULL DEFAULT NULL AFTER `creation_at`;

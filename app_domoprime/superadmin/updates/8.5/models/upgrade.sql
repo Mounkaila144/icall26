@@ -1,0 +1,1 @@
+ALTER TABLE `t_domoprime_calculation` ADD `cee_prime` decimal(10,3) NULL DEFAULT NULL AFTER `prime`;

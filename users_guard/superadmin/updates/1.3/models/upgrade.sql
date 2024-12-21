@@ -1,0 +1,1 @@
+ALTER TABLE `t_sessions` ADD `is_last` enum('YES','NO') COLLATE utf8_bin NOT NULL DEFAULT 'YES' AFTER last_time;

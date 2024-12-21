@@ -1,0 +1,10 @@
+ALTER TABLE `t_products` ADD `item_description` varchar(255) DEFAULT NULL AFTER `max_limit`;
+ALTER TABLE `t_products` ADD `item_content` varchar(255) DEFAULT NULL AFTER `item_description`;
+ALTER TABLE `t_products` ADD `item_details` varchar(255) DEFAULT NULL AFTER `item_content`;
+ALTER TABLE `t_products` ADD `item_thickness` varchar(255) DEFAULT NULL AFTER `item_details`;
+ALTER TABLE `t_products` ADD `item_input2` varchar(255) DEFAULT NULL AFTER `item_thickness`;
+ALTER TABLE `t_products` ADD `item_input3` varchar(255) DEFAULT NULL AFTER `item_input2`;
+ALTER TABLE `t_products` ADD `item_input4` varchar(255) DEFAULT NULL AFTER `item_input3`;
+ALTER TABLE `t_products` ADD `item_input5` varchar(255) DEFAULT NULL AFTER `item_input4`;
+ALTER TABLE `t_products` ADD `item_input6` varchar(255) DEFAULT NULL AFTER `item_input5`;
+ALTER TABLE `t_products` ADD `item_input7` varchar(255) DEFAULT NULL AFTER `item_input6`;

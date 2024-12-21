@@ -1,0 +1,2 @@
+ALTER TABLE `t_site_services_site` ADD COLUMN `is_active` enum('Y','N') COLLATE utf8_bin NOT NULL DEFAULT 'N' AFTER `admin_theme_base` ;
+ALTER TABLE `t_site_services_site` ADD COLUMN `status` enum('ACTIVE','DELETE') COLLATE utf8_bin NOT NULL DEFAULT 'ACTIVE' AFTER `is_active` ;

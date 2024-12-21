@@ -1,0 +1,12 @@
+https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/
+
+apt-get install pdftk
+
+https://www.pdflabs.com/tools/pdftk-server/
+
+C:\Users\pc\Downloads\1.pdf dump_data_fields output C:\Users\pc\Downloads\liste_des_champs.txt
+
+
+pdftk test.pdf dump_data_fields output test.txt
+
+

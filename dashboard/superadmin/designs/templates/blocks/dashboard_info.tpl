@@ -1,0 +1,1 @@
+<span>{__('Project')}: {$project} IP:{if $ip}{$ip}{else}{component name="/server/info"}{/if}</span>

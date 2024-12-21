@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<data>
+<products>
+
+<product>
+
+<id><![CDATA[31]]></id>
+
+<reference><![CDATA[BAR-TH-104]]></reference>
+
+<price><![CDATA[0.000000]]></price>
+
+<purchasing_price><![CDATA[0.000000]]></purchasing_price>
+
+<picture><![CDATA[]]></picture>
+
+<meta_title><![CDATA[PAC air  eau]]></meta_title>
+
+<meta_description><![CDATA[]]></meta_description>
+
+<content><![CDATA[]]></content>
+
+<is_active><![CDATA[YES]]></is_active>
+
+<status><![CDATA[ACTIVE]]></status>
+
+<unit><![CDATA[]]></unit>
+
+<position><![CDATA[0]]></position>
+
+<engine><![CDATA[]]></engine>
+
+<prime_price><![CDATA[0.000000]]></prime_price>
+
+<discount_price><![CDATA[0.000000]]></discount_price>
+
+<standard_price><![CDATA[0.000000]]></standard_price>
+
+<max_limit><![CDATA[12000.000000]]></max_limit>
+
+<is_monthly><![CDATA[NO]]></is_monthly>
+
+<is_billable><![CDATA[YES]]></is_billable>
+
+<is_consomable><![CDATA[NO]]></is_consomable>
+
+<created_at><![CDATA[2020-02-26 18:47:23]]></created_at>
+
+<updated_at><![CDATA[2020-04-29 20:45:03]]></updated_at>
+
+<tax><![CDATA[5.500]]></tax>
+
+<items>
+
+<item>
+
+<id><![CDATA[108]]></id>
+
+<description><![CDATA[Mise en place d'une pompe à chaleur (PAC) de type air/eau 
+Fourniture d'une pompe à chaleur AIR EAU Moyenne temperature 
+Marque : ATLANTIC
+Gamme : ALFEA EXCELIA  A.I  11KW MONO 
+COP + 7°C / + 35°C : 4,25
+Réfrigérant  410A
+Efficacité énergétique saisonnière -chauffage selon le règlement (EU)
+N° 813/2013 de la commission du 2 août 2013 : ETAS 132%
+
+<b>FOURNITURE TÉLÉCOMMANDE NAVLINK A59</b>
+<h5>GARANTIE :
+Comprenant la mise en service, l’assistance, l’entretient, le déplacement, la main d’œuvre  pour une durée de 2 ans </h5>
+
+]]></description>
+
+<reference><![CDATA[MONO PAC  ATLANTIC 0 M² A 110 M²]]></reference>
+
+<sale_price><![CDATA[6634.590000]]></sale_price>
+
+<purchasing_price><![CDATA[0.000000]]></purchasing_price>
+
+<input1><![CDATA[ATLANTIC 11 KW ]]></input1>
+
+<input2><![CDATA[]]></input2>
+
+<picture><![CDATA[]]></picture>
+
+<icon><![CDATA[]]></icon>
+
+<unit><![CDATA[]]></unit>
+
+<content><![CDATA[]]></content>
+
+<details><![CDATA[]]></details>
+
+<is_active><![CDATA[YES]]></is_active>
+
+<status><![CDATA[ACTIVE]]></status>
+
+<coefficient><![CDATA[1.000000]]></coefficient>
+
+<is_mandatory><![CDATA[NO]]></is_mandatory>
+
+<is_multiple><![CDATA[NO]]></is_multiple>
+
+<multiple><![CDATA[0.000000]]></multiple>
+
+<thickness><![CDATA[0.000000]]></thickness>
+
+<mark><![CDATA[ATLANTIC ]]></mark>
+
+<input3><![CDATA[30]]></input3>
+
+<discount_price><![CDATA[0.000000]]></discount_price>
+
+<is_default><![CDATA[NO]]></is_default>
+
+<position><![CDATA[1]]></position>
+
+<created_at><![CDATA[2020-04-13 17:40:22]]></created_at>
+
+<updated_at><![CDATA[2020-11-25 18:06:41]]></updated_at>
+
+<tax><![CDATA[0.05500]]></tax>
+
+<linked_item><![CDATA[20 ATLANTIC 16 KW  complet]]></linked_item>
+
+</item>
+
+</items>
+
+</product>
+
+</products>
+</data>
+

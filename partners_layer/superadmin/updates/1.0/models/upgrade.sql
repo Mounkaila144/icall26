@@ -1,0 +1,1 @@
+ALTER TABLE `t_partner_layer_company` ADD `is_default` enum('YES','NO') COLLATE utf8_bin NOT NULL DEFAULT 'NO' AFTER `state`;

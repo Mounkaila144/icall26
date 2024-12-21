@@ -1,0 +1,1 @@
+ALTER TABLE `t_customers_contracts_zone` CHANGE `postcodes` `postcodes` VARCHAR(512) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL;

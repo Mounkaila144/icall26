@@ -1,0 +1,1 @@
+ALTER TABLE `t_customers_contract` ADD `pre_meeting_at` DATETIME NULL DEFAULT NULL AFTER `opc_at`;

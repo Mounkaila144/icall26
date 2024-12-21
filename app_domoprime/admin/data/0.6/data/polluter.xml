@@ -1,0 +1,3244 @@
+<?xml version="1.0" encoding="UTF-8" ?><polluter><id>105</id><name>test</name><ape></ape><siret>3</siret><tva></tva><logo>test.jpg</logo><coordinates></coordinates><email>email@test.com</email><web>www.web.fr</web><mobile>0631996438</mobile><phone>0970806969</phone><fax></fax><address1>1</address1><address2>2</address2><postcode>93000</postcode><city>LE PRE SAINT GERVAIS</city><country>fr</country><state></state><is_active>YES</is_active><status>ACTIVE</status><is_default>NO</is_default><commercial>test commercial</commercial><type>ITE</type><comments>4</comments><picture>picture_test.png</picture><username>1</username><signature>signature_test.png</signature><footer></footer><created_at>2020-06-19 18:01:45</created_at><updated_at>2020-07-21 22:12:43</updated_at><contacts><id>53</id><sex>Ms</sex><firstname>g</firstname><lastname>g</lastname><email></email><phone></phone><mobile></mobile><fax></fax><function></function><created_at>2020-06-19 18:01:45</created_at><updated_at>2020-06-19 18:01:45</updated_at></contacts><recipient><id>43</id><name>VERTIGO</name><ape></ape><siret></siret><tva></tva><logo>VERTIGO.jpg</logo><coordinates></coordinates><email></email><web></web><mobile></mobile><phone></phone><fax></fax><address1></address1><address2></address2><postcode></postcode><city></city><country>fr</country><state></state><is_active>YES</is_active><status>ACTIVE</status><is_default>NO</is_default><commercial>iso vertigo </commercial><signature>signature_VERTIGO.png</signature><footer></footer><created_at>2020-04-13 12:38:22</created_at><updated_at>2020-04-13 13:22:12</updated_at><contact><id>41</id><sex>Mr</sex><firstname>VERTIGO</firstname><lastname>VERTIGO</lastname><email></email><phone></phone><mobile></mobile><fax></fax><function></function><created_at>2020-04-13 12:38:22</created_at><updated_at>2020-04-13 12:38:22</updated_at></contact></recipient><billing><id>70</id><name>chaudiere edf 2020</name><i18n><value>chaudiere edf 2020</value><lang>fr</lang><created_at>2020-04-13 12:21:20</created_at><updated_at>2020-04-13 19:34:18</updated_at><body><![CDATA[<style type="text/css">
+  body {
+    /*font-family: arial;*/
+    font-family: Microsoft Sans Serif;
+
+  }
+
+  .thTotal {
+    border-right: 1px solid #000;
+  }
+
+  .textCorners {
+    text-align: left;
+    vertical-align: middle;
+  }
+
+  .campanyInfo td {
+    font-size: 12px;
+  }
+
+.campanyInfo{
+margin-top:10px;
+}
+
+  div {
+    font-size: 12px;
+  }
+
+  .alignementVerticalTop {
+    text-align: right;
+    vertical-align: top;
+  }
+
+  .tableFacture th {
+    /*background: #F0F0F0;*/
+  }
+
+  .tdCampanyInfo {
+    padding-left: 10px;
+  }
+
+  .marginLeftInfo {
+    margin-left: 10px;
+  }
+
+  .infoTable th {
+    background: #F0F0F0;
+  }
+
+  .logo {
+    position: absolute;
+    width: 100px;
+  }
+
+  .infos {
+    margin-left: 400px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    width: 35%;
+  }
+
+  .tableFacture {
+    border-collapse: collapse;
+    /*margin-left:500px;*/
+    /*position:relative;*/
+    /*display:inline-block;*/
+    /*margin-top:20px;*/
+    /*float:left;*/
+  }
+
+  .tableFacture th,
+  .tableFacture td {
+    border: 1px solid #000;
+    /*padding:5px 20px 5px 20px;*/
+    padding: 4px;
+    text-align: center;
+    /*width:120px;*/
+    width: 130px;
+    height: 8px;
+  }
+
+  .totalTable th,
+  .totalTable td {
+    width: 25%;
+    border-top: 0;
+  }
+
+  .totalTable {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    /*border-top-left-radius: 10px;
+    border-top-right-radius: 10px;*/
+  }
+
+  .totalTable th {
+    background: #F0F0F0;
+  }
+
+  .totalTable th,
+  .totalTable th {
+    padding: 5px;
+    border: 1px solid #000;
+    text-align: right;
+  }
+
+  /*.infoTable th,.infoTable td {
+   border:1px solid #000;
+padding:5px;
+text-align:center;
+}*/
+  .tableTableau {
+    border-collapse: collapse;
+  }
+
+  .tableau {
+    /*margin-left:-50px;*/
+    margin-top: 10px;
+  }
+
+  .tableTableau th,
+  .tableTableau td {
+    border: 1px solid #000;
+    padding: 2.5px;
+  }
+
+  .alignement {
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .firstTd {
+    width: 49%;
+  }
+
+  .resultat {
+    border-left: none;
+  }
+
+  .textFooter {
+    text-align: center;
+    font-size: 11px;
+  }
+
+  .headTableFacture td {
+    /*padding-right:10px;*/
+    vertical-align: top;
+  }
+
+  .headTableFacture {
+    margin-left: 68px;
+
+  }
+
+  .alignementRight {
+    text-align: right;
+    padding-right: 4px;
+    border: 1px solid #000;
+  }
+
+  .corners {
+    margin-top: 100px;
+    position: absolute;
+    right: 0;
+    margin-right: 100px;
+    width: 39%;
+    /*height:90px;*/
+    padding: 10px;
+  }
+
+ .cornersTech{
+    margin-top: 280px;
+    position: absolute;
+    left: 0;
+    width: 39%;
+    height:30px;
+    padding: 5px;
+    border : 1px solid #000;
+    margin-bottom:15px;
+}
+
+ .cornersTech1{
+    margin-top: 270px;
+    position: absolute;
+    right: 0;
+    margin-right:100px;
+    width: 39%;
+    height:30px;
+    padding: 5px;
+    border : 1px solid #000;
+    margin-bottom:15px;
+}
+
+  .topcorners,
+  .bottomcorners {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+  }
+
+  .topcorners {
+    top: 0;
+    border-top: 1px solid;
+  }
+
+  .bottomcorners {
+    bottom: 0;
+    border-bottom: 1px solid;
+  }
+
+  .leftcorners {
+    left: 0;
+    border-left: 1px solid;
+  }
+
+  .rightcorners {
+    right: 0;
+    border-right: 1px solid;
+  }
+
+  .borderContent {
+    border: 1px solid #000;
+    padding: 3px;
+    margin-top: 8px;
+
+  }
+
+  .logoo {
+    margin-top: 10px;
+
+  }
+
+  .divCarre {
+    text-align: center;
+    border: 1px solid #000;
+    width: 10px;
+    height: 8px;
+    display: inline;
+    font-size: 9px;
+    text-transform: uppercase;
+  }
+
+  .point {
+    position: absolute;
+  }
+
+  .parametre {
+    position: absolute;
+    top: -3px;
+    margin-left: 8px;
+    text-transform: uppercase;
+  }
+
+  .reponse {
+    position: relative;
+  }
+.numberOfPage{
+  bottom:0;
+  /*position:absolute;*/
+  text-align:right;
+  right:0;
+  color: #000;
+}
+
+
+  .content{
+    padding: 50px;
+    width: 85%;
+    text-align: justify;
+    font-size: 13px;
+  }
+
+  .block{
+    margin-top: 20px;
+    text-align: justify;
+  }
+  .block1{
+    margin-top: 50px;
+    text-align: justify;
+  }
+</style>
+<page>
+    <div style="position: absolute;width: 100px;height: 100px;border-radius: 20px 50px;right: -80px;top:-80px;background: #006699;"></div>
+  {if $company.picture}<img class="logo" style="width:80px;" src="{$company.picture.url}" />{/if}
+  <div style="position:relative;">
+    <table class="headTableFacture">
+      <tr>
+        <td>
+          <div>
+            <table class="tableFacture">
+              <thead>
+                <tr>
+                  <th style="border-top-left-radius: 10px;border-top-right-radius: 10px;vertical-align: bottom;">Facture</th>
+
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;font-weight:bold;">{$billing.reference}</td>
+
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </td>
+        <td>
+          <div>
+            <table class="tableFacture">
+              <thead>
+                <tr>
+                  <th style="border-top-left-radius: 10px;border-top-right-radius: 10px;vertical-align: bottom;">FACTURE</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;font-weight:bold;">{$billing.dated_at.ddmmyyyy}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </td>
+        <td>
+          <div style="margin-top:0px;">
+            <table class="tableFacture">
+              <thead>
+                <tr>
+                  <th style="border-top-left-radius: 10px;border-top-right-radius: 10px;vertical-align: bottom;">CLIENT</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;font-weight:bold;">{$billing.customer.lastname|upper}-{$billing.customer.address.postcode|upper}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <div class="corners">
+    {*<div class="topcorners leftcorners"></div>
+    <div class="topcorners rightcorners"></div>
+    <div class="bottomcorners rightcorners"></div>
+    <div class="bottomcorners leftcorners"></div>*}
+    <div class="textCorners" style="font-weight: bold;">CLIENT</div>
+    <div class="textCorners" > {$billing.customer.lastname|upper} {$billing.customer.firstname|upper}</div>
+    <div class="textCorners" style="margin-top: 5px;">{$billing.customer.address.address1|upper}</div>
+    <div class="textCorners" style="margin-top: 5px;">{$billing.customer.address.postcode|upper} {$billing.customer.address.city|upper}</div>
+    {*<div class="textCorners" style="font-weight: bold;"> {$billing.customer.phone}</div>
+    <div class="textCorners" style="font-weight: bold;"> {$billing.customer.email}</div>*}
+  </div>
+  <div style="margin-top: 50px;font-weight:bold;">{$company.name}</div>
+  {*<div style="margin-top: 5px;font-weight:bold;">{$company.address1|upper} </div>*}
+  <div style="margin-top: 5px;font-weight:bold;">{$company.address1}</div>
+  <div style="margin-top: 5px;font-weight:bold;">{$company.city}, {$company.postcode}</div>
+  <table class="campanyInfo" style="margin-top: 10px;">
+    <tr>
+      <td>Tél</td>
+      <td class="tdCampanyInfo"><span>:</span><span class="marginLeftInfo">{$company.phone}</span></td>
+    </tr>
+    <tr>
+      <td>R.C.S</td>
+      <td class="tdCampanyInfo"><span>:</span><span class="marginLeftInfo">{$company.rcs}</span></td>
+    </tr>
+    <tr>
+      <td>SIRET</td>
+      <td class="tdCampanyInfo"><span>:</span><span class="marginLeftInfo">{$company.siret}</span></td>
+    </tr>
+    <tr>
+      <td>TVA INTRA</td>
+      <td class="tdCampanyInfo"><span>:</span><span class="marginLeftInfo">{$company.tva}</span></td>
+    </tr>
+    <tr>
+      <td>N° RGE</td>
+      <td class="tdCampanyInfo"><span>:</span><span class="marginLeftInfo">{$company.rge}</span></td>
+    </tr>
+
+  </table>
+  {*<div style="margin-top: 40px;">Nous avons le plaisir de vous adresser votre<span style="font-weight: bold;"> Facture d'isolation.</span> Seul le montant présenté ci-dessous restera à votre charge.</div>*}
+ <div style="margin-left:380px;margin-top:8px;">
+  <span style="font-weight: bold;color: #3DADF2;">DELAI DE LIVRAISON :</span> 3 mois</div>
+  <div style="margin-left:380px;margin-top:8px;font-weight: bold;"><span style="color: #3DADF2;">VALIDITÉ :</span> UN MOIS À DATER DU JOUR DU PRÉSENT Facture</div>
+  <div class="tableau">
+    <table class="tableTableau infoTable" style="width:100%;align: center;margin-top:8px;">
+      <thead>
+        <tr>
+          <th class="alignement" style="border-top-left-radius: 10px;background: #e1f2fa;">REFERENCE</th>
+          <th class="alignement" style="background: #e1f2fa;">DESIGNATION</th>
+          <th class="alignement" style="width:9.5%;background: #e1f2fa;">QUANTITE</th>
+          {*<th class="alignement" style="width:9%;">Unité</th>*}
+          <th class="alignement" style="width:9%;background: #e1f2fa">P.U. HT</th>
+          <th class="alignement" style="width:9%;border-top-right-radius: 10px;background: #e1f2fa;">MONTANT HT</th>
+        </tr>
+      </thead>
+      <tbody>
+        {foreach $billing.products as $product name=test}
+
+        {foreach $product.items as $item}
+        <tr>
+          <td class="" style="width:13%;text-align: center;" {*if $smarty.foreach.test.last}style="border-bottom-left-radius: 10px;" {/if*}>{$item.item.input1} </td>
+          <td class="firstTd" style="width: 58%;">
+            <div class="divTable" style="font-size:11px;">{$item.item.description}</div>
+            {*<div class="divTable" style="">{$item.item.thickness}</div>*}
+            <div class="divTable" style="font-size:11px;"> {$item.item.input3}</div>
+            <div class="divTable" style="font-size:11px;">{$item.item.details}</div>
+          </td>
+          <td class="alignementVerticalTop" style="text-align: center;">{*40*}{$item.quantity} </td>
+          <td class="alignementVerticalTop" style="text-align: center;">{$item.sale_price_without_tax}</td>
+          <td class="alignementVerticalTop" {*if $smarty.foreach.test.last}style="border-bottom-right-radius: 10px;" style="text-align: center;" {/if*}>{$item.total_sale_price_without_tax}
+           </td> 
+         </tr> {/foreach} {/foreach} 
+       </tbody>
+     </table>
+</div>
+  <page_footer>
+    <div style="">
+      <div style="text-align:left;font-size:10px;position:absolute;top:1040px;left:0;color:#000;"><b>  {$company.name}</b> <br> {$company.address1}, {$company.postcode} {$company.city}<br>
+        Tél: {$company.phone} - Mail: {$company.email}<br>APE : {$company.ape} - au capital de : {$company.capital} {$company.comments} 
+   </div>
+      {if $company.picture.url}
+      <img style="width:50px;margin-left:680px;opacity:0.1" src="{$company.picture.url}" />
+      {/if}
+    </div>
+    <div class="numberOfPage">Page [[page_cu]] / [[page_nb]]</div>
+
+  </page_footer>
+</page>
+
+
+
+<page>
+   <page_header> 
+       <div style="position: absolute;width: 100px;height: 100px;border-radius: 20px 50px;right: -80px;top:-80px;background: #006699;"></div>
+  <div style="height: 300px!important;"> 
+  {if $company.picture}
+    <img style="width:90px;margin: 20px;" class="logo" src="{$company.picture.url}" />
+  {/if}
+  <div style="position:relative;">
+    <table class="headTableFacture">
+      <tr>
+        <td>
+          <div>
+            <table class="tableFacture">
+              <thead>
+                <tr>
+                  <th style="border-top-left-radius: 10px;border-top-right-radius: 10px;vertical-align: bottom;">FACTURE</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;font-weight:bold;">{$billing.reference}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </td>
+        <td>
+          <div>
+            <table class="tableFacture">
+              <thead>
+                <tr>
+                  <th style="border-top-left-radius: 10px;border-top-right-radius: 10px;vertical-align: bottom;">DATE</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;font-weight:bold;">{$billing.dated_at.ddmmyyyy}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </td>
+        <td>
+          <div style="margin-top:0px;">
+            <table class="tableFacture">
+              <thead>
+                <tr>
+                  <th style="border-top-left-radius: 10px;border-top-right-radius: 10px;vertical-align: bottom;">CLIENT</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;font-weight:bold;">{$billing.customer.lastname|upper}-{$billing.customer.address.postcode|upper}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+  </div>
+
+   <div class="corners">
+    {*<div class="topcorners leftcorners"></div>
+    <div class="topcorners rightcorners"></div>
+    <div class="bottomcorners rightcorners"></div>
+    <div class="bottomcorners leftcorners"></div>*}
+    <div class="textCorners" style="font-weight: bold;">CLIENT</div>
+    <div class="textCorners" > {$billing.customer.lastname|upper} {$billing.customer.firstname|upper}</div>
+    <div class="textCorners" style="margin-top: 5px;">{$billing.customer.address.address1|upper}</div>
+    <div class="textCorners" style="margin-top: 5px;">{$billing.customer.address.postcode|upper} {$billing.customer.address.city|upper}</div>
+    {*<div class="textCorners" style="font-weight: bold;"> {$billing.customer.phone}</div>
+    <div class="textCorners" style="font-weight: bold;"> {$billing.customer.email}</div>*}
+  </div>    
+  <div style="margin-top: 15px;font-weight:bold;">{$company.name}</div>
+  {*<div style="margin-top: 5px;font-weight:bold;">{$company.address1|upper} </div>*}
+  <div style="margin-top: 5px;font-weight:bold;">{$company.address1}</div>
+  <div style="margin-top: 5px;font-weight:bold;">{$company.city}, {$company.postcode}</div>
+<table class="campanyInfo" style="margin-top: 10px;">
+    <tr>
+      <td>Tél</td>
+      <td class="tdCampanyInfo"><span>:</span><span class="marginLeftInfo">{$company.phone}</span></td>
+    </tr>
+    <tr>
+      <td>R.C.S</td>
+      <td class="tdCampanyInfo"><span>:</span><span class="marginLeftInfo">{$company.rcs}</span></td>
+    </tr>
+    <tr>
+      <td>SIRET</td>
+      <td class="tdCampanyInfo"><span>:</span><span class="marginLeftInfo">{$company.siret}</span></td>
+    </tr>
+    <tr>
+      <td>TVA INTRA</td>
+      <td class="tdCampanyInfo"><span>:</span><span class="marginLeftInfo">{$company.tva}</span></td>
+    </tr>
+    <tr>
+      <td>N° RGE</td>
+      <td class="tdCampanyInfo"><span>:</span><span class="marginLeftInfo">{$company.rge}</span></td>
+    </tr>
+
+  </table>
+  </page_header>
+<br>
+{*<div class="cornersTech1" style="margin-top: 120px;">
+<div class="textCorners" style="font-weight: bold;text-align:left;">LIEU D’INSTALLATION ET UTILISATEUR :</div>
+    <div class="textCorners" style="font-weight: bold;text-align:left;">PRÉNOM ET NOM : {$billing.customer.lastname|upper} {$billing.customer.firstname|upper}</div>
+<div class="textCorners" style="font-weight: bold;text-align:left;">N° DE CLIENT : {$billing.customer.id}</div>
+    <div class="textCorners" style="font-weight: bold;text-align:left;">ADRESSE : {$billing.customer.address.address1|upper}</div>
+    <div class="textCorners" style="font-weight: bold;text-align:left;">CODE POSTAL : {$billing.customer.address.postcode|upper}</div>
+    <div class="textCorners" style="font-weight: bold;text-align:left;">VILLE :  {$billing.customer.address.city|upper}</div>
+    <div class="textCorners" style="font-weight: bold;text-align:left;">N° DE TÉLÉPHONE : {$billing.customer.phone}</div>
+    <div class="textCorners" style="font-weight: bold;text-align:left;">E-mail : {$billing.customer.email}</div>
+  </div>*}
+
+
+
+
+  {*<div class="cornersTech" style="margin-top: 120px;">
+    <div class="textCorners" style="font-weight: bold;text-align:left;">NOM DU SOUS-TRAITANT : {$contract.layer.name}</div>
+<div class="textCorners" style="font-weight: bold;text-align:left;">SIRET DU SOUS-TRAITANT :{$contract.layer.siret}</div>
+    <div class="textCorners" style="font-weight: bold;text-align:left;">RGE DU SOUS-TRAITANT : {$contract.layer.rge}</div>
+    <div class="textCorners" style="font-weight: bold;text-align:left;">TYPE D'HABITATION :  {$contract.request.occupation}</div>
+    <div class="textCorners" style="font-weight: bold;text-align:left;">SURFACE : {$contract.request.surface_top}</div>
+    <div class="textCorners" style="font-weight: bold;text-align:left;">APPAREIL A REMPLACE : chaudière combustible autre qu’a condensation  </div>
+    <div class="textCorners" style="font-weight: bold;text-align:left;">OBSERVATION SUR LE REMPLACEMENT : NEANT</div>
+  </div>*}
+
+
+
+<div class="tableau">
+ <table class="tableTableau infoTable" style="width:100%;align: center;margin-top:243px;">
+        <tr>
+          <th class="alignement" style="border-top-left-radius: 10px;background: #e1f2fa">REFERENCE</th>
+          <th class="alignement" style="border-top-right-radius: 10px;background: #e1f2fa;">DESIGNATION</th>  
+          </tr>
+            <tr>
+            <td class="" style="text-align: center;">LIEU D’INSTALLATION ET UTILISATEUR </td>
+            <td class="firstTd" style="font-size:11px;width: 65%;">
+          <div class="" style="font-weight: bold;text-align:left;">PRÉNOM ET NOM : {$billing.customer.lastname|upper} {$billing.customer.firstname|upper}</div>
+        <div class="" style="font-weight: bold;text-align:left;">N° DE CLIENT: {$billing.customer.id}</div>
+          <div class="" style="font-weight: bold;text-align:left;">ADRESSE : {$billing.customer.address.address1|upper}</div>
+          <div class="" style="font-weight: bold;text-align:left;">CODE POSTAL : {$billing.customer.address.postcode|upper}</div>
+          <div class="" style="font-weight: bold;text-align:left;">VILLE :  {$billing.customer.address.city|upper}</div>
+          <div class="" style="font-weight: bold;text-align:left;">N° DE TÉLÉPHONE : {$billing.customer.phone}</div>
+          <div class="" style="font-weight: bold;text-align:left;">E-mail : {$billing.customer.email}</div>
+            </td>         
+        </tr>  
+            <tr>
+
+              <td class="" style="text-align: center;">INSTALLATION</td>
+              <td class="firstTd" style="font-size:11px;">
+                    <div class="" style="font-weight: bold;text-align:left;">NOM DU SOUS-TRAITANT : {$contract.layer.name}</div>
+    <div class="" style="font-weight: bold;text-align:left;">SIRET DU SOUS-TRAITANT :{$contract.layer.siret}</div>
+        <div class="" style="font-weight: bold;text-align:left;">RGE DU SOUS-TRAITANT : {$contract.layer.rge}</div>
+        <div class="" style="font-weight: bold;text-align:left;">TYPE D'HABITATION :  {$contract.request.occupation}</div>
+        <div class="" style="font-weight: bold;text-align:left;">SURFACE : {$contract.request.surface_top}</div>
+        <div class="" style="font-weight: bold;text-align:left;">APPAREIL A REMPLACE : chaudière combustible autre qu’a condensation  </div>
+        <div class="" style="font-weight: bold;text-align:left;">OBSERVATION SUR LE REMPLACEMENT : NEANT</div>
+              </td>         
+        </tr>    
+  <tr>
+
+          <td class="" style="text-align: center;">TERMES ET CONDITIONS</td>
+
+          {*<td class="firstTd" style="font-size:10px;text-align: justify;">En acceptant le présent Facture, j’atteste sur l’honneur avoir reçu du professionnel partenaire de <span style="font-weight:bold;">{if $billing.polluter == null}BOLLORE
+              ENERGY{else}{$billing.polluter.commercial}{/if}</span>, les conseils adaptés à mes besoins d’économies d’énergie et délègue l’exclusivité de l’obtention des certificats d’économies d’énergie à <span style="font-weight:bold;">{if $billing.polluter ==
+              null}BOLLORE ENERGY{else}{$billing.polluter.commercial}{/if}</span> en contrepartie d’une Prime incitative dont le montant est indiqué sur ce Facture et avoir reçu le document Cadre de Contribution signé par le professionnel partenaire de <span
+              style="font-weight:bold;">{if $billing.polluter == null}BOLLORE ENERGY{else}{$billing.polluter.commercial}{/if}</span>, les travaux ou prestations objet du présent document donneront lieu à une contribution financière de <span style="font-weight:bold;">{if
+              $billing.polluter == null}BOLLORE ENERGY{else}{$billing.polluter.commercial}{/if}</span> dans le cadre de son rôle incitatif, directement ou via son (ses) mandataire(s), sous réserve de l’engagement de fournir exclusivement à {if $billing.polluter ==
+            null}BOLLORE ENERGY{else}{$billing.polluter.commercial}{/if} les documents nécessaires à la valorisation des opérations au titre du dispositif des Certificats d’Economies d’Energie et sous réserve de la validation de l’éligibilité du dossier par
+            {if $billing.polluter == null}BOLLORE ENERGY{else}{$billing.polluter.commercial}{/if} puis par l’autorité administrative compétente. <br><span style="font-weight:bold;margin-top:8px;font-size:10px;">Cette offre comprend la prime versée par {if $billing.polluter
+              == null}BOLLORE ENERGY{else}{$billing.polluter.commercial}{/if} au titre du dispositif des Certificats d'Economies d'Energie d'un montant de: {$billing.prime}</span></td>*}
+          <td class="firstTd" style="font-size:11px;">
+            Tout ou partie des travaux relatifs à ce Facture ou bon de commande sont éligibles à une prime d'un montant de {$billing.prime} dont 
+ {$billing.polluter.commercial} est à l'origine dans le cadre du certificats d'Economies d'Energie. Le montant de cette prime ne pourra être révisé à la baisse qu'en cas de modification du volume de Certifiacts d'Economies d'Energie attaché à l'opération ou aux opérations d'économies d'énergie ou de la situation de précarité énergétique et ce, de manière proportionnelle
+          </td>         
+        </tr>
+    </table>
+  </div>
+
+  <div style="position: absolute;bottom: 270px;font-weight: bold;font-size: 9.5px;color: #3DADF2;width: 50%;text-align: justify;">
+    {*Facture POMPE A CHALEUR*}
+
+
+    Conformément à la réglementation, le Client dispose d’un droit d’accès, de rectification, d’information
+complémentaire, d’opposition, de portabilité, d’effacement et de limitation de ses données, dans les conditions
+prévues par la réglementation, auprès du délégué à la protection des données (DPO) de la Société et pourra
+le contacter à l’adresse suivante : {$company.name}, Service des Données Personnelles – {$company.postcode}
+–{$company.city} ou par courrier électronique à : {$company.email}
+(1) L’opération « Coup de pouce Chauffage » est définie par arrêté ministériel dans le cadre du dispositif
+Certificats d’Economies d’Energie. Voir conditions sur https://www.ecologique-solidaire.gouv.fr/coup-pouceeconomies-denergie-2019-2020. Les travaux relatifs à ce Facture sont éligibles à l’accompagnement de
+{$billing.polluter.commercial}, signataire de la charte « Coup de pouce Chauffage », dans le cadre du dispositif
+des Certificats d’Économie d’Énergie (CEE). Celui-ci m’a été présenté par le professionnel avant
+l’établissement de ce Facture. Dans le cadre de ces travaux, je consens à ce que ma prime CEE soit déduite
+du montant à payer et je certifie ne pas avoir fait des demandes de prime CEE auprès d’un autre
+professionnel. Si je bénéficie d’une prime CEE précarité je certifie l’exactitude des documents fournis.
+  </div>
+
+  <table class="totalTable" style="width:45%;margin-left: 466px;margin-top: 0px;display: inline-block;" cellspacing="0">
+            <tr>
+              <th class="thTotal" style="width:38%;font-weight: normal !important;background: #e1f2fa;">Total HT</th>
+              <td class="alignementRight" style="width:38%;">{$billing.total_sale_without_tax}</td>
+            </tr>
+            <tr>
+              <th class="thTotal" style="width:38%;background: #e1f2fa;">Taux TVA</th>
+              <td class="alignementRight" style="width:38%;font-weight:bold;">{*$billing.total_sale_without_tax*}5.50%</td>
+            </tr>
+            <tr>
+              <th class="thTotal" style="width:38%;font-weight: normal !important;background: #e1f2fa;">Total TVA</th>
+              <td class="alignementRight" style="width:38%;">{$billing.total_tax}</td>
+            </tr>
+            <tr>
+              <th class="thTotal" style="width:38%;font-weight: normal !important;border: 1px solid #;background: #e1f2fa;">Total TTC</th>
+              <td class="alignementRight" style="width:38%;">{$billing.total_sale_with_tax}</td>
+            </tr>
+          </table>
+
+
+            <table class="totalTable" style="width:45%;margin-left: 466px;margin-top: 10px;" cellspacing="0">
+                                    <tr>
+              <th class="thTotal" style="width:38%;font-weight: normal !important;text-align: left;background: #F0F0F0;border-top: 1px solid #000;">Prime C.E.E</th>
+              <td class="alignementRight" style="width:38%;border-top: 1px solid #000;">{$billing.prime}</td>
+              </tr>
+              <tr>
+              <th class="thTotal" style="width:38%;font-weight: normal !important;text-align: left;background: #F0F0F0;"></th>
+              <td class="alignementRight" style="width:38%;"></td>
+            </tr>
+            </table>
+
+            <table class="totalTable" style="width:45%;margin-left: 466px;margin-top: 10px;" >
+            <tr>
+              <th class="thTotal" style="width:38%;font-weight: normal !important;text-align: left;border-top: 1px solid #000;">NET A PAYER en euros</th>
+              <td class="alignementRight" style="width:38%;border-top: 1px solid #000;">{$billing.total_sale_and_prime_tax}</td>
+            </tr>   
+            </table>
+  <div style="position: absolute;bottom: 220px;left:468px;font-weight: bold;font-size: 20px;color: #3DADF2;width: 50%;text-align: justify;">
+    Facture CHAUDIERE
+  </div>
+
+  {*<div style="width:498px;margin-left:4px;margin-top: -30px;">
+    <div style="margin-left:70px;margin-bottom:20px;"> </div>
+    <div style="width:85%;height:100px;border:1px solid #000;text-align:center;border-radius:6px;">
+      <span style="margin-top:5px;">Fait le: </span>
+    </div>
+  </div>*}
+
+  <page_footer>
+    <div style="">
+      <div style="text-align:left;font-size:10px;position:absolute;top:1040px;left:0;color:#000;"><b>  {$company.name}</b> <br> {$company.address1}, {$company.postcode} {$company.city}<br>
+        Tél: {$company.phone} - Mail: {$company.email}<br>APE : {$company.ape} - au capital de : {$company.capital} {$company.comments} 
+   </div>
+      {if $company.picture.url}
+      <img style="width:50px;margin-left:680px;opacity:0.1" src="{$company.picture.url}" />
+      {/if}
+    </div>
+    <div class="numberOfPage">Page [[page_cu]] / [[page_nb]]</div>
+
+  </page_footer>
+</page>
+
+<page>
+   <page_header> 
+       <div style="position: absolute;width: 100px;height: 100px;border-radius: 20px 50px;right: -80px;top:-80px;background: #006699;"></div>
+  <div style="height: 300px!important;"> 
+  {if $company.picture}
+    <img style="width:90px;margin: 20px;" class="logo" src="{$company.picture.url}" />
+  {/if}
+  <div style="position:relative;">
+    <table class="headTableFacture">
+      <tr>
+        <td>
+          <div>
+            <table class="tableFacture">
+              <thead>
+                <tr>
+                  <th style="border-top-left-radius: 10px;border-top-right-radius: 10px;vertical-align: bottom;">FACTURE</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;font-weight:bold;">{$billing.reference}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </td>
+        <td>
+          <div>
+            <table class="tableFacture">
+              <thead>
+                <tr>
+                  <th style="border-top-left-radius: 10px;border-top-right-radius: 10px;vertical-align: bottom;">DATE</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;font-weight:bold;">{$billing.dated_at.ddmmyyyy}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </td>
+        <td>
+          <div style="margin-top:0px;">
+            <table class="tableFacture">
+              <thead>
+                <tr>
+                  <th style="border-top-left-radius: 10px;border-top-right-radius: 10px;vertical-align: bottom;">CLIENT</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;font-weight:bold;">{$billing.customer.lastname|upper}-{$billing.customer.address.postcode|upper}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+  </div>
+
+   <div class="corners">
+    {*<div class="topcorners leftcorners"></div>
+    <div class="topcorners rightcorners"></div>
+    <div class="bottomcorners rightcorners"></div>
+    <div class="bottomcorners leftcorners"></div>*}
+    <div class="textCorners" style="font-weight: bold;">CLIENT</div>
+    <div class="textCorners" > {$billing.customer.lastname|upper} {$billing.customer.firstname|upper}</div>
+    <div class="textCorners" style="margin-top: 5px;">{$billing.customer.address.address1|upper}</div>
+    <div class="textCorners" style="margin-top: 5px;">{$billing.customer.address.postcode|upper} {$billing.customer.address.city|upper}</div>
+    {*<div class="textCorners" style="font-weight: bold;"> {$billing.customer.phone}</div>
+    <div class="textCorners" style="font-weight: bold;"> {$billing.customer.email}</div>*}
+  </div>    
+  <div style="margin-top: 15px;font-weight:bold;">{$company.name}</div>
+  {*<div style="margin-top: 5px;font-weight:bold;">{$company.address1|upper} </div>*}
+  <div style="margin-top: 5px;font-weight:bold;">{$company.address1}</div>
+  <div style="margin-top: 5px;font-weight:bold;">{$company.city}, {$company.postcode}</div>
+<table class="campanyInfo" style="margin-top: 10px;">
+    <tr>
+      <td>Tél</td>
+      <td class="tdCampanyInfo"><span>:</span><span class="marginLeftInfo">{$company.phone}</span></td>
+    </tr>
+    <tr>
+      <td>R.C.S</td>
+      <td class="tdCampanyInfo"><span>:</span><span class="marginLeftInfo">{$company.rcs}</span></td>
+    </tr>
+    <tr>
+      <td>SIRET</td>
+      <td class="tdCampanyInfo"><span>:</span><span class="marginLeftInfo">{$company.siret}</span></td>
+    </tr>
+    <tr>
+      <td>TVA INTRA</td>
+      <td class="tdCampanyInfo"><span>:</span><span class="marginLeftInfo">{$company.tva}</span></td>
+    </tr>
+    <tr>
+      <td>N° RGE</td>
+      <td class="tdCampanyInfo"><span>:</span><span class="marginLeftInfo">{$company.rge}</span></td>
+    </tr>
+
+  </table>
+  </page_header>
+<br>
+{*<div class="cornersTech1" style="margin-top: 120px;">
+<div class="textCorners" style="font-weight: bold;text-align:left;">LIEU D’INSTALLATION ET UTILISATEUR :</div>
+    <div class="textCorners" style="font-weight: bold;text-align:left;">PRÉNOM ET NOM : {$billing.customer.lastname|upper} {$billing.customer.firstname|upper}</div>
+<div class="textCorners" style="font-weight: bold;text-align:left;">N° DE CLIENT : {$billing.customer.id}</div>
+    <div class="textCorners" style="font-weight: bold;text-align:left;">ADRESSE : {$billing.customer.address.address1|upper}</div>
+    <div class="textCorners" style="font-weight: bold;text-align:left;">CODE POSTAL : {$billing.customer.address.postcode|upper}</div>
+    <div class="textCorners" style="font-weight: bold;text-align:left;">VILLE :  {$billing.customer.address.city|upper}</div>
+    <div class="textCorners" style="font-weight: bold;text-align:left;">N° DE TÉLÉPHONE : {$billing.customer.phone}</div>
+    <div class="textCorners" style="font-weight: bold;text-align:left;">E-mail : {$billing.customer.email}</div>
+  </div>*}
+
+
+
+
+  {*<div class="cornersTech" style="margin-top: 120px;">
+    <div class="textCorners" style="font-weight: bold;text-align:left;">NOM DU SOUS-TRAITANT : {$contract.layer.name}</div>
+<div class="textCorners" style="font-weight: bold;text-align:left;">SIRET DU SOUS-TRAITANT :{$contract.layer.siret}</div>
+    <div class="textCorners" style="font-weight: bold;text-align:left;">RGE DU SOUS-TRAITANT : {$contract.layer.rge}</div>
+    <div class="textCorners" style="font-weight: bold;text-align:left;">TYPE D'HABITATION :  {$contract.request.occupation}</div>
+    <div class="textCorners" style="font-weight: bold;text-align:left;">SURFACE : {$contract.request.surface_top}</div>
+    <div class="textCorners" style="font-weight: bold;text-align:left;">APPAREIL A REMPLACE : chaudière combustible autre qu’a condensation  </div>
+    <div class="textCorners" style="font-weight: bold;text-align:left;">OBSERVATION SUR LE REMPLACEMENT : NEANT</div>
+  </div>*}
+
+
+
+<div class="tableau">
+ <table class="tableTableau infoTable" style="width:100%;align: center;margin-top:243px;">
+        <tr>
+          <th class="alignement" style="border-top-left-radius: 10px;background: #e1f2fa">REFERENCE</th>
+          <th class="alignement" style="border-top-right-radius: 10px;background: #e1f2fa;">DESIGNATION</th>  
+          </tr>
+            <tr>
+            <td class="" style="text-align: center;">LIEU D’INSTALLATION ET UTILISATEUR </td>
+            <td class="firstTd" style="font-size:11px;width: 65%;">
+          <div class="" style="font-weight: bold;text-align:left;">PRÉNOM ET NOM : {$billing.customer.lastname|upper} {$billing.customer.firstname|upper}</div>
+        <div class="" style="font-weight: bold;text-align:left;">N° DE CLIENT: {$billing.customer.id}</div>
+          <div class="" style="font-weight: bold;text-align:left;">ADRESSE : {$billing.customer.address.address1|upper}</div>
+          <div class="" style="font-weight: bold;text-align:left;">CODE POSTAL : {$billing.customer.address.postcode|upper}</div>
+          <div class="" style="font-weight: bold;text-align:left;">VILLE :  {$billing.customer.address.city|upper}</div>
+          <div class="" style="font-weight: bold;text-align:left;">N° DE TÉLÉPHONE : {$billing.customer.phone}</div>
+          <div class="" style="font-weight: bold;text-align:left;">E-mail : {$billing.customer.email}</div>
+            </td>         
+        </tr>  
+            <tr>
+
+              <td class="" style="text-align: center;">INSTALLATION</td>
+              <td class="firstTd" style="font-size:11px;">
+                    <div class="" style="font-weight: bold;text-align:left;">NOM DU SOUS-TRAITANT : {$contract.layer.name}</div>
+    <div class="" style="font-weight: bold;text-align:left;">SIRET DU SOUS-TRAITANT :{$contract.layer.siret}</div>
+        <div class="" style="font-weight: bold;text-align:left;">RGE DU SOUS-TRAITANT : {$contract.layer.rge}</div>
+        <div class="" style="font-weight: bold;text-align:left;">TYPE D'HABITATION :  {$contract.request.occupation}</div>
+        <div class="" style="font-weight: bold;text-align:left;">SURFACE : {$contract.request.surface_top}</div>
+        <div class="" style="font-weight: bold;text-align:left;">APPAREIL A REMPLACE : chaudière combustible autre qu’a condensation  </div>
+        <div class="" style="font-weight: bold;text-align:left;">OBSERVATION SUR LE REMPLACEMENT : NEANT</div>
+              </td>         
+        </tr>    
+  <tr>
+
+          <td class="" style="text-align: center;">TERMES ET CONDITIONS</td>
+
+          {*<td class="firstTd" style="font-size:10px;text-align: justify;">En acceptant le présent Facture, j’atteste sur l’honneur avoir reçu du professionnel partenaire de <span style="font-weight:bold;">{if $billing.polluter == null}BOLLORE
+              ENERGY{else}{$billing.polluter.commercial}{/if}</span>, les conseils adaptés à mes besoins d’économies d’énergie et délègue l’exclusivité de l’obtention des certificats d’économies d’énergie à <span style="font-weight:bold;">{if $billing.polluter ==
+              null}BOLLORE ENERGY{else}{$billing.polluter.commercial}{/if}</span> en contrepartie d’une Prime incitative dont le montant est indiqué sur ce Facture et avoir reçu le document Cadre de Contribution signé par le professionnel partenaire de <span
+              style="font-weight:bold;">{if $billing.polluter == null}BOLLORE ENERGY{else}{$billing.polluter.commercial}{/if}</span>, les travaux ou prestations objet du présent document donneront lieu à une contribution financière de <span style="font-weight:bold;">{if
+              $billing.polluter == null}BOLLORE ENERGY{else}{$billing.polluter.commercial}{/if}</span> dans le cadre de son rôle incitatif, directement ou via son (ses) mandataire(s), sous réserve de l’engagement de fournir exclusivement à {if $billing.polluter ==
+            null}BOLLORE ENERGY{else}{$billing.polluter.commercial}{/if} les documents nécessaires à la valorisation des opérations au titre du dispositif des Certificats d’Economies d’Energie et sous réserve de la validation de l’éligibilité du dossier par
+            {if $billing.polluter == null}BOLLORE ENERGY{else}{$billing.polluter.commercial}{/if} puis par l’autorité administrative compétente. <br><span style="font-weight:bold;margin-top:8px;font-size:10px;">Cette offre comprend la prime versée par {if $billing.polluter
+              == null}BOLLORE ENERGY{else}{$billing.polluter.commercial}{/if} au titre du dispositif des Certificats d'Economies d'Energie d'un montant de: {$billing.prime}</span></td>*}
+          <td class="firstTd" style="font-size:11px;">
+            Tout ou partie des travaux relatifs à ce Facture ou bon de commande sont éligibles à une prime d'un montant de {$billing.prime} dont 
+ {$billing.polluter.commercial} est à l'origine dans le cadre du certificats d'Economies d'Energie. Le montant de cette prime ne pourra être révisé à la baisse qu'en cas de modification du volume de Certifiacts d'Economies d'Energie attaché à l'opération ou aux opérations d'économies d'énergie ou de la situation de précarité énergétique et ce, de manière proportionnelle
+          </td>         
+        </tr>
+    </table>
+  </div>
+
+  <div style="position: absolute;bottom: 270px;font-weight: bold;font-size: 9.5px;color: #3DADF2;width: 50%;text-align: justify;">
+    {*Facture POMPE A CHALEUR*}
+
+
+    Conformément à la réglementation, le Client dispose d’un droit d’accès, de rectification, d’information
+complémentaire, d’opposition, de portabilité, d’effacement et de limitation de ses données, dans les conditions
+prévues par la réglementation, auprès du délégué à la protection des données (DPO) de la Société et pourra
+le contacter à l’adresse suivante : {$company.name}, Service des Données Personnelles – {$company.postcode}
+–{$company.city} ou par courrier électronique à : {$company.email}
+(1) L’opération « Coup de pouce Chauffage » est définie par arrêté ministériel dans le cadre du dispositif
+Certificats d’Economies d’Energie. Voir conditions sur https://www.ecologique-solidaire.gouv.fr/coup-pouceeconomies-denergie-2019-2020. Les travaux relatifs à ce Facture sont éligibles à l’accompagnement de
+{$billing.polluter.commercial}, signataire de la charte « Coup de pouce Chauffage », dans le cadre du dispositif
+des Certificats d’Économie d’Énergie (CEE). Celui-ci m’a été présenté par le professionnel avant
+l’établissement de ce Facture. Dans le cadre de ces travaux, je consens à ce que ma prime CEE soit déduite
+du montant à payer et je certifie ne pas avoir fait des demandes de prime CEE auprès d’un autre
+professionnel. Si je bénéficie d’une prime CEE précarité je certifie l’exactitude des documents fournis.
+  </div>
+
+  <table class="totalTable" style="width:45%;margin-left: 466px;margin-top: 0px;display: inline-block;" cellspacing="0">
+            <tr>
+              <th class="thTotal" style="width:38%;font-weight: normal !important;background: #e1f2fa;">Total HT</th>
+              <td class="alignementRight" style="width:38%;">{$billing.total_sale_without_tax}</td>
+            </tr>
+            <tr>
+              <th class="thTotal" style="width:38%;background: #e1f2fa;">Taux TVA</th>
+              <td class="alignementRight" style="width:38%;font-weight:bold;">{*$billing.total_sale_without_tax*}5.50%</td>
+            </tr>
+            <tr>
+              <th class="thTotal" style="width:38%;font-weight: normal !important;background: #e1f2fa;">Total TVA</th>
+              <td class="alignementRight" style="width:38%;">{$billing.total_tax}</td>
+            </tr>
+            <tr>
+              <th class="thTotal" style="width:38%;font-weight: normal !important;border: 1px solid #;background: #e1f2fa;">Total TTC</th>
+              <td class="alignementRight" style="width:38%;">{$billing.total_sale_with_tax}</td>
+            </tr>
+          </table>
+
+
+            <table class="totalTable" style="width:45%;margin-left: 466px;margin-top: 10px;" cellspacing="0">
+                                    <tr>
+              <th class="thTotal" style="width:38%;font-weight: normal !important;text-align: left;background: #F0F0F0;border-top: 1px solid #000;">Prime C.E.E</th>
+              <td class="alignementRight" style="width:38%;border-top: 1px solid #000;">{$billing.prime}</td>
+              </tr>
+              <tr>
+              <th class="thTotal" style="width:38%;font-weight: normal !important;text-align: left;background: #F0F0F0;">Prime
+prévisionnelle MaPrimeRénov'</th>
+              <td class="alignementRight" style="width:38%;">{$billing.ana_tax}</td>
+            </tr>
+            </table>
+
+            <table class="totalTable" style="width:45%;margin-left: 466px;margin-top: 10px;" >
+            <tr>
+              <th class="thTotal" style="width:38%;font-weight: normal !important;text-align: left;border-top: 1px solid #000;">NET A PAYER en euros</th>
+              <td class="alignementRight" style="width:38%;border-top: 1px solid #000;">{$billing.total_sale_and_prime_ana_tax}</td>
+            </tr>   
+            </table>
+  <div style="position: absolute;bottom: 220px;left:468px;font-weight: bold;font-size: 20px;color: #3DADF2;width: 50%;text-align: justify;">
+    Facture CHAUDIERE
+  </div>
+
+  {*<div style="width:498px;margin-left:4px;margin-top: -30px;">
+    <div style="margin-left:70px;margin-bottom:20px;"> </div>
+    <div style="width:85%;height:100px;border:1px solid #000;text-align:center;border-radius:6px;">
+      <span style="margin-top:5px;">Fait le: </span>
+    </div>
+  </div>*}
+
+  <page_footer>
+    <div style="">
+      <div style="text-align:left;font-size:10px;position:absolute;top:1040px;left:0;color:#000;"><b>  {$company.name}</b> <br> {$company.address1}, {$company.postcode} {$company.city}<br>
+        Tél: {$company.phone} - Mail: {$company.email}<br>APE : {$company.ape} - au capital de : {$company.capital} {$company.comments} 
+   </div>
+      {if $company.picture.url}
+      <img style="width:50px;margin-left:680px;opacity:0.1" src="{$company.picture.url}" />
+      {/if}
+    </div>
+    <div class="numberOfPage">Page [[page_cu]] / [[page_nb]]</div>
+
+  </page_footer>
+</page>]]></body></i18n></billing><quotation><id>89</id><name>2020 ites</name><i18n><value>2020 ites</value><lang>fr</lang><created_at>2020-04-28 20:58:08</created_at><updated_at>2020-04-28 20:58:08</updated_at><body><![CDATA[<style type="text/css">
+   body {
+    /*font-family: arial;*/
+    font-family: Microsoft Sans Serif;
+
+  }
+
+  .thTotal {
+    /*border: 1px solid #000;*/
+    vertical-align: middle;
+    text-align: right;
+  }
+
+  .textCorners {
+    text-align: left;
+    vertical-align: middle;
+  }
+
+  .campanyInfo td {
+    font-size: 12px;
+  }
+
+  div {
+    font-size: 12px;
+  }
+
+  .alignementVerticalCenter {
+    text-align: right;
+    vertical-align: middle;
+  }
+
+  .tableDevis th {
+    /*background: #F0F0F0;*/
+    vertical-align: bottom;
+  }
+
+  .tdCampanyInfo {
+    padding-left: 10px;
+  }
+
+  .marginLeftInfo {
+    margin-left: 10px;
+  }
+
+  .infoTable th {
+    background: #F0F0F0;
+  }
+
+  .logo {
+    position: absolute;
+    width: 20%;
+  }
+
+  .infos {
+    margin-left: 400px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    width: 35%;
+  }
+
+  .tableDevis {
+    border-collapse: collapse;
+    /*margin-left:500px;*/
+    /*position:relative;*/
+    /*display:inline-block;*/
+    /*margin-top:20px;*/
+    /*float:left;*/
+  }
+
+  .tableDevis th,
+  .tableDevis td {
+    border: 1px solid #000;
+    /*padding:5px 20px 5px 20px;*/
+    padding: 4px;
+    text-align: center;
+    /*width:120px;*/
+    width: 80px;
+    height: 8px;
+  }
+
+  .totalTable th,
+  .totalTable td {
+    width: 25%;
+    border: 1px solid #000;
+  }
+
+  .totalTable {
+   /* border: 1px solid #000;*/
+    /*border-top-left-radius: 10px;*/
+   /* border-top-right-radius: 10px;*/
+  }
+
+  .totalTable th {
+    background: #F0F0F0;
+    padding: 5px;
+  }
+
+
+  /*.infoTable th,.infoTable td {
+   border:1px solid #000;
+padding:5px;
+text-align:center;
+}*/
+  .tableTableau {
+    border-collapse: collapse;
+  }
+
+  .tableau {
+    /*margin-left:-50px;*/
+    margin-top: 10px;
+  }
+
+  .tableTableau th,
+  .tableTableau td {
+    border: 1px solid #000;
+    padding: 5.5px;
+    line-height: 12px;
+  }
+
+  .alignement {
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .firstTd {
+    width: 49%;
+  }
+
+  .resultat {
+    border-left: none;
+  }
+
+  .textFooter {
+    text-align: center;
+    font-size: 11px;
+  }
+
+  .headTableDevis td {
+    /*padding-right:10px;*/
+    vertical-align: top;
+  }
+
+  .headTableDevis {
+    margin-left: 250px;
+
+  }
+
+  .alignementRight {
+    text-align: right;
+    padding-right: 4px;
+    vertical-align: middle;
+  }
+
+  .corners {
+    margin-top: 100px;
+    position: absolute;
+    right: 0;
+    margin-right: 100px;
+    width: 39%;
+    /*height:90px;*/
+    padding: 10px;
+  }
+
+ .cornersTech{
+    margin-top: 280px;
+    position: absolute;
+    left: 0;
+    width: 39%;
+    height:30px;
+    padding: 5px;
+    border : 1px solid #000;
+    margin-bottom:15px;
+}
+
+ .cornersTech1{
+    margin-top: 280px;
+    position: absolute;
+    right: 0;
+    margin-right:100px;
+    width: 39%;
+    height:30px;
+    padding: 5px;
+    border : 1px solid #000;
+    margin-bottom:15px;
+}
+
+  .topcorners,
+  .bottomcorners {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+  }
+
+  .topcorners {
+    top: 0;
+    border-top: 1px solid;
+  }
+
+  .bottomcorners {
+    bottom: 0;
+    border-bottom: 1px solid;
+  }
+
+  .leftcorners {
+    left: 0;
+    border-left: 1px solid;
+  }
+
+  .rightcorners {
+    right: 0;
+    border-right: 1px solid;
+  }
+
+  .borderContent {
+    border: 1px solid #000;
+    padding: 3px;
+    margin-top: 8px;
+
+  }
+
+  .logoo {
+    margin-top: 10px;
+
+  }
+
+  .divCarre {
+    text-align: center;
+    border: 1px solid #000;
+    width: 10px;
+    height: 8px;
+    display: inline;
+    font-size: 9px;
+    text-transform: uppercase;
+  }
+
+  .point {
+    position: absolute;
+  }
+
+  .parametre {
+    position: absolute;
+    top: -3px;
+    margin-left: 8px;
+    text-transform: uppercase;
+  }
+
+  .reponse {
+    position: relative;
+  }
+.numberOfPage{
+bottom:0;
+/*position:absolute;*/
+text-align:right;
+right:0;
+
+}
+</style>
+<page backleft="21px" backright="21px" backtop="10px">
+    <div class="borderContent" style="height:920px;position:relative;">
+        <div style="display:inline;width:40%;position:absolute;margin-left:10px;"><img class="logoo" style="width:100%;" src="http://{$smarty.server.HTTP_HOST}/admin/web/pictures/cee.png" /></div>
+        {if $recipient.logo != null}
+        <div style="display:inline;width:30%;position:absolute;margin-left:300px;">
+            <img class="logoo" style="width:160px;margin-left:80px;margin-top:17px;" src="{$recipient.logo.url}" /></div>{/if} {if $polluter.logo != null}
+        <div style="display:inline;width:30%; position:absolute;margin-left:550px;">
+            <img class="logoo" style="width:120px;height:110px;" src="{$polluter.logo.url}" /></div>{/if} {*
+
+        <div style="display:inline;width:30%; position:absolute;margin-left:400px;">
+            {if $polluter.logo != null}<img class="logoo" style="width:320px;height:110px;" src="{$polluter.logo.url}" />{/if}</div>*}
+
+        <div style="margin-top:130px;">Le dispositif national des certificats d’économies d’énergie (CEE) mis en place par le Ministère en charge de l’énergie impose à l’ensemble des fournisseurs d’énergie (électricité, gaz, fioul domestique, chaleur ou froid, carburants automobiles), de réaliser des économies et de promouvoir les comportements vertueux auprès des consommateurs d’énergie.</div>
+        <div style="margin-top:25px;"> {if $polluter.commercial != null}Dans le cadre de son partenariat avec<span style="font-weight:bold;"> {$polluter.commercial},</span> {/if}la société {$recipient.name} s’engage à vous apporter:</div>
+        <div style="margin-top:5px">
+            <div class="divCarre" style="margin-left:28px;">X</div>
+            <span class="reponse" style="margin-left:6px;">
+            une prime d’un montant de {$quotation.ite_prime} euros; </span></div>
+        <div style="margin-top:5px">
+            <div class="divCarre" style="margin-left:28px;"> </div>
+            <span class="reponse" style="margin-left:6px;">un bon d’achat pour des produits de consommation courante d’un montant de ....................... euros; </span></div>
+        <div style="margin-top:5px">
+            <div class="divCarre" style="margin-left:28px;"> </div>
+            <span class="reponse" style="margin-left:6px;">un prêt bonifié d’un montant de .......................  euros proposé par ....................... au taux effectif global (TEG) de .............. %</span></div>
+        <div style="margin-left:25px;"> (valeur de la bonification = ....................... euros); </div>
+        <div style="margin-top:5px">
+            <div class="divCarre" style="margin-left:28px;"> </div>
+            <span class="reponse" style="margin-left:6px;">un audit ou conseil personnalisé, remis sous forme écrite au bénéficiaire (valeur = ....................... euros); </span></div>
+        <div style="margin-top:5px">
+            <div class="divCarre" style="margin-left:28px;"> </div>
+            <span class="reponse" style="margin-left:6px;">un produit ou service offert : ....................... d’une valeur de ....................... €  </span></div>
+        <div style="margin-top:8px;">dans le cadre des travaux suivants (1 ligne par opération) :</div>
+        <div class="tableau">
+            <table class="tableTableau " style="width:100%;align: center;">
+                <thead>
+                    <tr>
+                        <th class="alignement" style="width:29%;">Nature des travaux</th>
+                        <th class="alignement" style="width:20%;">Fiche CEE</th>
+                        <th class="alignement" style="width:50%;">Conditions à respecter</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {foreach $products as $product}
+                           {if $product.product.meta_title!='ITE COMPLEMENT'}
+                    <tr>
+                        <td style="width:29%;">{$product.product.meta_title}</td>
+                        <td>{$product.product.reference}</td>
+                        <td>
+                            <p style='text-align:center'>Les conditions à respecter sont disponibles à l’adresse suivante<br>https://www.ecologique-solidaire.gouv.fr/operations-standardisees</p></td>
+                    </tr>
+{/if}
+                    {/foreach}
+                </tbody>
+            </table>
+        </div>
+        <div style="margin-top:4px;">au bénéfice de : {$customer.lastname|upper} {$customer.firstname|upper}</div>
+        <div style="margin-left:90px;">{$customer.address.address1|upper}</div>
+        <div style="margin-left:90px;">{$customer.address.city|upper}, {$customer.address.postcode|upper}</div>
+        <div style="margin-top:20px;">Date de cette proposition : {$quotation.dated_at.ddmmyyyy}</div>
+        <div style="margin-top:5px;">
+                 Signature : {*<span style="font-weight:bold;">Benjamin HENRY</span><br>
+                {if $company.signature !=null}
+                <img class="log" style="width:15%;" src="{$company.signature.url}" />{/if}
+                <span style="font-weight:bold;">Président de VERTIGO (SAS - SIREN 834 398 976)</span>*}
+        </div>
+        <div style=" margin-left: 60px;">
+            {if $recipient.signature !=null}<img   class="" style="width:150px;margin-top: -15px;" src="{$recipient.signature.url}" />{/if}
+        </div>
+
+
+        <div style="margin-top:10px;">/!\ Attention, seules les propositions remises avant l’acceptation du devis ou du bon de commande sont valables, et vous ne pouvez pas cumuler plusieurs offres CEE différentes pour la même opération. </div>
+        <div class="borderContent" style="height:80px;position:relative;background-color:#bfe4ff;margin-top:5px;">
+            <div style="margin-top:4px;width:80%;text-decoration: underline;">Où se renseigner pour bénéficier de cette offre ?</div>
+            <div style="margin-top:6px;text-align:center;width:80%;">{*{if $company.web != null}{$company.web} {/if} Tél: {format_phone($company.phone,null,'XX XX XX XX XX')}}  - {$company.phone*}</div>
+            <div style="margin-top:6px;text-align:center;width:96%;"> <span style="color:blue;text-decoration:underline;">{if $polluter.comments != null}{$polluter.comments} {/if}{*if $company.web != null}{$company.web} {/if*}{*https://www.direct-energie.com/particuliers/electricite-et-gaz/depannage-et-services/obtenir-une-prime-pour-les-certificats- d-economie-d-energie*}</span></div>
+            <div style="margin-top:6px;width:80%;text-decoration: underline;">Où s’informer sur les aides pour les travaux d’économies d’énergie ? </div>
+            <div style="margin-top:6px;text-align:center;width:80%;">Site du Ministère en charge de l’énergie : </div>
+            <div style="margin-top:6px;text-align:center;width:80%;">www.ecologique-solidaire.gouv.fr/aides-financieres-renovation-energetique</div>
+            <div style="margin-top:6px;text-align:center;width:80%;">Plateforme Rénovation info service : <img style="width:25%;" src="http://{$smarty.server.HTTP_HOST}/admin/web/pictures/0808800700.png" /></div>
+            <img style="width:10%;position:absolute;margin-left:570px;margin-top:70px;" src="http://{$smarty.server.HTTP_HOST}/admin/web/pictures/ministere_ecologique.png" />
+        </div>
+    </div>
+    <page_footer>
+        <div class="numberOfPage">Page 1 / 1</div>
+        {*
+        <div style="font-size:10px;">Fait le 4 septembre 2014.</div>
+        <div style="margin-top:20px;font-size:10px;">Pour la ministre et par délégation :</div>
+        <div style="font-size:10px;">Le directeur général de l’énergie et du climat, </div>
+        <div style="font-size:10px;">L. Michel </div>*}
+    </page_footer>
+</page>
+
+
+<page>
+  <div style="position: absolute;width: 100px;height: 100px;border-radius: 20px 50px;right: -80px;top:-80px;background: #006699;"></div>
+  {if $company.picture}<img class="logo" style="width:100px;" src="{$company.picture.url}" />{/if}
+  <div style="position:relative;">
+    <table class="headTableDevis">
+      <tr>
+        <td>
+          <div>
+            <table class="tableDevis">
+              <thead>
+                <tr>
+                  <th style="border-top-left-radius: 10px;border-top-right-radius: 10px;">DEVIS</th>
+
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;font-weight:bold;">{$quotation.reference}</td>
+
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </td>
+        <td>
+          <div>
+            <table class="tableDevis">
+              <thead>
+                <tr>
+                  <th style="border-top-left-radius: 10px;border-top-right-radius: 10px;">DATE</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;font-weight:bold;">{$contract.quoted_at.ddmmyyyy}
+</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </td>
+        <td>
+          <div style="margin-top:0px;">
+            <table class="tableDevis">
+              <thead>
+                <tr>
+                  <th style="border-top-left-radius: 10px;border-top-right-radius: 10px;">CLIENT</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;font-weight:bold;">{$customer.id}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <div class="corners">
+    {*<div class="topcorners leftcorners"></div>
+    <div class="topcorners rightcorners"></div>
+    <div class="bottomcorners rightcorners"></div>
+    <div class="bottomcorners leftcorners"></div>*}
+    <div class="textCorners" style="font-weight: bold;">CLIENT</div>
+    <div class="textCorners" > {$customer.lastname|upper} {$customer.firstname|upper}</div>
+    <div class="textCorners" style="margin-top: 5px;">{$customer.address.address1|upper}</div>
+    <div class="textCorners" style="margin-top: 5px;">{$customer.address.postcode|upper} {$customer.address.city|upper}</div>
+    {*<div class="textCorners" style="font-weight: bold;"> {$customer.phone}</div>
+    <div class="textCorners" style="font-weight: bold;"> {$customer.email}</div>*}
+  </div>
+  <div style="margin-top: 50px;font-weight:bold;">{$company.name}</div>
+  {*<div style="margin-top: 5px;font-weight:bold;">{$company.address1|upper} </div>*}
+  <div style="margin-top: 5px;font-weight:bold;">{$company.address1}</div>
+  <div style="margin-top: 5px;font-weight:bold;">{$company.city}, {$company.postcode}</div>
+  <table class="campanyInfo" style="margin-top: 10px;">
+    <tr>
+      <td>Tél</td>
+      <td class="tdCampanyInfo"><span>:</span><span class="marginLeftInfo">{$company.phone}</span></td>
+    </tr>
+    <tr>
+      <td>R.C.S</td>
+      <td class="tdCampanyInfo"><span>:</span><span class="marginLeftInfo">{$company.rcs}</span></td>
+    </tr>
+    <tr>
+      <td>SIRET</td>
+      <td class="tdCampanyInfo"><span>:</span><span class="marginLeftInfo">{$company.siret}</span></td>
+    </tr>
+    <tr>
+      <td>TVA INTRA</td>
+      <td class="tdCampanyInfo"><span>:</span><span class="marginLeftInfo">{$company.tva}</span></td>
+    </tr>
+    <tr>
+      <td>N° RGE</td>
+      <td class="tdCampanyInfo"><span>:</span><span class="marginLeftInfo">{$company.rge}</span></td>
+    </tr>
+
+  </table>
+  {*<div style="margin-top: 40px;">Nous avons le plaisir de vous adresser votre<span style="font-weight: bold;"> devis d'isolation.</span> Seul le montant présenté ci-dessous restera à votre charge.</div>*}
+ <div style="margin-left:380px;margin-top:8px;">
+  <span style="font-weight: bold;color: #3DADF2;">DELAI DE LIVRAISON :</span> 3 mois</div>
+  <div style="margin-left:380px;margin-top:8px;font-weight: bold;"><span style="color: #3DADF2;">VALIDITÉ :</span> UN MOIS À DATER DU JOUR DU PRÉSENT DEVIS</div>
+
+  <div style="margin-top: 10px;">
+    <b></b><br>
+<div style="font-size:10px;">
+   </div>
+   </div>
+  <div class="tableau">
+    <table class="tableTableau infoTable" style="width:100%;align: center;margin-top:8px;">
+      <thead>
+        <tr>
+          <th class="alignement" style="border-top-left-radius: 10px;background: #e1f2fa;">REFERENCE</th>
+          <th class="alignement" style="background: #e1f2fa;">DESIGNATION</th>
+          <th class="alignement" style="width:9.5%;background: #e1f2fa;">QUANTITE</th>
+          {*<th class="alignement" style="width:9%;">Unité</th>*}
+          <th class="alignement" style="width:9%;background: #e1f2fa">P.U. HT</th>
+          <th class="alignement" style="width:9%;border-top-right-radius: 10px;background: #e1f2fa;">MONTANT HT</th>
+        </tr>
+      </thead>
+      <tbody>
+        {foreach $products as $product name=test}
+
+        {foreach $product.items as $items}
+        <tr>
+          <td class="" style="width:13%;text-align: center;" {*if $smarty.foreach.test.last}style="border-bottom-left-radius: 10px;" {/if*}>{$items.item.input1} </td>
+          <td class="firstTd" style="width: 58%;">
+            <div class="divTable" style="font-size:11px;">{$items.item.description}</div>
+            {*<div class="divTable" style="">{$items.item.thickness}</div>*}
+            <div class="divTable" style="font-size:11px;"> {$items.item.input3}</div>
+            <div class="divTable" style="font-size:11px;">{$items.item.details}</div>
+          </td>
+          <td class="alignementVerticalTop" style="text-align: center;">{*40*}{$items.quantity} </td>
+          <td class="alignementVerticalTop" style="text-align: center;">{$items.sale_price_without_tax}</td>
+          <td class="alignementVerticalTop" {*if $smarty.foreach.test.last}style="border-bottom-right-radius: 10px;" style="text-align: center;" {/if*}>{$items.total_sale_price_without_tax}
+           </td>
+         </tr> {/foreach} {/foreach}
+       </tbody>
+     </table>
+</div>
+  <page_footer>
+    <div style="">
+      <div style="text-align:left;font-size:10px;position:absolute;top:1040px;left:0;color:#000;"><b>  {$company.name}</b> <br> {$company.address1}, {$company.postcode} {$company.city}<br>
+        Tél: {$company.phone} - Mail: {$company.email}<br>APE : {$company.ape} - au capital de : {$company.capital} {$company.comments}
+   </div>
+      {if $company.picture.url}
+      <img style="width:50px;margin-left:680px;opacity:0.1" src="{$company.picture.url}" />
+      {/if}
+    </div>
+    <div class="numberOfPage"></div>
+
+  </page_footer>
+</page>
+
+
+
+<page>
+   <page_header>
+    <div style="position: absolute;width: 100px;height: 100px;border-radius: 20px 50px;right: -80px;top:-80px;background: #006699;"></div>
+  <div style="height: 300px!important;">
+  {if $company.picture}
+    <img style="width:90px;margin: 20px;" class="logo" src="{$company.picture.url}" />
+  {/if}
+  <div style="position:relative;">
+    <table class="headTableDevis">
+      <tr>
+        <td>
+          <div>
+            <table class="tableDevis">
+              <thead>
+                <tr>
+                  <th style="border-top-left-radius: 10px;border-top-right-radius: 10px;">DEVIS</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;font-weight:bold;">{$quotation.reference}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </td>
+        <td>
+          <div>
+            <table class="tableDevis">
+              <thead>
+                <tr>
+                  <th style="border-top-left-radius: 10px;border-top-right-radius: 10px;">DATE</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;font-weight:bold;">{$contract.quoted_at.ddmmyyyy}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </td>
+        <td>
+          <div style="margin-top:0px;">
+            <table class="tableDevis">
+              <thead>
+                <tr>
+                  <th style="border-top-left-radius: 10px;border-top-right-radius: 10px;">CLIENT</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;font-weight:bold;">{$customer.id}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+  </div>
+
+   <div class="corners">
+    {*<div class="topcorners leftcorners"></div>
+    <div class="topcorners rightcorners"></div>
+    <div class="bottomcorners rightcorners"></div>
+    <div class="bottomcorners leftcorners"></div>*}
+    <div class="textCorners" style="font-weight: bold;">CLIENT</div>
+    <div class="textCorners" > {$customer.lastname|upper} {$customer.firstname|upper}</div>
+    <div class="textCorners" style="margin-top: 5px;">{$customer.address.address1|upper}</div>
+    <div class="textCorners" style="margin-top: 5px;">{$customer.address.postcode|upper} {$customer.address.city|upper}</div>
+    {*<div class="textCorners" style="font-weight: bold;"> {$customer.phone}</div>
+    <div class="textCorners" style="font-weight: bold;"> {$customer.email}</div>*}
+  </div>
+  <div style="margin-top: 15px;font-weight:bold;">{$company.name}</div>
+  {*<div style="margin-top: 5px;font-weight:bold;">{$company.address1|upper} </div>*}
+  <div style="margin-top: 5px;font-weight:bold;">{$company.address1}</div>
+  <div style="margin-top: 5px;font-weight:bold;">{$company.city}, {$company.postcode}</div>
+<table class="campanyInfo" style="margin-top: 10px;">
+    <tr>
+      <td>Tél</td>
+      <td class="tdCampanyInfo"><span>:</span><span class="marginLeftInfo">{$company.phone}</span></td>
+    </tr>
+    <tr>
+      <td>R.C.S</td>
+      <td class="tdCampanyInfo"><span>:</span><span class="marginLeftInfo">{$company.rcs}</span></td>
+    </tr>
+    <tr>
+      <td>SIRET</td>
+      <td class="tdCampanyInfo"><span>:</span><span class="marginLeftInfo">{$company.siret}</span></td>
+    </tr>
+    <tr>
+      <td>TVA INTRA</td>
+      <td class="tdCampanyInfo"><span>:</span><span class="marginLeftInfo">{$company.tva}</span></td>
+    </tr>
+    <tr>
+      <td>N° RGE</td>
+      <td class="tdCampanyInfo"><span>:</span><span class="marginLeftInfo">{$company.rge}</span></td>
+    </tr>
+
+  </table>
+  </page_header>
+<br>
+{*<div class="cornersTech1" style="margin-top: 120px;">
+<div class="textCorners" style="font-weight: bold;text-align:left;">LIEU D’INSTALLATION ET UTILISATEUR :</div>
+    <div class="textCorners" style="font-weight: bold;text-align:left;">PRENOM ET NOM : {$customer.lastname|upper} {$customer.firstname|upper}</div>
+<div class="textCorners" style="font-weight: bold;text-align:left;">N° DE CLIENT : {$customer.id}</div>
+    <div class="textCorners" style="font-weight: bold;text-align:left;">ADRESSE : {$customer.address.address1|upper}</div>
+    <div class="textCorners" style="font-weight: bold;text-align:left;">CODE POSTAL : {$customer.address.postcode|upper}</div>
+    <div class="textCorners" style="font-weight: bold;text-align:left;">Ville :  {$customer.address.city|upper}</div>
+    <div class="textCorners" style="font-weight: bold;text-align:left;">N° DE TÉLÉPHONE : {$customer.phone}</div>
+    <div class="textCorners" style="font-weight: bold;text-align:left;">E-mail : {$customer.email}</div>
+  </div>*}
+
+
+
+
+  {*<div class="cornersTech" style="margin-top: 120px;">
+    <div class="textCorners" style="font-weight: bold;text-align:left;">NOM DU SOUS-TRAITANT : {$contract.layer.name}</div>
+<div class="textCorners" style="font-weight: bold;text-align:left;">SIRET DU SOUS-TRAITANT : {$contract.layer.siret}</div>
+    <div class="textCorners" style="font-weight: bold;text-align:left;">RGE DU SOUS-TRAITANT : {$contract.layer.rge}</div>
+    <div class="textCorners" style="font-weight: bold;text-align:left;">TYPE D'HABITATION :  {$contract.request.occupation}</div>
+    <div class="textCorners" style="font-weight: bold;text-align:left;">SURFACE : {$contract.request.surface_top}</div>
+    <div class="textCorners" style="font-weight: bold;text-align:left;">APPAREIL A REMPLACE : Isolation des Murs Extérieurs  </div>
+    <div class="textCorners" style="font-weight: bold;text-align:left;">OBSERVATION SUR LE REMPLACEMENT : NEANT</div>
+  </div>*}
+
+
+
+<div class="tableau">
+ <table class="tableTableau infoTable" style="width:100%;align: center;margin-top:243px;">
+        <tr>
+          <th class="alignement" style="border-top-left-radius: 10px;background: #e1f2fa">REFERENCE</th>
+          <th class="alignement" style="background: #e1f2fa;">DESIGNATION</th>
+          </tr>
+            <tr>
+            <td class="" style="text-align: center;">LIEU D’INSTALLATION ET UTILISATEUR </td>
+            <td class="firstTd" style="font-size:9px;width: 65%;">
+          <div class="" style="font-weight: bold;text-align:left;">PRÉNOM ET NOM : {$customer.lastname|upper} {$customer.firstname|upper}</div>
+        <div class="" style="font-weight: bold;text-align:left;">N° DE CLIENT : {$customer.id}</div>
+          <div class="" style="font-weight: bold;text-align:left;">ADRESSE : {$customer.address.address1|upper}</div>
+          <div class="" style="font-weight: bold;text-align:left;">CODE POSTAL : {$customer.address.postcode|upper}</div>
+          <div class="" style="font-weight: bold;text-align:left;">VILLE :  {$customer.address.city|upper}</div>
+          <div class="" style="font-weight: bold;text-align:left;">N° DE TÉLÉPHONE : {$customer.phone}</div>
+          <div class="" style="font-weight: bold;text-align:left;">E-mail : {$customer.email}</div>
+            </td>
+        </tr>
+            <tr>
+
+              <td class="" style="text-align: center;">INSTALLATION</td>
+              <td class="firstTd" style="font-size:9px;">
+                    <div class="" style="font-weight: bold;text-align:left;">NOM DU SOUS-TRAITANT : {$contract.layer.name}</div>
+    <div class="" style="font-weight: bold;text-align:left;">SIRET DU SOUS-TRAITANT : {$contract.layer.siret}</div>
+        <div class="" style="font-weight: bold;text-align:left;">RGE DU SOUS-TRAITANT : {$contract.layer.rge}</div>
+        <div class="" style="font-weight: bold;text-align:left;">TYPE D'HABITATION :  {$contract.request.occupation}</div>
+        <div class="" style="font-weight: bold;text-align:left;">SURFACE : {$contract.request.surface_top}</div>
+        <div class="" style="font-weight: bold;text-align:left;">APPAREIL A REMPLACE : Isolation des Murs Extérieurs   </div>
+        <div class="" style="font-weight: bold;text-align:left;">OBSERVATION SUR LE REMPLACEMENT : NEANT</div>
+              </td>
+        </tr>
+  <tr>
+
+          <td class="" style="text-align: center;">TERMES ET CONDITIONS</td>
+
+          {*<td class="firstTd" style="font-size:10px;text-align: justify;">En acceptant le présent devis, j’atteste sur l’honneur avoir reçu du professionnel partenaire de <span style="font-weight:bold;">{if $polluter == null}BOLLORE
+              ENERGY{else}{$polluter.commercial}{/if}</span>, les conseils adaptés à mes besoins d’économies d’énergie et délègue l’exclusivité de l’obtention des certificats d’économies d’énergie à <span style="font-weight:bold;">{if $polluter ==
+              null}BOLLORE ENERGY{else}{$polluter.commercial}{/if}</span> en contrepartie d’une Prime incitative dont le montant est indiqué sur ce devis et avoir reçu le document Cadre de Contribution signé par le professionnel partenaire de <span style="font-weight:bold;">{if $polluter == null}BOLLORE ENERGY{else}{$polluter.commercial}{/if}</span>, les travaux ou prestations objet du présent document donneront lieu à une contribution financière de <span style="font-weight:bold;">{if
+              $polluter == null}BOLLORE ENERGY{else}{$polluter.commercial}{/if}</span> dans le cadre de son rôle incitatif, directement ou via son (ses) mandataire(s), sous réserve de l’engagement de fournir exclusivement à {if $polluter ==
+            null}BOLLORE ENERGY{else}{$polluter.commercial}{/if} les documents nécessaires à la valorisation des opérations au titre du dispositif des Certificats d’Economies d’Energie et sous réserve de la validation de l’éligibilité du dossier par
+            {if $polluter == null}BOLLORE ENERGY{else}{$polluter.commercial}{/if} puis par l’autorité administrative compétente. <br><span style="font-weight:bold;margin-top:8px;font-size:10px;">Cette offre comprend la prime versée par {if $polluter
+              == null}BOLLORE ENERGY{else}{$polluter.commercial}{/if} au titre du dispositif des Certificats d'Economies d'Energie d'un montant de: {$quotation.prime}</span></td>*}
+          <td class="firstTd" style="font-size:9px;padding-bottom: 0;">
+            Tout ou partie des travaux relatifs à ce devis ou bon de commande sont éligibles à une prime d'un montant de {$quotation.ite_prime} dont
+ {$polluter.commercial} est à l'origine dans le cadre du certificats d'Economies d'Energie. Le montant de cette prime ne pourra être révisé à la baisse qu'en cas de modification du volume de Certifiacts d'Economies d'Energie attaché à l'opération ou aux opérations d'économies d'énergie ou de la situation de précarité énergétique et ce, de manière proportionnelle
+          </td>
+        </tr>
+    </table>
+  </div>
+
+  <div style="position: absolute;bottom: 260px;margin-top:5px;font-weight: bold;font-size: 20px;color: #3DADF2;">
+    DEVIS ISOLATION MUR EXTERIEUR
+  </div>
+  <div style="position: absolute;bottom: 80px;height: 100px;">
+          <div style="width:400px;display: inline-block;margin-top: 120px;">
+            <div style="width:98%;height:60px;border:1px solid #000;border-radius:6px;">
+              <div style="margin-top:20px;text-align: center;">
+                Date, Signature et mention «Bon pour Accord»
+              </div>
+                <div style="margin-top:20px;margin-left: 10px;">
+                  Fait à : {$customer.address.city|upper} </div>
+                  <div style="margin-top:20px;margin-left: 10px;">
+                  Le :  {$contract.quoted_at.ddmmyyyy} </div>
+                <signature style="width:300px;height:70px;font-size:20px;margin:auto;margin-top:5px;text-align:center;margin-left: 5px;" name="signature">
+            </signature>
+            </div>
+          </div>
+  </div>
+
+  <table class="totalTable" style="width:45%;margin-left: 473px;margin-top: 0px;display: inline-block;" >
+            <tr>
+              <th class="thTotal" style="width:38%;font-weight: normal !important;background: #e1f2fa;">Total HT</th>
+              <td class="alignementRight" style="width:38%;">{$quotation.total_sale_without_tax}</td>
+            </tr>
+            <tr>
+              <th class="thTotal" style="width:38%;background: #e1f2fa;">Taux TVA</th>
+              <td class="alignementRight" style="width:38%;font-weight:bold;">{*$quotation.total_sale_without_tax*}5.50%</td>
+            </tr>
+            <tr>
+              <th class="thTotal" style="width:38%;font-weight: normal !important;background: #e1f2fa;">Total TVA</th>
+              <td class="alignementRight" style="width:38%;">{$quotation.total_tax}</td>
+            </tr>
+            <tr>
+              <th class="thTotal" style="width:38%;font-weight: normal !important;border: 1px solid #;background: #e1f2fa;">Total TTC</th>
+              <td class="alignementRight" style="width:38%;">{$quotation.total_sale_with_tax}</td>
+            </tr>
+          </table>
+
+
+            <table class="totalTable" style="width:45%;margin-left: 473px;margin-top: 10px;" cellspacing="0">
+                                    <tr>
+              <th class="thTotal" style="width:38%;font-weight: normal !important;text-align: left;background: #F0F0F0;">Prime C.E.E VERSÉE PAR {$polluter.commercial} </th>
+              <td class="alignementRight" style="width:38%;">{$quotation.ite_prime}</td>
+              </tr>
+            </table>
+
+            <table class="totalTable" style="width:45%;margin-left: 473px;margin-top: 10px;" cellspacing="0">
+            <tr>
+              <th class="thTotal" style="width:38%;font-weight: normal !important;text-align: left;">NET A PAYER en euros</th>
+              <td class="alignementRight" style="width:38%;">{$quotation.total_sale_with_ite_prime}</td>
+            </tr>
+            </table>
+  {*<div style="width:498px;margin-left:4px;margin-top: -30px;">
+    <div style="margin-left:70px;margin-bottom:20px;"> </div>
+    <div style="width:85%;height:100px;border:1px solid #000;text-align:center;border-radius:6px;">
+      <span style="margin-top:5px;">Fait le: </span>
+    </div>
+  </div>*}
+
+  <page_footer>
+    <div style="">
+      <div style="text-align:left;font-size:10px;position:absolute;top:1040px;left:0;color:#000;"><b>  {$company.name}</b> <br> {$company.address1}, {$company.postcode} {$company.city}<br>
+        Tél: {$company.phone} - Mail: {$company.email}<br>APE : {$company.ape} - au capital de : {$company.capital} {$company.comments}
+   </div>
+      {if $company.picture.url}
+      <img style="width:50px;margin-left:680px;opacity:0.1" src="{$company.picture.url}" />
+      {/if}
+    </div>
+    <div class="numberOfPage"></div>
+
+  </page_footer>
+</page>
+<page>
+   <page_header>
+    <div style="position: absolute;width: 100px;height: 100px;border-radius: 20px 50px;right: -80px;top:-80px;background: #006699;"></div>
+  <div style="height: 300px!important;">
+  {if $company.picture}
+    <img style="width:90px;margin: 20px;" class="logo" src="{$company.picture.url}" />
+  {/if}
+  <div style="position:relative;">
+    <table class="headTableDevis">
+      <tr>
+        <td>
+          <div>
+            <table class="tableDevis">
+              <thead>
+                <tr>
+                  <th style="border-top-left-radius: 10px;border-top-right-radius: 10px;">DEVIS</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;font-weight:bold;">{$quotation.reference}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </td>
+        <td>
+          <div>
+            <table class="tableDevis">
+              <thead>
+                <tr>
+                  <th style="border-top-left-radius: 10px;border-top-right-radius: 10px;">DATE</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;font-weight:bold;">{$contract.quoted_at.ddmmyyyy}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </td>
+        <td>
+          <div style="margin-top:0px;">
+            <table class="tableDevis">
+              <thead>
+                <tr>
+                  <th style="border-top-left-radius: 10px;border-top-right-radius: 10px;">CLIENT</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;font-weight:bold;">{$customer.id}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+  </div>
+
+   <div class="corners">
+    {*<div class="topcorners leftcorners"></div>
+    <div class="topcorners rightcorners"></div>
+    <div class="bottomcorners rightcorners"></div>
+    <div class="bottomcorners leftcorners"></div>*}
+    <div class="textCorners" style="font-weight: bold;">CLIENT</div>
+    <div class="textCorners" > {$customer.lastname|upper} {$customer.firstname|upper}</div>
+    <div class="textCorners" style="margin-top: 5px;">{$customer.address.address1|upper}</div>
+    <div class="textCorners" style="margin-top: 5px;">{$customer.address.postcode|upper} {$customer.address.city|upper}</div>
+    {*<div class="textCorners" style="font-weight: bold;"> {$customer.phone}</div>
+    <div class="textCorners" style="font-weight: bold;"> {$customer.email}</div>*}
+  </div>
+  <div style="margin-top: 15px;font-weight:bold;">{$company.name}</div>
+  {*<div style="margin-top: 5px;font-weight:bold;">{$company.address1|upper} </div>*}
+  <div style="margin-top: 5px;font-weight:bold;">{$company.address1}</div>
+  <div style="margin-top: 5px;font-weight:bold;">{$company.city}, {$company.postcode}</div>
+<table class="campanyInfo" style="margin-top: 10px;">
+    <tr>
+      <td>Tél</td>
+      <td class="tdCampanyInfo"><span>:</span><span class="marginLeftInfo">{$company.phone}</span></td>
+    </tr>
+    <tr>
+      <td>R.C.S</td>
+      <td class="tdCampanyInfo"><span>:</span><span class="marginLeftInfo">{$company.rcs}</span></td>
+    </tr>
+    <tr>
+      <td>SIRET</td>
+      <td class="tdCampanyInfo"><span>:</span><span class="marginLeftInfo">{$company.siret}</span></td>
+    </tr>
+    <tr>
+      <td>TVA INTRA</td>
+      <td class="tdCampanyInfo"><span>:</span><span class="marginLeftInfo">{$company.tva}</span></td>
+    </tr>
+    <tr>
+      <td>N° RGE</td>
+      <td class="tdCampanyInfo"><span>:</span><span class="marginLeftInfo">{$company.rge}</span></td>
+    </tr>
+
+  </table>
+  </page_header>
+<br>
+{*<div class="cornersTech1" style="margin-top: 120px;">
+<div class="textCorners" style="font-weight: bold;text-align:left;">LIEU D’INSTALLATION ET UTILISATEUR :</div>
+    <div class="textCorners" style="font-weight: bold;text-align:left;">PRENOM ET NOM : {$customer.lastname|upper} {$customer.firstname|upper}</div>
+<div class="textCorners" style="font-weight: bold;text-align:left;">N° DE CLIENT : {$customer.id}</div>
+    <div class="textCorners" style="font-weight: bold;text-align:left;">ADRESSE : {$customer.address.address1|upper}</div>
+    <div class="textCorners" style="font-weight: bold;text-align:left;">CODE POSTAL : {$customer.address.postcode|upper}</div>
+    <div class="textCorners" style="font-weight: bold;text-align:left;">Ville :  {$customer.address.city|upper}</div>
+    <div class="textCorners" style="font-weight: bold;text-align:left;">N° DE TÉLÉPHONE : {$customer.phone}</div>
+    <div class="textCorners" style="font-weight: bold;text-align:left;">E-mail : {$customer.email}</div>
+  </div>*}
+
+
+
+
+  {*<div class="cornersTech" style="margin-top: 120px;">
+    <div class="textCorners" style="font-weight: bold;text-align:left;">NOM DU SOUS-TRAITANT : {$contract.layer.name}</div>
+<div class="textCorners" style="font-weight: bold;text-align:left;">SIRET DU SOUS-TRAITANT : {$contract.layer.siret}</div>
+    <div class="textCorners" style="font-weight: bold;text-align:left;">RGE DU SOUS-TRAITANT : {$contract.layer.rge}</div>
+    <div class="textCorners" style="font-weight: bold;text-align:left;">TYPE D'HABITATION :  {$contract.request.occupation}</div>
+    <div class="textCorners" style="font-weight: bold;text-align:left;">SURFACE : {$contract.request.surface_top}</div>
+    <div class="textCorners" style="font-weight: bold;text-align:left;">APPAREIL A REMPLACE : Isolation des Murs Extérieurs </div>
+    <div class="textCorners" style="font-weight: bold;text-align:left;">OBSERVATION SUR LE REMPLACEMENT : NEANT</div>
+  </div>*}
+
+
+
+<div class="tableau">
+ <table class="tableTableau infoTable" style="width:100%;align: center;margin-top:243px;">
+        <tr>
+          <th class="alignement" style="border-top-left-radius: 10px;background: #e1f2fa">REFERENCE</th>
+          <th class="alignement" style="background: #e1f2fa;">DESIGNATION</th>
+          </tr>
+            <tr>
+            <td class="" style="text-align: center;">LIEU D’INSTALLATION ET UTILISATEUR </td>
+            <td class="firstTd" style="font-size:9px;width: 65%;">
+          <div class="" style="font-weight: bold;text-align:left;">PRÉNOM ET NOM : {$customer.lastname|upper} {$customer.firstname|upper}</div>
+        <div class="" style="font-weight: bold;text-align:left;">N° DE CLIENT : {$customer.id}</div>
+          <div class="" style="font-weight: bold;text-align:left;">ADRESSE : {$customer.address.address1|upper}</div>
+          <div class="" style="font-weight: bold;text-align:left;">CODE POSTAL : {$customer.address.postcode|upper}</div>
+          <div class="" style="font-weight: bold;text-align:left;">VILLE :  {$customer.address.city|upper}</div>
+          <div class="" style="font-weight: bold;text-align:left;">N° DE TÉLÉPHONE : {$customer.phone}</div>
+          <div class="" style="font-weight: bold;text-align:left;">E-mail : {$customer.email}</div>
+            </td>
+        </tr>
+            <tr>
+
+              <td class="" style="text-align: center;">INSTALLATION</td>
+              <td class="firstTd" style="font-size:9px;">
+                    <div class="" style="font-weight: bold;text-align:left;">NOM DU SOUS-TRAITANT : {$contract.layer.name}</div>
+    <div class="" style="font-weight: bold;text-align:left;">SIRET DU SOUS-TRAITANT : {$contract.layer.siret}</div>
+        <div class="" style="font-weight: bold;text-align:left;">RGE DU SOUS-TRAITANT : {$contract.layer.rge}</div>
+        <div class="" style="font-weight: bold;text-align:left;">TYPE D'HABITATION :  {$contract.request.occupation}</div>
+        <div class="" style="font-weight: bold;text-align:left;">SURFACE : {$contract.request.surface_top}</div>
+        <div class="" style="font-weight: bold;text-align:left;">APPAREIL A REMPLACE : Isolation des Murs Extérieurs   </div>
+        <div class="" style="font-weight: bold;text-align:left;">OBSERVATION SUR LE REMPLACEMENT : NEANT</div>
+              </td>
+        </tr>
+  <tr>
+
+          <td class="" style="text-align: center;">TERMES ET CONDITIONS</td>
+
+          {*<td class="firstTd" style="font-size:10px;text-align: justify;">En acceptant le présent devis, j’atteste sur l’honneur avoir reçu du professionnel partenaire de <span style="font-weight:bold;">{if $polluter == null}BOLLORE
+              ENERGY{else}{$polluter.commercial}{/if}</span>, les conseils adaptés à mes besoins d’économies d’énergie et délègue l’exclusivité de l’obtention des certificats d’économies d’énergie à <span style="font-weight:bold;">{if $polluter ==
+              null}BOLLORE ENERGY{else}{$polluter.commercial}{/if}</span> en contrepartie d’une Prime incitative dont le montant est indiqué sur ce devis et avoir reçu le document Cadre de Contribution signé par le professionnel partenaire de <span style="font-weight:bold;">{if $polluter == null}BOLLORE ENERGY{else}{$polluter.commercial}{/if}</span>, les travaux ou prestations objet du présent document donneront lieu à une contribution financière de <span style="font-weight:bold;">{if
+              $polluter == null}BOLLORE ENERGY{else}{$polluter.commercial}{/if}</span> dans le cadre de son rôle incitatif, directement ou via son (ses) mandataire(s), sous réserve de l’engagement de fournir exclusivement à {if $polluter ==
+            null}BOLLORE ENERGY{else}{$polluter.commercial}{/if} les documents nécessaires à la valorisation des opérations au titre du dispositif des Certificats d’Economies d’Energie et sous réserve de la validation de l’éligibilité du dossier par
+            {if $polluter == null}BOLLORE ENERGY{else}{$polluter.commercial}{/if} puis par l’autorité administrative compétente. <br><span style="font-weight:bold;margin-top:8px;font-size:10px;">Cette offre comprend la prime versée par {if $polluter
+              == null}BOLLORE ENERGY{else}{$polluter.commercial}{/if} au titre du dispositif des Certificats d'Economies d'Energie d'un montant de: {$quotation.prime}</span></td>*}
+          <td class="firstTd" style="font-size:9px;padding-bottom: 0;">
+            Tout ou partie des travaux relatifs à ce devis ou bon de commande sont éligibles à une prime d'un montant de {$quotation.ite_prime} dont
+ {$polluter.commercial} est à l'origine dans le cadre du certificats d'Economies d'Energie. Le montant de cette prime ne pourra être révisé à la baisse qu'en cas de modification du volume de Certifiacts d'Economies d'Energie attaché à l'opération ou aux opérations d'économies d'énergie ou de la situation de précarité énergétique et ce, de manière proportionnelle
+          </td>
+        </tr>
+    </table>
+  </div>
+
+  <div style="position: absolute;bottom: 260px;margin-top:5px;font-weight: bold;font-size: 20px;color: #3DADF2;">
+    DEVIS ISOLATION MUR EXTERIEUR
+  </div>
+  <div style="position: absolute;bottom: 80px;height: 100px;">
+          <div style="width:400px;display: inline-block;margin-top: 120px;">
+            <div style="width:98%;height:60px;border:1px solid #000;border-radius:6px;">
+              <div style="margin-top:20px;text-align: center;">
+                Date, Signature et mention «Bon pour Accord»
+              </div>
+                <div style="margin-top:20px;margin-left: 10px;">
+                  Fait à : {$customer.address.city|upper} </div>
+                  <div style="margin-top:20px;margin-left: 10px;">
+                  Le :  {$contract.quoted_at.ddmmyyyy} </div>
+                <signature style="width:300px;height:70px;font-size:20px;margin:auto;margin-top:5px;text-align:center;margin-left: 5px;" name="signature">
+            </signature>
+            </div>
+          </div>
+  </div>
+
+  <table class="totalTable" style="width:45%;margin-left: 473px;margin-top: 0px;display: inline-block;" >
+            <tr>
+              <th class="thTotal" style="width:38%;font-weight: normal !important;background: #e1f2fa;">Total HT</th>
+              <td class="alignementRight" style="width:38%;">{$quotation.total_sale_without_tax}</td>
+            </tr>
+            <tr>
+              <th class="thTotal" style="width:38%;background: #e1f2fa;">Taux TVA</th>
+              <td class="alignementRight" style="width:38%;font-weight:bold;">{*$quotation.total_sale_without_tax*}5.50%</td>
+            </tr>
+            <tr>
+              <th class="thTotal" style="width:38%;font-weight: normal !important;background: #e1f2fa;">Total TVA</th>
+              <td class="alignementRight" style="width:38%;">{$quotation.total_tax}</td>
+            </tr>
+            <tr>
+              <th class="thTotal" style="width:38%;font-weight: normal !important;border: 1px solid #;background: #e1f2fa;">Total TTC</th>
+              <td class="alignementRight" style="width:38%;">{$quotation.total_sale_with_tax}</td>
+            </tr>
+          </table>
+
+
+          <table class="totalTable" style="width:45%;margin-left: 473px;margin-top: 10px;" cellspacing="0">
+                                  <tr>
+            <th class="thTotal" style="width:38%;font-weight: normal !important;text-align: left;background: #F0F0F0;">Prime C.E.E VERSÉE PAR {$polluter.commercial} </th>
+            <td class="alignementRight" style="width:38%;">{$quotation.ite_prime}</td>
+            </tr>
+            <tr>
+            <th class="thTotal" style="width:38%;font-weight: normal !important;text-align: left;background: #F0F0F0;">Prime prévisionnelle
+MaPrimeRénov' </th>
+            <td class="alignementRight" style="width:38%;">{$quotation.ana_tax}</td>
+          </tr>
+          </table>
+
+          <table class="totalTable" style="width:45%;margin-left: 473px;margin-top: 10px;" cellspacing="0">
+          <tr>
+            <th class="thTotal" style="width:38%;font-weight: normal !important;text-align: left;">NET A PAYER en euros</th>
+            <td class="alignementRight" style="width:38%;">{$quotation.total_sale_with_ite_prime_and_ana_prime}</td>
+          </tr>
+          </table>
+  {*<div style="width:498px;margin-left:4px;margin-top: -30px;">
+    <div style="margin-left:70px;margin-bottom:20px;"> </div>
+    <div style="width:85%;height:100px;border:1px solid #000;text-align:center;border-radius:6px;">
+      <span style="margin-top:5px;">Fait le: </span>
+    </div>
+  </div>*}
+
+  <page_footer>
+    <div style="">
+      <div style="text-align:left;font-size:10px;position:absolute;top:1040px;left:0;color:#000;"><b>  {$company.name}</b> <br> {$company.address1}, {$company.postcode} {$company.city}<br>
+        Tél: {$company.phone} - Mail: {$company.email}<br>APE : {$company.ape} - au capital de : {$company.capital} {$company.comments}
+   </div>
+      {if $company.picture.url}
+      <img style="width:50px;margin-left:680px;opacity:0.1" src="{$company.picture.url}" />
+      {/if}
+    </div>
+    <div class="numberOfPage"></div>
+
+  </page_footer>
+</page>
+<page>
+<page_header>
+    <div style="position: absolute;width: 100px;height: 100px;border-radius: 20px 50px;right: -80px;top:-80px;background: #006699;"></div>
+  <div style="height: 300px!important;">
+  {if $company.picture}
+    <img style="width:90px;margin: 20px;" class="logo" src="{$company.picture.url}" />
+  {/if}
+  <div style="position:relative;">
+    <table class="headTableDevis">
+      <tr>
+        <td>
+          <div>
+            <table class="tableDevis">
+              <thead>
+                <tr>
+                  <th style="border-top-left-radius: 10px;border-top-right-radius: 10px;">DEVIS</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;font-weight:bold;">{$quotation.reference}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </td>
+        <td>
+          <div>
+            <table class="tableDevis">
+              <thead>
+                <tr>
+                  <th style="border-top-left-radius: 10px;border-top-right-radius: 10px;">DATE</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;font-weight:bold;">{$contract.quoted_at.ddmmyyyy}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </td>
+        <td>
+          <div style="margin-top:0px;">
+            <table class="tableDevis">
+              <thead>
+                <tr>
+                  <th style="border-top-left-radius: 10px;border-top-right-radius: 10px;">CLIENT</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;font-weight:bold;">{$customer.id}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+  </div>
+  </page_header>
+  <div style="margin-top: 90px;">
+<div style="margin-left:35px;" ><b>PAIEMENT AVEC FINANCEMENT BANCAIRE</b></div>
+
+<div style="border:1px solid #000;width: 90%;height: 150px;margin: auto;margin-top: 10px;padding: 5px;">
+  <div>Le client a opté pour un financement bancaire sous réserve de l'acceptation du dossier de demande de prêt auprès de l'établissement financier ci-après:</div>
+<div style="margin-top: 15px;">Organisme bancaire : {$contract.forms.FINANCEMENT.ORGANISMEBANCAIRE}</div>
+<div style="margin-top: 15px;">Une offre préalable de crédit a été remise au client aux conditions principales suivantes :</div>
+<table style="margin-top: 15px;">
+  <tr>
+    <td style="width: 280px;">
+      Montant du prêt : {$contract.forms.FINANCEMENT.MONTANTDUPRET}<br> Taux débiteur fixe : {$contract.forms.FINANCEMENT.TAUXDEBITEUR}
+%<br>Nombre d'échéances : {$contract.forms.FINANCEMENT.NOMBREDECHEANCES}
+ <br> Périodicité : {$contract.forms.FINANCEMENT.PERIODICITE}
+<br>
+    </td>
+    <td style="width: 210px;padding-left: 50px;">
+      Report : {$contract.forms.FINANCEMENT.REPORT}
+<br>
+      Taux annuel effectif global (TAEG) : {$contract.forms.FINANCEMENT.TAEG}
+<br>
+      Montant des échéances : {$contract.forms.FINANCEMENT.MONTANTECHEANCE} €<br>
+  Apports personnels : {$contract.forms.FINANCEMENT.APPORTSPERSONNELS}
+€
+    </td>
+  </tr>
+</table>
+</div>
+</div>
+
+<div style="margin-top: 30px;">
+<div style="margin-left:35px;" ><b>MODALITÉ DE PAIEMENTS</b></div>
+
+<div style="border:1px solid #000;width: 90%;height: 150px;margin: auto;margin-top: 10px;padding: 5px;">
+  <div style="border-bottom:1px dashed #000;width: 487px;">Je soussigné M. {$customer.firstname|upper} {$customer.lastname|upper} accepter les modalités de paiement suivantes :</div>
+<div style="margin-top: 15px;">MONTANT DU DEVIS : {$quotation.total_sale_with_tax}</div>
+<div style="margin-top: 15px;">MONTANT DU CEE : {$quotation.ite_prime} versé par l'obligé directement au professionnel</div>
+<div style="margin-top: 15px;">MONTANT MAPRIMERÉNOV' prévisionnelle: {$quotation.ana_tax} à reverser à {$company.name} dès réception des fonds par l'État</div>
+<div style="margin-top: 15px;">RESTE À PAYER : {$quotation.total_sale_with_ite_prime_and_ana_prime} payable en une à trois mensualités</div>
+</div>
+</div>
+
+  <div style="position: absolute;bottom: 390px;height: 100px;left: 200px;">
+          <div style="width:400px;display: inline-block;margin-top: 120px;">
+            <div style="width:98%;height:60px;border:1px solid #000;border-radius:6px;">
+              <div style="margin-top:20px;text-align: center;">
+                Date, Signature et mention «Bon pour Accord»
+              </div>
+                <div style="margin-top:20px;margin-left: 10px;">
+                  Fait à : {$customer.address.city|upper} </div>
+                  <div style="margin-top:20px;margin-left: 10px;">
+                  Le :  {$contract.quoted_at.ddmmyyyy} </div>
+                <signature style="width:300px;height:70px;font-size:20px;margin:auto;margin-top:5px;text-align:center;margin-left: 5px;" name="signature1">
+            </signature>
+            </div>
+          </div>
+  </div>
+
+<div style="width: 100%;position: absolute;bottom: 350px;padding: 0;left: -10px;">---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</div>
+<div style="margin-top: 230px;">
+<div style="margin-left:35px;" ><b>BORDEREAU DE RÉTRACTATION</b></div>
+
+<div style="border:1px solid #000;width: 90%;height: 150px;margin: auto;margin-top: 10px;padding: 5px;">
+  <div style="">Le consommateur dispose d'un délai de quatorze jours pour exercer son droit de rétractation d'un contrat conclu à distance, à la suite d'un démarchage téléphonique ou hors établissement, sans avoir à motiver sa décision ni à supporter d'autres coûts que ceux prévus aux articles L. 221-18 à L. 221-29.</div>
+<div style="margin-top: 15px;">Numéro de devis : .............................................</div>
+<div style="margin-top: 15px;">A l'attention de la société {$company.name}</div>
+<div style="margin-top: 15px;">Je vous notifie par la présente ma rétractation du devis portant sur la vente du bien ci-dessous :</div>
+<div style="margin-top: 15px;">Commande reçu le ...............................................</div>
+<div style="margin-top: 15px;">Nom du consommateur : ..........................................</div>
+<div style="margin-top: 15px;">Adresse du consommateur : ......................................</div>
+<div style="margin-top: 15px;">Signature du consommateur :</div>
+</div>
+</div>
+
+    <page_footer>
+    <div style="">
+      <div style="text-align:left;font-size:10px;position:absolute;top:1040px;left:0;color:#000;"><b>  {$company.name}</b> <br> {$company.address1}, {$company.postcode} {$company.city}<br>
+        Tél: {$company.phone} - Mail: {$company.email}<br>APE : {$company.ape} - au capital de : {$company.capital} {$company.comments}
+   </div>
+      {if $company.picture.url}
+      <img style="width:50px;margin-left:680px;opacity:0.1" src="{$company.picture.url}" />
+      {/if}
+    </div>
+    <div class="numberOfPage"></div>
+
+  </page_footer>
+</page>
+<page>
+<page_header>
+    <div style="position: absolute;width: 100px;height: 100px;border-radius: 20px 50px;right: -80px;top:-80px;background: #006699;"></div>
+  <div style="height: 300px!important;">
+  {if $company.picture}
+    <img style="width:90px;margin: 20px;" class="logo" src="{$company.picture.url}" />
+  {/if}
+  <div style="position:relative;">
+    <table class="headTableDevis">
+      <tr>
+        <td>
+          <div>
+            <table class="tableDevis">
+              <thead>
+                <tr>
+                  <th style="border-top-left-radius: 10px;border-top-right-radius: 10px;">DEVIS</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;font-weight:bold;">{$quotation.reference}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </td>
+        <td>
+          <div>
+            <table class="tableDevis">
+              <thead>
+                <tr>
+                  <th style="border-top-left-radius: 10px;border-top-right-radius: 10px;">DATE</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;font-weight:bold;">{$contract.quoted_at.ddmmyyyy}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </td>
+        <td>
+          <div style="margin-top:0px;">
+            <table class="tableDevis">
+              <thead>
+                <tr>
+                  <th style="border-top-left-radius: 10px;border-top-right-radius: 10px;">CLIENT</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;font-weight:bold;">{$customer.id}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+  </div>
+  </page_header>
+<div style="text-align: justify;font-size: 7px;width: 98.5%;font-size:10px;;padding: 10px;margin-top: 105px;">
+<div style="width:98.5%;font-size:10px;">
+  <h3 style="text-align: center;">CONDITIONS GÉNÉRALES DE VENTE</h3>
+  Le présent contrat a pour objet de définir les engagements de {$company.name}  ci-après le « vendeur » et la personne physique ou morale procédant à l'achat de
+produits de de la vente et/ou des prestations identifiées au recto.
+</div>
+
+<div style="width: 98.5%;font-size:10px;">
+<div style="font-weight:bold;margin:5px 0;">ARTICLE 1 : Définitions</div>
+• Commande : La commande s'entend de la signature du contrat de vente (devis) par l'Acheteur.<br>
+• Livraison : La livraison s'entend de la remise directe des produits vendus à l'Acheteur et de leur installation sauf stipulation contraire insérée au contrat de vente (devis).<br>
+• Réception : La réception des biens commandés s'entend de la signature sans réserve du procès-verbal d'installation et/ou de réception par l'Acheteur.<br>
+• Garantie décennale : L'assurance de responsabilité civile décennale garantit la réparation des dommages qui se produisent après la réception des travaux. La garantie
+décennale concerne les vices ou dommages de construction qui peuvent affecter la solidité de l'ouvrage et de ses équipements indissociables ou qui la rendent inhabitable
+ou impropre à l'usage auquel il est destiné.<br>
+• Force majeure : La force majeure est la circonstance exceptionnelle, étrangère à la personne de celui qui l'éprouve, qui a eu pour résultat de l'empêcher d'exécuter les
+prestations qu'il devait à son créancier. Pour être qualifié de force majeure, un évènement doit être irrésistible et imprévisible. Ces deux conditions s'apprécient à la date de
+conclusion du contrat de vente.
+</div>
+
+
+<div style="width: 98.5%;font-size:10px;">
+<div style="font-weight:bold;margin:5px 0;">ARTICLE 2 : Généralités</div>
+Les présentes conditions générales de vente s'appliquent à toute vente et installation de produits destinés à favoriser le renouvellement de l'énergie conclue entre la
+Société {$company.name} ,  au capital de {$company.capital}, immatriculée sous le numéro {$company.siret} dont le siège social
+est situé {$company.address1}, {$company.postcode} {$company.city}, représentée par son {$company.function} , ci-après dénommée « la Société » ou « le Vendeur » et un client, ci-après
+dénommé « l'Acheteur ».
+Les matériaux vendus et les prestations commandées sont identifiés au recto.
+Les présentes conditions générales de vente établissent les conditions contractuelles exclusivement applicables à tout achat et prestation de service effectué par le
+Vendeur au bénéfice d'un Acheteur ayant la qualité de consommateur.
+La nullité éventuelle d'une clause contractuelle n'entraîne pas la nullité des conditions générales de vente, chaque clause étant autonome.
+</div>
+
+<div style="width: 98.5%;font-size:10px;">
+<div style="font-weight:bold;margin:5px 0;">ARTICLE 3 : Acceptation</div>
+Au sens des articles 1103 et 1193 du Code Civil, la signature de la présente convention (incluant le Devis au recto) emporte son acceptation ferme et définitive par
+l'Acheteur qui déclare avoir pris connaissance des conditions générales de vente avant de passer commande et les avoir acceptées sans réserve.
+Toute commande signée par l'Acheteur constitue une vente ferme et définitive.
+<div style="width: 98.5%;font-size:10px;">
+<div style="font-weight:bold;margin:5px 0;">ARTICLE 4 : Disponibilité des stocks</div>
+• Les produits sont vendus, livrés et installés dans la limite des stocks disponibles.<br>
+En cas d'indisponibilité du produit commandé, le Vendeur en informe immédiatement l'Acheteur et peut lui proposer un produit d'une qualité et d'un prix équivalent.
+En cas de désaccord de l'Acheteur et si le Vendeur avait perçu des sommes avant l'installation, il procède au remboursement des sommes versées dans un délai de 45
+jours maximum à compter du refus du consommateur.
+En dehors du remboursement du prix du produit indisponible, le Vendeur n'est tenu à aucune indemnité d'annulation.
+</div>
+</div>
+
+<div style="width: 98.5%;font-size:10px;">
+<div style="font-weight:bold;margin:5px 0;">ARTICLE 5 : Commandes</div>
+Le Vendeur s'oblige à livrer un produit conforme à celui commandé.
+Il peut néanmoins apporter au produit commandé les modifications qui sont liées à l'évolution technique imposée par la législation.
+Les commandes étant définitives et irrévocables, sous la condition de la prise en charge par l'ANAH dans des conditions précisées au verso, toute demande de
+modification faite par l'Acheteur est soumise à l'acceptation du Vendeur.
+</div>
+
+<div style="width: 98.5%;font-size:10px;">
+<div style="font-weight:bold;margin:5px 0;">ARTICLE 6 : Livraison</div>
+La livraison s'entend de la remise directe des produits vendus à l'Acheteur à son domicile dans un délai maximum de 3 (trois) mois à compter de la notification par
+l'Acheteur au Vendeur du montant de la subvention à verser par l'ANAH émanant directement de L'Association National de l'Habitat.
+Sauf stipulation contraire figurant au recto, le Vendeur procède à l'installation des produits vendus.
+</div>
+
+<div style="width: 98.5%;font-size:10px;">
+<div style="font-weight:bold;margin:5px 0;">ARTICLE 7 : Exécution des travaux et réception des travaux</div>
+L'Acheteur s'engage à laisser libre accès aux locaux sur lesquels l'intervention du Vendeur sera réalisée.
+L'Acheteur s'engage à faciliter l'intervention des personnes en charge de l'installation. A défaut il engage sa responsabilité.
+En tout état de cause, le Vendeur ne saurait être tenu pour responsable d'un éventuel retard de livraison ou d'installation dû à un refus d'accès au technicien par l'Acheteur.
+La durée d'exécution des travaux est variable selon les difficultés propres au chantier. Le Vendeur s'engage à en limiter au maximum la durée.
+La durée d'exécution maximum des travaux est estimée à 72 heures.
+</div>
+
+<div style="width: 98.5%;font-size:10px;;margin-top: 5px;">
+<div style="font-weight:bold;margin:5px 0;">ARTICLE 8 : Réception</div>
+Dès que les produits sont installés conformément aux prévisions contractuelles, l'Acheteur signe le procès-verbal d'installation et/ou de réception. Il appartient à l'Acheteur
+de vérifier en présence de l'installateur l'état et le bon fonctionnement des produits installés et, en cas d'avarie ou de manquants, d'émettre des réserves sur le
+procès-verbal d'installation.
+</div>
+
+<div style="width: 98.5%;font-size:10px;">
+<div style="font-weight:bold;margin:5px 0;">ARTICLE 9 : Prix</div>
+L'Acheteur reconnait avoir été informé des modes et conditions de règlement désignés au bon de commande.
+Conformément aux dispositions de l'article L221-10 du Code de la consommation, l'Acheteur reconnait qu'il ne lui a été réclamé aucune somme préalablement à l'expiration
+d'un délai de 7 jours à compter de la conclusion du contrat hors établissement.
+Les taxes sont appliquées selon la règlementation en vigueur.
+Le règlement peut s'effectuer par chèque ou virement par mandat SEPA.
+Tout paiement non effectué dans les délais prévus donne droit, après mise en demeure effectuée par courrier recommandé A/R, au paiement d'intérêts de retard calculés
+au taux de 8%.
+Le vendeur se réserve le droit, lorsque le prix convenu n'est pas payé à l'échéance, soit de demander l'exécution de la vente, soit de résoudre le contrat par simple lettre
+recommandée avec demande d'avis de réception.
+</div>
+
+</div>
+  <page_footer>
+    <div style="">
+      <div style="text-align:left;font-size:10px;position:absolute;top:1040px;left:0;color:#000;"><b>  {$company.name}</b> <br> {$company.address1}, {$company.postcode} {$company.city}<br>
+        Tél: {$company.phone} - Mail: {$company.email}<br>APE : {$company.ape} - au capital de : {$company.capital} {$company.comments}
+   </div>
+      {if $company.picture.url}
+      <img style="width:50px;margin-left:680px;opacity:0.1" src="{$company.picture.url}" />
+      {/if}
+    </div>
+    <div class="numberOfPage">Page 1 / 7</div>
+
+  </page_footer>
+</page>
+
+
+<page>
+
+<page_header>
+    <div style="position: absolute;width: 100px;height: 100px;border-radius: 20px 50px;right: -80px;top:-80px;background: #006699;"></div>
+  <div style="height: 300px!important;">
+  {if $company.picture}
+    <img style="width:90px;margin: 20px;" class="logo" src="{$company.picture.url}" />
+  {/if}
+  <div style="position:relative;">
+    <table class="headTableDevis">
+      <tr>
+        <td>
+          <div>
+            <table class="tableDevis">
+              <thead>
+                <tr>
+                  <th style="border-top-left-radius: 10px;border-top-right-radius: 10px;">DEVIS</th>
+
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;font-weight:bold;">{$quotation.reference}</td>
+
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </td>
+        <td>
+          <div>
+            <table class="tableDevis">
+              <thead>
+                <tr>
+                  <th style="border-top-left-radius: 10px;border-top-right-radius: 10px;">DATE</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;font-weight:bold;">{$contract.quoted_at.ddmmyyyy}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </td>
+        <td>
+          <div style="margin-top:0px;">
+            <table class="tableDevis">
+              <thead>
+                <tr>
+                  <th style="border-top-left-radius: 10px;border-top-right-radius: 10px;">CLIENT</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;font-weight:bold;">{$customer.id}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+  </div>
+  </page_header>
+<div style="text-align: justify;font-size: 7px;width: 98.5%;font-size:10px;;padding: 10px;margin-top: 130px;">
+
+  <div style="width: 98.5%;font-size:10px;">
+<div style="font-weight:bold;margin:5px 0;">ARTICLE 11 : Résolution du contrat</div>
+Le contrat de vente peut être résolu dans les hypothèses suivantes :
+Par le Vendeur :
+• Le Vendeur se réserve le droit, lorsque le prix convenu n'est pas payé à l'échéance, soit de demander l'exécution de la vente, soit de résoudre le contrat par simple lettre
+recommandée avec demande d'avis de réception ;
+• En cas de refus de l'Acheteur de réceptionner la livraison ;
+Par l'Acheteur :
+• En cas de retard de livraison : lorsque le produit commandé n'est pas livré au terme de ce délai maximum de 2 mois suivant la notification au Vendeur de l'aide de
+l'ANAH, le consommateur peut, après avoir enjoint sans succès par lettre recommandé avec accusé de réception le Vendeur à exécuter son obligation de livraison dans un
+délai maximum d'un mois, résoudre le contrat par lettre recommandé avec demande d'avis de réception ou par un écrit sur un autre support durable, sauf les cas de force
+majeure prévus à l'article 17 des conditions générales de vente ;
+• En cas de livraison d'un produit non conforme aux caractéristiques déclarées du produit : lorsque le produit est livré à l'adresse indiquée sur le bon de commande par un
+transporteur, il appartient à l'Acheteur de vérifier en présence du livreur l'état des produits livrés et, en cas d'avarie ou de manquants, d'émettre des réserves directement
+sur le bon de livraison ou sur le récépissé de transport, et éventuellement de refuser le produit et d'en avertir le Vendeur
+• En cas de hausse du prix qui ne serait pas justifiée par une modification technique du produit imposée par les pouvoirs publics ;
+• La vente sera résolue de plein droit si l'Acheteur exerce son droit de rétractation dans le délai légal.
+</div>
+<div style="width: 98.5%;font-size:10px;">
+<div style="font-weight:bold;margin:5px 0;">ARTICLE 12 : Clause de réserve de propriété - Clause pénale - Clause de dédit</div>
+Le Vendeur demeure propriétaire des produits vendus jusqu'au complet paiement du prix et l'Acheteur s'engage, tant que la propriété ne lui est pas transférée, à prendre
+toutes les précautions utiles à la bonne conservation des produits.
+</div>
+<div style="width: 98.5%;font-size:10px;">
+<div style="font-weight:bold;margin:5px 0;">ARTICLE 13 : Clause pénale</div>
+Dans tous les cas d'inexécution de ses obligations par l'Acheteur, celui-ci devra, à titre d'indemnité, au Vendeur un montant égale à 50% du montant de la commande (hors
+aides et subventions diverses), en plus, le cas échéant, du coût de la désinstallation des matériaux installés.
+</div>
+<div style="width: 98.5%;font-size:10px;">
+<div style="font-weight:bold;margin:5px 0;">ARTICLE 14 : Clause de dédit</div>
+Le Client s'engage à payer en cas d'annulation de sa commande au-delà du délai légal de rétractation, un montant égal à 50% du prix TTC du devis (hors aides) à titre
+d'indemnité pour le Vendeur qui aurait déjà tout mis en oeuvre pour répondre de cette commande.
+</div>
+<div style="width: 98.5%;font-size:10px;;margin-top: 5px;">
+<div style="font-weight:bold;margin:5px 0;">ARTICLE 15 : Garantie</div>
+Tous les produits fournis par le Vendeur bénéficient de la garantie légale de conformité prévue aux articles L. 217-4 à L. 217-14 du Code de la consommation ou de la
+garantie des vices cachés prévue aux articles 1641 à 1649 du Code civil.
+Le Vendeur doit livrer un bien conforme au contrat. A défaut il est responsable des défauts lors de la délivrance, mais également de tout ceux résultant de l'emballage, des
+instructions de montage ou de l'installation lorsqu'elle est à la charge du contrat ou sous sa responsabilité.
+L'action en garantie de conformité se prescrit par 2 ans à compter de la délivrance du bien
+Lorsqu'il y a défaut de conformité, le professionnel propose au consommateur le remplacement du bien ou sa réparation. Le choix dépend du consommateur, sauf lorsque
+celui-ci engendre pour le professionnel des coûts disproportionnés par rapport à second moyen.
+Le consommateur peut obtenir la résolution du contrat ou sa réfaction (réduction du prix du bien) si le défaut est majeur et que le délai de la solution choisie excède 1 mois
+à partir de la demande ; ou qu'aucun moyen n'est réalisable.
+Aucun frais ne peut être demandé au consommateur pour le remplacement, la réparation, la résolution ou la réfaction du contrat.
+Le Vendeur est par ailleurs tenu de la garantie à raison des défauts cachés de la chose vendue qui la rendent impropre à l'usage auquel on la destine, ou qui diminuent
+tellement cet usage, que l'Acheteur ne l'aurait pas acquise, ou n'en aurait donné qu'un moindre prix, s'il les avait connus.
+La garantie légale couvre tous les frais entraînés par les vices cachés.
+L'Acheteur à ici le choix soit de rendre la chose et se faire restituer le prix soit de garder la chose et se faire rendre une partie du prix.
+Le délai pour agir est de 2 ans à compter de la découverte du vice.
+Les produits sont vendus sous la seule garantie du fabricant et sont assortis d'un bon de garantie remis à l'Acheteur par le Vendeur.
+La garantie du fabricant sur le matériel s'étend sur une durée de 3 ans pour les pièces, 5 ans pour les compresseurs, 5 ans sur les onduleurs. Les cellules composant les
+modules sont garanties 25 ans à 80% de leur puissance normale. Cette garantie prévoit l'échange gratuit de la pièce défectueuse en usine. Les frais de dépose, pose et
+transport sont à la charge du client. La garantie sur une pièce de remplacement expire en même temps que celle de la pièce remplacée. Tous les autres éléments tels que
+diffuseurs, panneaux solaires, ballons d'eau chaude, sanitaires, télécommandes, composants électroniques, pompes de relevage, disjoncteurs, liaison frigorifiques, câbles
+électriques, goulottes, etc... sont garantis un an. En cas de dommages dus au transport des articles susvisés, il appartient à l'Acheteur d'en faire la réserve dès la livraison
+et d'en aviser le Vendeur.
+En cas d'invocation de la garantie, la présentation du certificat de garantie sera rigoureusement exigée.
+Le Vendeur s'engage à intervenir dans un délai de 30 jours à compter de la réception de la demande d'intervention, qui sera obligatoirement formulée par écrit avec accusé
+de réception, sous réserve d'être en possession des éléments nécessaires à la réparation ou au remplacement.
+
+• Garantie décennale : L'assurance de responsabilité civile décennale garantit la réparation des dommages qui se produisent après la réception des travaux. La garantie
+décennale concerne les vices ou dommages de construction qui peuvent affecter la solidité de l'ouvrage et de ses équipements indissociables ou qui la rendent inhabitable
+ou impropre à l'usage auquel il est destiné.
+La garantie décennale couvre le dommage résultant d'un défaut de conformité affectant le gros ouvrage (murs, charpente, toiture, etc.) mais également les éléments
+d'équipement lorsque les dysfonctionnements les affectant rendent le bien dans son ensemble impropre à sa destination.
+La garantie décennale couvre les dommages survenus après la réception des travaux, pendant une durée de 10 ans.
+</div>
+<div style="width: 98.5%;font-size:10px;">
+<div style="font-weight:bold;margin:5px 0;">ARTICLE 16 : Exclusion de garantie</div>
+La garantie accordée ne saurait concerner le vol ou la casse du matériel vendu et installé, si ce n'est celle consécutive à un usage normal et prévisible des appareils.
+La présente garantie impose, pour le cas où elle serait valablement mise en oeuvre, et au choix du Vendeur, soit de réparer le matériel en cause soit de le remplacer. En
+toute hypothèse, cette garantie ne saurait financièrement dépasser le montant que le fournisseur justifiera avoir payé pour l'acquisition dudit produit.
+La garantie est exclue et la responsabilité du Vendeur ne peut être engagée dans les cas suivants :
+• non-paiement partiel ou total du montant de la commande ; <br>
+• détérioration des appareils provenant directement ou indirectement d'accidents de toutes sortes, chocs, surtensions, foudre, inondations, incendie, et d'une manière
+générale, toutes autres causes autre que celles résultant d'une utilisation normale ;
+• mauvais fonctionnement résultant d'adjonction de pièces ou dispositifs ne provenant pas du Vendeur ;
+• intervention de quelque nature que ce soir par une personne non agréé par le Vendeur ;
+• variation du courant électrique, dérangement, panne ou rupture des lignes téléphoniques ;
+• modifications dommageables de l'environnement de l'appareil (température, hygrométrie, poussières) ;
+• modification des spécifications d'un appareil ou utilisation non conforme aux caractéristiques techniques - interférence et brouillage de toutes sortes, radioélectrique ou
+électrique ;
+• les perturbations de fonctionnement dues à un évènement relevant de la force majeure ;
+• non-respect des consignes d'utilisation des matériaux et ou des notices d'utilisation du matériel délivré ;
+• utilisation des appareils dans des conditions non conformes à leur usage ;
+</div>
+</div>
+  <page_footer>
+    <div style="">
+      <div style="text-align:left;font-size:10px;position:absolute;top:1040px;left:0;color:#000;"><b>  {$company.name}</b> <br> {$company.address1}, {$company.postcode} {$company.city}<br>
+        Tél: {$company.phone} - Mail: {$company.email}<br>APE : {$company.ape} - au capital de : {$company.capital} {$company.comments}
+   </div>
+      {if $company.picture.url}
+      <img style="width:50px;margin-left:680px;opacity:0.1" src="{$company.picture.url}" />
+      {/if}
+    </div>
+    <div class="numberOfPage">Page 2 / 7</div>
+
+  </page_footer>
+</page>
+
+
+<page>
+
+<page_header>
+    <div style="position: absolute;width: 100px;height: 100px;border-radius: 20px 50px;right: -80px;top:-80px;background: #006699;"></div>
+  <div style="height: 300px!important;">
+  {if $company.picture}
+    <img style="width:90px;margin: 20px;" class="logo" src="{$company.picture.url}" />
+  {/if}
+  <div style="position:relative;">
+    <table class="headTableDevis">
+      <tr>
+        <td>
+          <div>
+            <table class="tableDevis">
+              <thead>
+                <tr>
+                  <th style="border-top-left-radius: 10px;border-top-right-radius: 10px;">DEVIS</th>
+
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;font-weight:bold;">{$quotation.reference}</td>
+
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </td>
+        <td>
+          <div>
+            <table class="tableDevis">
+              <thead>
+                <tr>
+                  <th style="border-top-left-radius: 10px;border-top-right-radius: 10px;">DATE</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;font-weight:bold;">{$contract.quoted_at.ddmmyyyy}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </td>
+        <td>
+          <div style="margin-top:0px;">
+            <table class="tableDevis">
+              <thead>
+                <tr>
+                  <th style="border-top-left-radius: 10px;border-top-right-radius: 10px;">CLIENT</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;font-weight:bold;">{$customer.id}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+  </div>
+  </page_header>
+<div style="text-align: justify;font-size: 7px;width: 98.5%;font-size:10px;;padding: 10px;margin-top: 105px;">
+<div style="width: 98.5%;font-size:10px;">
+• défaut d'entretien et de maintenance ;
+• vices apparents ;
+• défauts et détériorations provoqués par l'usure naturelle ou par une modification du produit non prévue.
+</div>
+<div style="width: 98.5%;font-size:10px;">
+<div style="font-weight:bold;margin:5px 0;">ARTICLE 17 : Exclusion de responsabilité et force majeure</div>
+La responsabilité du Vendeur ne peut être engagée en cas d'inexécution ou de mauvaise exécution du contrat due, soit au fait du client, soit au fait insurmontable et
+imprévisible d'un tiers au contrat, soit à un cas de force majeure au sens de l'article 1218 du Code civil.
+La responsabilité du Vendeur ne saurait être engagée à raison :
+• des conditions d'octroi et de montant du crédit d'impôt auquel le client peut prétendre ainsi qu'à toute évolution légale ou réglementaire en la matière ; <br>
+• de toute évolution ou suppression des aides d'état ; existantes ou jour de la souscription du présent contrat d'achat par le client ;
+</div>
+<div style="width: 98.5%;font-size:10px;;margin-top: 5px;">
+<div style="font-weight:bold;margin:5px 0;">ARTICLE 18 : Rétractation</div>
+• 18.1 Conditions du droit de rétractation
+Conformément aux dispositions légales en vigueur, l'Acheteur dispose d'un délai de rétractation de 14 jours à compter du jour de réception de la commande dans le cas
+d'un contrat portant fourniture de bien ou à compter de la signature du contrat de vente en cas de prestation de service.
+Conformément à l'article L.221-28 du Code de la consommation, ce délai de rétractation n'est pas applicable notamment pour l'achat de produits confectionnés selon les
+spécifications du consommateur ou nettement personnalisés.
+Le droit de rétractation se fait à la charge de l'Acheteur suivant les modalités exposées ci-dessous.
+L'Acheteur peut se rétracter dans le délai légal sans avoir à donner de motif et sans frais.<br>
+• 18.2 Modalités d'exercice du droit de rétractation
+L'Acheteur peut notifier au Vendeur sa décision de se rétracter du présent contrat au moyen d'une déclaration claire et dénuée d'ambiguïté à l'adresse suivante et ce dans
+les 14 jours à compter de la signature du contrat de vente (Devis) :
+- par voie postale (par courrier recommandé A/R) {$company.name} - Service Clients - {$company.address1}, {$company.postcode} {$company.city}
+S'il le souhaite, l'Acheteur peut également utiliser le modèle de formulaire de rétractation disponible en annexe des présentes conditions générales de vente.<br>
+• 18.3 Effets de la rétractation
+L'exercice du droit de rétractation met fin à l'obligation des parties d'exécuter le contrat.
+Ainsi, lorsque le Client exerce son droit de rétractation dans le délai légal, la Société s'engage à lui rembourser le montant du prix perçu dans un délai de 14 (quatorze)
+jours à compter de la réception du formulaire de rétractation. Ce remboursement sera effectué en utilisant le même moyen de paiement que celui que le Client a choisi pour
+la transaction initiale, sauf si le Client convient expressément d'un moyen différent.
+Le Client a la possibilité de demander expressément à la Société lors de sa commande d'exécuter sa prestation de service avant la fin du délai légal de rétractation. Ainsi,
+le Client renonce à son droit de rétractation une fois que la prestation de service objet du contrat est exécutée.
+Avant l'exécution complète de la prestation de service de la Société, si le Client a demandé à la Société de commencer la réalisation de la prestation de service pendant le
+délai de rétractation, le Client devra verser à la Société un montant proportionnel à ce qui lui a été fourni jusqu'au moment où le Client a informé la Société de sa
+rétractation de sa commande.
+Si l'objet du devis est une prestation de service, le délai de rétractation court à compter de la date de conclusion du contrat.
+Si l'objet du devis est la livraison d'un bien, le délai de rétractation court à compter où le Client prend possession physiquement du bien ou si plusieurs produits sont
+commandés alors il court à compter de la date où le client prend possession physiquement du dernier produit.
+Ainsi, le Client doit restituer le produit à la Société, dans un délai de 14 (quatorze) jours à compter de sa décision de se rétracter. Le Client devra supporter les frais de
+renvoi du bien avant l'expiration du délai légal de rétractation.
+Pour les contrats conclus hors établissement, lorsque la Société a livré le bien au domicile du Client au moment de la conclusion du contrat et que le bien ne peut être
+renvoyé par voie postale, la Société doit récupérer, à ses frais, au domicile du Client le produit.
+La Société peut effectuer le remboursement du produit en différé jusqu'à ce qu'elle ait reçue l'objet du devis ou jusqu'à que le Client ait fourni une preuve de l'expédition du
+produit.
+</div>
+<div style="width: 98.5%;font-size:10px;">
+<div style="font-weight:bold;margin:5px 0;">ARTICLE 19 : Réclamations</div>
+Toute réclamation doit être adressée au Service Clients du Vendeur situé au {$company.address1}, {$company.postcode} {$company.city}
+Conformément aux dispositions de l'article L.616-1 du Code de la consommation relatives au processus de médiation des litiges de la consommation, l'Acheteur a le droit
+de recourir gratuitement au service de médiation proposé par {$company.name}. Le médiateur de la consommation ainsi proposé est :
+Médiateur de la Fédération du Commerce et de la Distribution
+Saisine par courrier : FCD 12 rue Euler 75008, Paris
+Par mail : cdelesalle@fcd.fr
+Pour sur le site : http://mediateur.fcd.fr/mediateur/
+</div>
+<div style="width: 98.5%;font-size:10px;">
+<div style="font-weight:bold;margin:5px 0;">ARTICLE 20 : Protection des données à caractère personnel</div>
+Conformément à la loi n° 78-17 du 6 janvier 1978 modifiée (dite « loi Informatique et Libertés ») et au Règlement Général sur la Protection des Données 2016/679 du 27
+avril 2016 (« RGPD »), des données à caractère personnel concernant les Clients font l'objet d'un traitement informatique par le Vendeur agissant en qualité de
+responsable de traitement pour notamment : effectuer des opérations relatives à la gestion des relations commerciales dans le cadre de la fourniture de tous produits,
+faciliter l'identification des Clients et informer les Clients de toute modification apportée aux produits et services {$company.name}., les améliorer, mener des actions de
+prospection et des analyses statistiques.
+Ces données ne sont pas susceptibles d'être transférées dans des pays non-membres de l'Espace Économique Européen.
+Pour les stricts besoins de la gestion des relations commerciales, ces données peuvent être communiquées aux partenaires du Vendeur.
+Ces données sont conservées pendant la durée strictement nécessaire à l'accomplissement des finalités rappelées ci-dessus.
+Toute personne dispose d'un droit d'accès, de rectification, de portabilité, d'effacement de ses données personnelles ou une limitation de leur traitement, du droit
+d'opposition au traitement de ses données pour des motifs légitimes et du droit de retirer son consentement à tout moment. Enfin, chacun dispose du droit d'introduire une
+réclamation auprès d'une autorité de contrôle et de définir des directives relatives au sort de ses données personnelles après sa mort.
+Ces droits peuvent être exercés par voie postale auprès du responsable du traitement des données : {$company.name} - {$company.address1}, {$company.postcode} {$company.city}  sous réserve, le cas échéant, de la justification de l'identité de la personne concernée.
+ARTICLE 21 : Droit applicable / Litiges
+Les présentes Conditions Générales de Vente et le contrat de vente sont soumis à la loi française. Le tribunal compétent en cas de litige sera celui du lieu de domicile du
+défendeur ou, au choix du demandeur, du lieu de livraison effective du produit ou de la signature du contrat de vente.
+Le consommateur est informé de la possibilité de recourir, en cas de contestation, à une procédure de médiation conventionnelle ou à tout autre mode alternatif de
+règlement des différends.
+</div>
+
+  </div>
+  <page_footer>
+    <div style="">
+      <div style="text-align:left;font-size:10px;position:absolute;top:1040px;left:0;color:#000;"><b>  {$company.name}</b> <br> {$company.address1}, {$company.postcode} {$company.city}<br>
+        Tél: {$company.phone} - Mail: {$company.email}<br>APE : {$company.ape} - au capital de : {$company.capital} {$company.comments}
+   </div>
+      {if $company.picture.url}
+      <img style="width:50px;margin-left:680px;opacity:0.1" src="{$company.picture.url}" />
+      {/if}
+    </div>
+    <div class="numberOfPage">Page 3 / 7</div>
+
+  </page_footer>
+</page>
+
+
+<page>
+
+<page_header>
+    <div style="position: absolute;width: 100px;height: 100px;border-radius: 20px 50px;right: -80px;top:-80px;background: #006699;"></div>
+  <div style="height: 300px!important;">
+  {if $company.picture}
+    <img style="width:90px;margin: 20px;" class="logo" src="{$company.picture.url}" />
+  {/if}
+  <div style="position:relative;">
+    <table class="headTableDevis">
+      <tr>
+        <td>
+          <div>
+            <table class="tableDevis">
+              <thead>
+                <tr>
+                  <th style="border-top-left-radius: 10px;border-top-right-radius: 10px;">DEVIS</th>
+
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;font-weight:bold;">{$quotation.reference}</td>
+
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </td>
+        <td>
+          <div>
+            <table class="tableDevis">
+              <thead>
+                <tr>
+                  <th style="border-top-left-radius: 10px;border-top-right-radius: 10px;">DATE</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;font-weight:bold;">{$contract.quoted_at.ddmmyyyy}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </td>
+        <td>
+          <div style="margin-top:0px;">
+            <table class="tableDevis">
+              <thead>
+                <tr>
+                  <th style="border-top-left-radius: 10px;border-top-right-radius: 10px;">CLIENT</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;font-weight:bold;">{$customer.id}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+  </div>
+  </page_header>
+<div style="text-align: justify;font-size: 7px;width: 98.5%;font-size:10px;;padding: 10px;margin-top: 105px;">
+<div style="width: 98.5%;font-size:10px;">
+<div style="font-weight:bold;margin:5px 0;text-align: center;" >DISPOSITIONS LEGALES APPLICABLES AU PRESENT CONTRAT</div>
+<div style="font-weight:bold;font-size:12px;">LIVRAISON</div>
+<div style="font-weight:bold;margin:5px 0;">Article L.216-1 du Code de la consommation</div>
+Le professionnel livre le bien ou fournit le service à la date ou dans le délai indiqué au consommateur, conformément au 3° de l'article L. 111-1, sauf si les parties en ont
+convenu autrement.
+A défaut d'indication ou d'accord quant à la date de livraison ou d'exécution, le professionnel livre le bien ou exécute la prestation sans retard injustifié et au plus tard trente
+jours après la conclusion du contrat.
+La livraison s'entend du transfert au consommateur de la possession physique ou du contrôle du bien.
+</div>
+<div style="width: 98.5%;font-size:10px;">
+<div style="font-weight:bold;margin:5px 0;">Article L.216-2 du Code de la consommation</div>
+En cas de manquement du professionnel à son obligation de livraison du bien ou de fourniture du service à la date ou à l'expiration du délai prévus au premier alinéa de
+l'article L. 216-1 ou, à défaut, au plus tard trente jours après la conclusion du contrat, le consommateur peut résoudre le contrat, par lettre recommandée avec demande
+d'avis de réception ou par un écrit sur un autre support durable, si, après avoir enjoint, selon les mêmes modalités, le professionnel d'effectuer la livraison ou de fournir le
+service dans un délai supplémentaire raisonnable, ce dernier ne s'est pas exécuté dans ce délai.
+Le contrat est considéré comme résolu à la réception par le professionnel de la lettre ou de l'écrit l'informant de cette résolution, à moins que le professionnel ne se soit
+exécuté entre-temps.
+Le consommateur peut immédiatement résoudre le contrat lorsque le professionnel refuse de livrer le bien ou de fournir le service ou lorsqu'il n'exécute pas son obligation
+de livraison du bien ou de fourniture du service à la date ou à l'expiration du délai prévu au premier alinéa de l'article L. 216-1 et que cette date ou ce délai constitue pour le
+consommateur une condition essentielle du contrat. Cette condition essentielle résulte des circonstances qui entourent la conclusion du contrat ou d'une demande expresse
+du consommateur avant la conclusion du contrat.
+</div>
+<div style="width: 98.5%;font-size:10px;">
+<div style="font-weight:bold;margin:5px 0;">Article L.216-3 du Code de la consommation</div>
+Lorsque le contrat est résolu dans les conditions prévues à l'article L. 216-2, le professionnel rembourse le consommateur de la totalité des sommes versées, au plus tard
+dans les quatorze jours suivant la date à laquelle le contrat a été dénoncé.
+</div>
+<div style="width: 98.5%;font-size:10px;">
+<div style="font-weight:bold;margin:5px 0;">Article L.216-4 du Code de la consommation</div>
+Tout risque de perte ou d'endommagement des biens est transféré au consommateur au moment où ce dernier ou un tiers désigné par lui, et autre que le transporteur
+proposé par le professionnel, prend physiquement possession de ces biens.
+</div>
+<div style="width: 98.5%;font-size:10px;">
+<div style="font-weight:bold;margin:5px 0;">Article L.216-5 du Code de la consommation</div>
+Lorsque le consommateur confie la livraison du bien à un transporteur autre que celui proposé par le professionnel, le risque de perte ou d'endommagement du bien est
+transféré au consommateur lors de la remise du bien au transporteur.
+</div>
+<div style="width: 98.5%;font-size:10px;">
+<div style="font-weight:bold;margin:5px 0;">Article L.216-6 du Code de la consommation</div>
+Les dispositions du présent chapitre sont d'ordre public.
+</div>
+<div style="width: 98.5%;font-size:10px;">
+<div style="font-weight:bold;font-size:12px;">GARANTIE DECENNALE</div>
+<div style="font-weight:bold;margin:5px 0;">Article 1792 du Code civil</div>
+Tout constructeur d'un ouvrage est responsable de plein droit, envers le maître ou l'acquéreur de l'ouvrage, des dommages, même résultant d'un vice du sol, qui
+compromettent la solidité de l'ouvrage ou qui, l'affectant dans l'un de ses éléments constitutifs ou l'un de ses éléments d'équipement, le rendent impropre à sa destination.
+Une telle responsabilité n'a point lieu si le constructeur prouve que les dommages proviennent d'une cause étrangère.
+</div>
+<div style="width: 98.5%;font-size:10px;">
+<div style="font-weight:bold;margin:5px 0;">Article 1792-4-1 du Code civil</div>
+Toute personne physique ou morale dont la responsabilité peut être engagée en vertu des articles 1792 à 1792-4 du présent code est déchargée des responsabilités et
+garanties pesant sur elle, en application des articles 1792 à 1792-2, après dix ans à compter de la réception des travaux ou, en application de l'article 1792-3, à l'expiration
+du délai visé à cet article.
+</div>
+<div style="width: 98.5%;font-size:10px;">
+<div style="font-weight:bold;margin:5px 0;">Article 1792-6 du Code civil</div>
+La réception est l'acte par lequel le maître de l'ouvrage déclare accepter l'ouvrage avec ou sans réserve. Elle intervient à la demande de la partie la plus diligente, soit à
+l'amiable, soit à défaut judiciairement. Elle est, en tout état de cause, prononcée contradictoirement.
+La garantie de parfait achèvement, à laquelle l'entrepreneur est tenu pendant un délai d'un an, à compter de la réception, s'étend à la réparation de tous les désordres
+signalés par le maître de l'ouvrage, soit au moyen de réserves mentionnées au procès-verbal de réception, soit par voie de notification écrite pour ceux révélés
+postérieurement à la réception.
+Les délais nécessaires à l'exécution des travaux de réparation sont fixés d'un commun accord par le maître de l'ouvrage et l'entrepreneur concerné.
+En l'absence d'un tel accord ou en cas d'inexécution dans le délai fixé, les travaux peuvent, après mise en demeure restée infructueuse, être exécutés aux frais et risques
+de l'entrepreneur défaillant.
+L'exécution des travaux exigés au titre de la garantie de parfait achèvement est constatée d'un commun accord, ou, à défaut, judiciairement.
+La garantie ne s'étend pas aux travaux nécessaires pour remédier aux effets de l'usure normale ou de l'usage.
+</div>
+<div style="width: 98.5%;font-size:10px;">
+<div style="font-weight:bold;font-size:12px;">MENTIONS OBLIGATOIRES</div>
+<div style="font-weight:bold;margin:5px 0;">Article L.221-1 du Code de la consommation</div>
+I. - Pour l'application du présent titre, sont considérés comme :
+1° Contrat à distance : tout contrat conclu entre un professionnel et un consommateur, dans le cadre d'un système organisé de vente ou de prestation de services à
+distance, sans la présence physique simultanée du professionnel et du consommateur, par le recours exclusif à une ou plusieurs techniques de communication à distance
+jusqu'à la conclusion du contrat ;
+2° Contrat hors établissement : tout contrat conclu entre un professionnel et un consommateur :
+a) Dans un lieu qui n'est pas celui où le professionnel exerce son activité en permanence ou de manière habituelle, en la présence physique simultanée des parties, y
+compris à la suite d'une sollicitation ou d'une offre faite par le consommateur ;
+b) Ou dans le lieu où le professionnel exerce son activité en permanence ou de manière habituelle ou au moyen d'une technique de communication à distance,
+immédiatement après que le consommateur a été sollicité personnellement et individuellement dans un lieu différent de celui où le professionnel exerce en permanence ou
+de manière habituelle son activité et où les parties étaient, physiquement et simultanément, présentes ;
+c) Ou pendant une excursion organisée par le professionnel ayant pour but ou pour effet de promouvoir et de vendre des biens ou des services au consommateur ;
+3° Support durable : pour l'application du chapitre Ier du présent titre, tout instrument permettant au consommateur ou au professionnel de stocker des informations qui lui
+sont adressées personnellement afin de pouvoir s'y reporter ultérieurement pendant un laps de temps adapté aux fins auxquelles les informations sont destinées et qui
+permet la reproduction à l'identique des informations stockées ;
+4° Contenu numérique : des données produites et fournies sous forme numérique.
+II - Les dispositions du présent titre s'appliquent aux contrats portant sur la vente d'un ou plusieurs biens, au sens de l'article 528 du code civil, et au contrat en vertu duquel
+</div>
+</div>
+   <page_footer>
+    <div style="">
+      <div style="text-align:left;font-size:10px;position:absolute;top:1040px;left:0;color:#000;"><b>  {$company.name}</b> <br> {$company.address1}, {$company.postcode} {$company.city}<br>
+        Tél: {$company.phone} - Mail: {$company.email}<br>APE : {$company.ape} - au capital de : {$company.capital} {$company.comments}
+   </div>
+      {if $company.picture.url}
+      <img style="width:50px;margin-left:680px;opacity:0.1" src="{$company.picture.url}" />
+      {/if}
+    </div>
+    <div class="numberOfPage">Page 4 / 7</div>
+
+  </page_footer>
+</page>
+
+
+<page>
+
+<page_header>
+    <div style="position: absolute;width: 100px;height: 100px;border-radius: 20px 50px;right: -80px;top:-80px;background: #006699;"></div>
+  <div style="height: 300px!important;">
+  {if $company.picture}
+    <img style="width:90px;margin: 20px;" class="logo" src="{$company.picture.url}" />
+  {/if}
+  <div style="position:relative;">
+    <table class="headTableDevis">
+      <tr>
+        <td>
+          <div>
+            <table class="tableDevis">
+              <thead>
+                <tr>
+                  <th style="border-top-left-radius: 10px;border-top-right-radius: 10px;">DEVIS</th>
+
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;font-weight:bold;">{$quotation.reference}</td>
+
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </td>
+        <td>
+          <div>
+            <table class="tableDevis">
+              <thead>
+                <tr>
+                  <th style="border-top-left-radius: 10px;border-top-right-radius: 10px;">DATE</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;font-weight:bold;">{$contract.quoted_at.ddmmyyyy}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </td>
+        <td>
+          <div style="margin-top:0px;">
+            <table class="tableDevis">
+              <thead>
+                <tr>
+                  <th style="border-top-left-radius: 10px;border-top-right-radius: 10px;">CLIENT</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;font-weight:bold;">{$customer.id}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+  </div>
+  </page_header>
+<div style="text-align: justify;font-size: 7px;width: 98.5%;font-size:10px;;padding: 10px;margin-top: 105px;">
+<div style="width: 98.5%;font-size:10px;">
+le professionnel fournit ou s'engage à fournir un service au consommateur en contrepartie duquel le consommateur en paie ou s'engage à en payer le prix. Le contrat ayant
+pour objet à la fois la fourniture de prestation de services et la livraison de biens est assimilé à un contrat de vente.
+</div>
+<div style="width: 98.5%;font-size:10px;">
+<div style="font-weight:bold;margin: 5px 0;">Article L221-5 du Code de la consommation</div>
+Préalablement à la conclusion d'un contrat de vente ou de fourniture de services, le professionnel communique au consommateur, de manière lisible et compréhensible, les
+informations suivantes :
+1° Les informations prévues aux articles L. 111-1 et L. 111-2 ;
+2° Lorsque le droit de rétractation existe, les conditions, le délai et les modalités d'exercice de ce droit ainsi que le formulaire type de rétractation, dont les conditions de
+présentation et les mentions qu'il contient sont fixées par décret en Conseil d'Etat ;
+3° Le cas échéant, le fait que le consommateur supporte les frais de renvoi du bien en cas de rétractation et, pour les contrats à distance, le coût de renvoi du bien lorsque
+celui-ci, en raison de sa nature, ne peut normalement être renvoyé par la poste ;
+4° L'information sur l'obligation du consommateur de payer des frais lorsque celui-ci exerce son droit de rétractation d'un contrat de prestation de services, de distribution
+d'eau, de fourniture de gaz ou d'électricité et d'abonnement à un réseau de chauffage urbain dont il a demandé expressément l'exécution avant la fin du délai de
+rétractation ; ces frais sont calculés selon les modalités fixées à l'article L. 221-25 ;
+5° Lorsque le droit de rétractation ne peut être exercé en application de l'article L. 221-28, l'information selon laquelle le consommateur ne bénéficie pas de ce droit ou, le
+cas échéant, les circonstances dans lesquelles le consommateur perd son droit de rétractation ;
+6° Les informations relatives aux coordonnées du professionnel, le cas échéant aux coûts de l'utilisation de la technique de communication à distance, à l'existence de
+codes de bonne conduite, le cas échéant aux cautions et garanties, aux modalités de résiliation, aux modes de règlement des litiges et aux autres conditions contractuelles,
+dont la liste et le contenu sont fixés par décret en Conseil d'Etat.
+Dans le cas d'une vente aux enchères publiques telle que définie par le premier alinéa de l'article L. 321-3 du code de commerce, les informations relatives à l'identité et
+aux coordonnées postales, téléphoniques et électroniques du professionnel prévues au 4° de l'article L. 111-1 peuvent être remplacées par celles du mandataire.
+</div>
+<div style="width: 98.5%;font-size:10px;;margin-top: 5px;">
+<div style="font-weight:bold;margin: 5px 0;">Article L.111-1 du Code de la consommation</div>
+Avant que le consommateur ne soit lié par un contrat de vente de biens ou de fourniture de services, le professionnel communique au consommateur, de manière lisible et
+compréhensible, les informations suivantes :
+1° Les caractéristiques essentielles du bien ou du service, compte tenu du support de communication utilisé et du bien ou service concerné ;
+2° Le prix du bien ou du service, en application des articles L. 112-1 à L. 112-4 ;
+3° En l'absence d'exécution immédiate du contrat, la date ou le délai auquel le professionnel s'engage à livrer le bien ou à exécuter le service ;
+4° Les informations relatives à son identité, à ses coordonnées postales, téléphoniques et électroniques et à ses activités, pour autant qu'elles ne ressortent pas du
+contexte ;
+5° S'il y a lieu, les informations relatives aux garanties légales, aux fonctionnalités du contenu numérique et, le cas échéant, à son interopérabilité, à l'existence et aux
+modalités de mise en oeuvre des garanties et aux autres conditions contractuelles ;
+6° La possibilité de recourir à un médiateur de la consommation dans les conditions prévues au titre Ier du livre VI.
+La liste et le contenu précis de ces informations sont fixés par décret en Conseil d'Etat. Les dispositions du présent article s'appliquent également aux contrats portant sur
+la fourniture d'eau, de gaz ou d'électricité, lorsqu'ils ne sont pas conditionnés dans un volume délimité ou en quantité déterminée, ainsi que de chauffage urbain et de
+contenu numérique non fourni sur un support matériel. Ces contrats font également référence à la nécessité d'une consommation sobre et respectueuse de la préservation
+de l'environnement.
+</div>
+<div style="width: 98.5%;font-size:10px;">
+<div style="font-weight:bold;margin: 5px 0;">Article L111-2 du Code de la consommation</div>
+Outre les mentions prévues à l'article L. 111-1, tout professionnel, avant la conclusion d'un contrat de fourniture de services et, lorsqu'il n'y a pas de contrat écrit, avant
+l'exécution de la prestation de services, met à la disposition du consommateur ou lui communique, de manière lisible et compréhensible, les informations complémentaires
+relatives à ses coordonnées, à son activité de prestation de services et aux autres conditions contractuelles, dont la liste et le contenu sont fixés par décret en Conseil
+d'Etat.
+Les informations complémentaires qui ne sont communiquées qu'à la demande du consommateur sont également précisées par décret en Conseil d'Etat.
+</div>
+<div style="width: 98.5%;font-size:10px;">
+<div style="font-weight:bold;margin: 5px 0;">Article L221-8 du Code de la consommation</div>
+Dans le cas d'un contrat conclu hors établissement, le professionnel fournit au consommateur, sur papier ou, sous réserve de l'accord du consommateur, sur un autre
+support durable, les informations prévues à l'article L. 221-5.
+Ces informations sont rédigées de manière lisible et compréhensible.
+</div>
+<div style="width: 98.5%;font-size:10px;">
+<div style="font-weight:bold;margin: 5px 0;">Article L221-9 du Code de la consommation</div>
+Le professionnel fournit au consommateur un exemplaire daté du contrat conclu hors établissement, sur papier signé par les parties ou, avec l'accord du consommateur,
+sur un autre support durable, confirmant l'engagement exprès des parties.
+Ce contrat comprend toutes les informations prévues à l'article L. 221-5.
+Le contrat mentionne, le cas échéant, l'accord exprès du consommateur pour la fourniture d'un contenu numérique indépendant de tout support matériel avant l'expiration
+du délai de rétractation et, dans cette hypothèse, le renoncement de ce dernier à l'exercice de son droit de rétractation.
+Le contrat est accompagné du formulaire type de rétractation mentionné au 2° de l'article L. 221- 5
+</div>
+<div style="width: 98.5%;font-size:10px;">
+<div style="font-weight:bold;margin: 5px 0;">Article L.221-10 du Code de la consommation</div>
+Le professionnel ne peut recevoir aucun paiement ou aucune contrepartie, sous quelque forme que ce soit, de la part du consommateur avant l'expiration d'un délai de sept
+jours à compter de la conclusion du contrat hors établissement.
+Toutefois, ne sont pas soumis aux dispositions du premier alinéa :
+1° La souscription à domicile d'un abonnement à une publication quotidienne et assimilée, au sens de l'article 39 bis du code général des impôts ;
+2° Les contrats à exécution successive, conclus dans les conditions prévues au présent chapitre et proposés par un organisme agréé ou relevant d'une décision de
+l'autorité administrative, ayant pour objet la fourniture de services mentionnés à l'article L. 7231-1 du code du travail ;
+3° Les contrats conclus au cours de réunions organisées par le Vendeur à son domicile ou au domicile d'un consommateur ayant préalablement et expressément accepté
+que cette opération se déroule à son domicile ;
+4° Les contrats ayant pour objet des travaux d'entretien ou de réparation à réaliser en urgence au domicile du consommateur et expressément sollicités par lui, dans la
+limite des pièces de rechange et travaux strictement nécessaires pour répondre à l'urgence.
+Pour les contrats mentionnés aux 1° et 2°, le consommateur dispose d'un droit de résiliation du contrat à tout moment et sans préavis, frais ou indemnité et d'un droit au
+remboursement, dans un délai de quinze jours, des sommes versées au prorata de la durée du contrat restant à courir.
+</div>
+<div style="width: 98.5%;font-size:10px;margin-top: 5px;">
+<div style="font-weight:bold;font-size:12px;">DROIT DE RETRACTATION</div>
+<div style="font-weight:bold;margin: 5px 0;">Article L221-18 du Code de la consommation</div>
+Le consommateur dispose d'un délai de quatorze jours pour exercer son droit de rétractation d'un contrat conclu à distance, à la suite d'un démarchage téléphonique ou
+hors établissement, sans avoir à motiver sa décision ni à supporter d'autres coûts que ceux prévus aux articles L. 221-23 à L. 221-25.
+Le délai mentionné au premier alinéa court à compter du jour :
+1° De la conclusion du contrat, pour les contrats de prestation de services et ceux mentionnés à l'article L. 221-4 ;
+2° De la réception du bien par le consommateur ou un tiers, autre que le transporteur, désigné par lui, pour les contrats de vente de biens. Pour les contrats conclus hors
+établissement, le consommateur peut exercer son droit de rétractation à compter de la conclusion du contrat.
+Dans le cas d'une commande portant sur plusieurs biens livrés séparément ou dans le cas d'une commande d'un bien composé de lots ou de pièces multiples dont la
+livraison est échelonnée sur une période définie, le délai court à compter de la réception du dernier bien ou lot ou de la dernière pièce.
+Pour les contrats prévoyant la livraison régulière de biens pendant une période définie, le délai court à compter de la réception du premier bien.
+</div>
+
+  </div>
+  <page_footer>
+    <div style="">
+      <div style="text-align:left;font-size:10px;position:absolute;top:1040px;left:0;color:#000;"><b>  {$company.name}</b> <br> {$company.address1}, {$company.postcode} {$company.city}<br>
+        Tél: {$company.phone} - Mail: {$company.email}<br>APE : {$company.ape} - au capital de : {$company.capital} {$company.comments}
+   </div>
+      {if $company.picture.url}
+      <img style="width:50px;margin-left:680px;opacity:0.1" src="{$company.picture.url}" />
+      {/if}
+    </div>
+    <div class="numberOfPage">Page 5 / 7</div>
+
+  </page_footer>
+</page>
+
+
+<page>
+
+<page_header>
+    <div style="position: absolute;width: 100px;height: 100px;border-radius: 20px 50px;right: -80px;top:-80px;background: #006699;"></div>
+  <div style="height: 300px!important;">
+  {if $company.picture}
+    <img style="width:90px;margin: 20px;" class="logo" src="{$company.picture.url}" />
+  {/if}
+  <div style="position:relative;">
+    <table class="headTableDevis">
+      <tr>
+        <td>
+          <div>
+            <table class="tableDevis">
+              <thead>
+                <tr>
+                  <th style="border-top-left-radius: 10px;border-top-right-radius: 10px;">DEVIS</th>
+
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;font-weight:bold;">{$quotation.reference}</td>
+
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </td>
+        <td>
+          <div>
+            <table class="tableDevis">
+              <thead>
+                <tr>
+                  <th style="border-top-left-radius: 10px;border-top-right-radius: 10px;">DATE</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;font-weight:bold;">{$contract.quoted_at.ddmmyyyy}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </td>
+        <td>
+          <div style="margin-top:0px;">
+            <table class="tableDevis">
+              <thead>
+                <tr>
+                  <th style="border-top-left-radius: 10px;border-top-right-radius: 10px;">CLIENT</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;font-weight:bold;">{$customer.id}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+  </div>
+  </page_header>
+<div style="text-align: justify;font-size: 7px;width: 98.5%;font-size:10px;;padding: 10px;margin-top: 105px;">
+
+<div style="width: 98.5%;font-size:10px;">
+<div style="font-weight:bold;margin: 5px 0;">Article L221-19 du Code de la consommation</div>
+Conformément au règlement n° 1182/71/ CEE du Conseil du 3 juin 1971 portant détermination des règles applicables aux délais, aux dates et aux termes :
+1° Le jour où le contrat est conclu ou le jour de la réception du bien n'est pas compté dans le délai mentionné à l'article L. 221-18 ;
+2° Le délai commence à courir au début de la première heure du premier jour et prend fin à l'expiration de la dernière heure du dernier jour du délai ;
+3° Si ce délai expire un samedi, un dimanche ou un jour férié ou chômé, il est prorogé jusqu'au premier jour ouvrable suivant.
+</div>
+<div style="width: 98.5%;font-size:10px;">
+<div style="font-weight:bold;margin: 5px 0;">Article L221-20 du Code de la consommation</div>
+Lorsque les informations relatives au droit de rétractation n'ont pas été fournies au consommateur dans les conditions prévues au 2° de l'article L. 221-5, le délai de
+rétractation est prolongé de douze mois à compter de l'expiration du délai de rétractation initial, déterminé conformément à l'article L. 221-18.
+Toutefois, lorsque la fourniture de ces informations intervient pendant cette prolongation, le délai de rétractation expire au terme d'une période de quatorze jours à compter
+du jour où le consommateur a reçu ces informations.
+</div>
+<div style="width: 98.5%;font-size:10px;">
+<div style="font-weight:bold;margin: 5px 0;">Article L221-21 du Code de la consommation</div>
+Le consommateur exerce son droit de rétractation en informant le professionnel de sa décision de se rétracter par l'envoi, avant l'expiration du délai prévu à l'article L.
+221-18, du formulaire de rétractation mentionné au 2° de l'article L. 221-5 ou de toute autre déclaration, dénuée d'ambiguïté, exprimant sa volonté de se rétracter.
+Le professionnel peut également permettre au consommateur de remplir et de transmettre en ligne, sur son site internet, le formulaire ou la déclaration prévus au premier
+alinéa. Dans cette hypothèse, le professionnel communique, sans délai, au consommateur un accusé de réception de la rétractation sur un support durable.
+</div>
+<div style="width: 98.5%;font-size:10px;">
+<div style="font-weight:bold;margin: 5px 0;">Article L221-22 du Code de la consommation</div>
+La charge de la preuve de l'exercice du droit de rétractation dans les conditions prévues à l'article L. 221-21 pèse sur le consommateur.
+</div>
+<div style="width: 98.5%;font-size:10px;">
+<div style="font-weight:bold;margin: 5px 0;">Article L221-23 du Code de la consommation</div>
+Le consommateur renvoie ou restitue les biens au professionnel ou à une personne désignée par ce dernier, sans retard excessif et, au plus tard, dans les quatorze jours
+suivant la communication de sa décision de se rétracter conformément à l'article L. 221-21, à moins que le professionnel ne propose de récupérer lui-même ces biens.
+Le consommateur ne supporte que les coûts directs de renvoi des biens, sauf si le professionnel accepte de les prendre à sa charge ou s'il a omis d'informer le
+consommateur que ces coûts sont à sa charge. Néanmoins, pour les contrats conclus hors établissement, lorsque les biens sont livrés au domicile du consommateur au
+moment de la conclusion du contrat, le professionnel récupère les biens à ses frais s'ils ne peuvent pas être renvoyés normalement par voie postale en raison de leur
+nature.
+La responsabilité du consommateur ne peut être engagée qu'en cas de dépréciation des biens résultant de manipulations autres que celles nécessaires pour établir la
+nature, les caractéristiques et le bon fonctionnement de ces biens, sous réserve que le professionnel ait informé le consommateur de son droit de rétractation,
+conformément au 2° de l'article L. 221-5.
+ Pour les contrats de vente de biens, à moins qu'il ne propose de récupérer lui-même les biens, le professionnel peut différer le remboursement jusqu'à récupération des
+biens ou jusqu'à ce que le consommateur ait fourni une preuve de l'expédition de ces biens, la date retenue étant celle du premier de ces faits.
+Au-delà, les sommes dues sont de plein droit majorées du taux d'intérêt légal si le remboursement intervient au plus tard dix jours après l'expiration des délais fixés aux
+deux premiers alinéas, de 5 % si le retard est compris entre dix et vingt jours, de 10 % si le retard est compris entre vingt et trente jours, de 20 % si le retard est compris
+entre trente et soixante jours, de 50 % entre soixante et quatre-vingt-dix jours et de cinq points supplémentaires par nouveau mois de retard jusqu'au prix du produit, puis
+du taux d'intérêt légal.
+Le professionnel effectue ce remboursement en utilisant le même moyen de paiement que celui utilisé par le consommateur pour la transaction initiale, sauf accord exprès
+du consommateur pour qu'il utilise un autre moyen de paiement et dans la mesure où le remboursement n'occasionne pas de frais pour le consommateur.
+Le professionnel n'est pas tenu de rembourser les frais supplémentaires si le consommateur a expressément choisi un mode de livraison plus coûteux que le mode de
+livraison standard proposé par le professionnel.
+</div>
+<div style="width: 98.5%;font-size:10px;;margin-top: 5px;">
+<div style="font-weight:bold;margin: 5px 0;">Article L221-24 du Code de la consommation</div>
+Lorsque le droit de rétractation est exercé, le professionnel rembourse le consommateur de la totalité des sommes versées, y compris les frais de livraison, sans retard
+injustifié et au plus tard dans les quatorze jours à compter de la date à laquelle il est informé de la décision du consommateur de se rétracter.
+Pour les contrats de vente de biens, à moins qu'il ne propose de récupérer lui-même les biens, le professionnel peut différer le remboursement jusqu'à récupération des
+biens ou jusqu'à ce que le consommateur ait fourni une preuve de l'expédition de ces biens, la date retenue étant celle du premier de ces faits.
+Le professionnel effectue ce remboursement en utilisant le même moyen de paiement que celui utilisé par le consommateur pour la transaction initiale, sauf accord exprès
+du consommateur pour qu'il utilise un autre moyen de paiement et dans la mesure où le remboursement n'occasionne pas de frais pour le consommateur.
+Le professionnel n'est pas tenu de rembourser les frais supplémentaires si le consommateur a expressément choisi un mode de livraison plus coûteux que le mode de
+livraison standard proposé par le professionnel.
+</div>
+<div style="width: 98.5%;font-size:10px;">
+<div style="font-weight:bold;margin: 5px 0;">Article L221-25 du Code de la consommation</div>
+Si le consommateur souhaite que l'exécution d'une prestation de services ou d'un contrat mentionné au premier alinéa de l'article L. 221-4 commence avant la fin du délai
+de rétractation mentionné à l'article L. 221-18, le professionnel recueille sa demande expresse par tout moyen pour les contrats conclus à distance et sur papier ou sur
+support durable pour les contrats conclus hors établissement.
+Le consommateur qui a exercé son droit de rétractation d'un contrat de prestation de services ou d'un contrat mentionné au premier alinéa de l'article L. 221-4 dont
+l'exécution a commencé, à sa demande expresse, avant la fin du délai de rétractation verse au professionnel un montant correspondant au service fourni jusqu'à la
+communication de sa décision de se rétracter ; ce montant est proportionné au prix total de la prestation convenu dans le contrat. Si le prix total est excessif, le montant
+approprié est calculé sur la base de la valeur marchande de ce qui a été fourni.
+Aucune somme n'est due par le consommateur ayant exercé son droit de rétractation si sa demande expresse n'a pas été recueillie en application du premier alinéa ou si le
+professionnel n'a pas respecté l'obligation d'information prévue au 4° de l'article L. 221-5.
+</div>
+<div style="width: 98.5%;font-size:10px;">
+<div style="font-weight:bold;margin: 5px 0;">Article L221-29 du Code de la consommation</div>
+Les dispositions du présent chapitre sont d'ordre public.
+</div>
+<div style="width: 98.5%;font-size:10px;">
+<div style="font-weight:bold;font-size:12px;">MEDIATION</div>
+<div style="font-weight:bold;margin: 5px 0;">Article L.616-1 du Code de la consommation</div>
+Tout professionnel communique au consommateur, selon des modalités fixées par décret pris en Conseil d'Etat, les coordonnées du ou des médiateurs compétents dont il
+relève. Le professionnel est également tenu de fournir cette même information au consommateur, dès lors qu'un litige n'a pas pu être réglé dans le cadre d'une réclamation
+préalable directement introduite auprès de ses services.
+</div>
+<div style="width: 98.5%;font-size:10px;">
+<div style="font-weight:bold;margin: 5px 0;">Article L612-1 du Code de la consommation</div>
+Tout consommateur a le droit de recourir gratuitement à un médiateur de la consommation en vue de la résolution amiable du litige qui l'oppose à un professionnel. A cet
+effet, le professionnel garantit au consommateur le recours effectif à un dispositif de médiation de la consommation.
+Le professionnel peut mettre en place son propre dispositif de médiation de la consommation ou proposer au consommateur le recours à tout autre médiateur de la
+consommation répondant aux exigences du présent titre.
+Lorsqu'il existe un médiateur de la consommation dont la compétence s'étend à l'ensemble des entreprises d'un domaine d'activité économique dont il relève, le
+professionnel permet toujours au consommateur d'y recourir.
+Les modalités selon lesquelles le processus de médiation est mis en oeuvre sont précisées par décret en Conseil d'Etat.
+</div>
+<div style="width: 98.5%;font-size:10px;">
+<div style="font-weight:bold;margin: 5px 0;">Article L612-4 du Code de la consommation</div>
+
+
+  </div>
+</div>
+  <page_footer>
+    <div style="">
+      <div style="text-align:left;font-size:10px;position:absolute;top:1040px;left:0;color:#000;"><b>  {$company.name}</b> <br> {$company.address1}, {$company.postcode} {$company.city}<br>
+        Tél: {$company.phone} - Mail: {$company.email}<br>APE : {$company.ape} - au capital de : {$company.capital} {$company.comments}
+   </div>
+      {if $company.picture.url}
+      <img style="width:50px;margin-left:680px;opacity:0.1" src="{$company.picture.url}" />
+      {/if}
+    </div>
+    <div class="numberOfPage">Page 6 / 7</div>
+
+  </page_footer>
+</page>
+
+<page>
+
+<page_header>
+    <div style="position: absolute;width: 100px;height: 100px;border-radius: 20px 50px;right: -80px;top:-80px;background: #006699;"></div>
+  <div style="height: 300px!important;">
+  {if $company.picture}
+    <img style="width:90px;margin: 20px;" class="logo" src="{$company.picture.url}" />
+  {/if}
+  <div style="position:relative;">
+    <table class="headTableDevis">
+      <tr>
+        <td>
+          <div>
+            <table class="tableDevis">
+              <thead>
+                <tr>
+                  <th style="border-top-left-radius: 10px;border-top-right-radius: 10px;">DEVIS</th>
+
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;font-weight:bold;">{$quotation.reference}</td>
+
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </td>
+        <td>
+          <div>
+            <table class="tableDevis">
+              <thead>
+                <tr>
+                  <th style="border-top-left-radius: 10px;border-top-right-radius: 10px;">DATE</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;font-weight:bold;">{$contract.quoted_at.ddmmyyyy}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </td>
+        <td>
+          <div style="margin-top:0px;">
+            <table class="tableDevis">
+              <thead>
+                <tr>
+                  <th style="border-top-left-radius: 10px;border-top-right-radius: 10px;">CLIENT</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;font-weight:bold;">{$customer.id}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+  </div>
+  </page_header>
+<div style="text-align: justify;font-size: 7px;width: 98.5%;font-size:10px;;padding: 10px;margin-top: 150px;">
+<div style="width: 98.5%;font-size:10px;">
+Est interdite toute clause ou convention obligeant le consommateur, en cas de litige, à recourir obligatoirement à une médiation préalablement à la saisine du juge.
+</div>
+<div style="width: 98.5%;font-size:10px;">
+<div style="font-weight:bold;margin: 5px 0;">Article L.613-2 du Code de la consommation</div>
+Lorsqu'il est employé ou rémunéré exclusivement par le professionnel, le médiateur de la consommation satisfait aux conditions supplémentaires suivantes :
+1° Il est désigné, selon une procédure transparente, par un organe collégial mis en place par l'entreprise, comprenant des représentants d'associations de défense des
+consommateurs agréées et des représentants du professionnel, ou relevant d'une instance nationale consultative dans le domaine de la consommation ou propre à un
+secteur d'activité dans des conditions fixées par décret ;
+2° A l'issue de son mandat, le médiateur a l'interdiction de travailler pendant au moins trois ans pour le professionnel qui l'a employé ou pour la fédération à laquelle ce
+professionnel est affilié ;
+3° Aucun lien hiérarchique ou fonctionnel entre le professionnel et le médiateur ne peut exister pendant l'exercice de sa mission de médiation. Le médiateur est clairement
+séparé des organes opérationnels du professionnel et dispose d'un budget distinct et suffisant pour l'exécution de ses missions.
+</div>
+
+  </div>
+  <page_footer>
+    <div style="">
+      <div style="text-align:left;font-size:10px;position:absolute;top:1040px;left:0;color:#000;"><b>  {$company.name}</b> <br> {$company.address1}, {$company.postcode} {$company.city}<br>
+        Tél: {$company.phone} - Mail: {$company.email}<br>APE : {$company.ape} - au capital de : {$company.capital} {$company.comments}
+   </div>
+      {if $company.picture.url}
+      <img style="width:50px;margin-left:680px;opacity:0.1" src="{$company.picture.url}" />
+      {/if}
+    </div>
+    <div class="numberOfPage">Page 7 / 7</div>
+
+  </page_footer>
+</page>
+]]></body></i18n></quotation><premeeting><id>36</id><name>moa et action concatner</name><options></options><i18n><value>moa et action concatner</value><variables>company.name|company.name_address1_postcode_city|FieldNameAlt: societe.nom.adresse|company.ape|company.capital|company.phone_email|FieldNameAlt: Raison sociale|company.siret|company.tva|contract.pre_meeting_at.ddmmyyyy|contract|quotation.reference|FieldNameAlt: quotation.reference|quotation.total_sale_with_ite_prime|today.ddmmyyyy.0|today.ddmmyyyy.1|today.ddmmyyyy.3|today.ddmmyyyy.4|today.ddmmyyyy.6|today.ddmmyyyy.7|today.ddmmyyyy.8|today.ddmmyyyy.9|today|customer.lastname|customer.address.postcode.0|customer.address.postcode.1|customer.address.postcode.2|customer.address.postcode.3|customer.address.postcode.4|customer.address.postcode|customer.address.city|customer.address.address1|FieldNameAlt: Adresse des travaux|customer.address|customer.firstname|customer</variables><file>model.pdf</file><content></content><lang>fr</lang><created_at>2020-07-21 21:26:56</created_at><updated_at>2020-07-21 21:26:56</updated_at><id>36</id><body><![CDATA[]]></body></i18n></premeeting><properties><id>26</id><prime>0.440000</prime><ite_prime>0.00</ite_prime><ana_prime>0.00</ana_prime><pack_prime>0.550000</pack_prime><created_at>2020-07-21 22:14:06</created_at><updated_at>2020-07-21 22:14:06</updated_at></properties><document_quotation><pre><id>820</id><name>cadre de contribution</name><extension>pdf</extension><created_at>2020-07-08 13:32:43</created_at><updated_at>2020-07-08 13:32:43</updated_at><i18n><id>820</id><value>cadre de contribution</value><comments></comments><file>model.pdf</file><mapping></mapping><initiator_signature></initiator_signature><signature></signature><variables>customer.lastname|FieldNameAlt: Nom du signataire|customer.firstname|FieldNameAlt: Prpnom du signataire|customer.address.address1|FieldNameAlt: Adresse des travaux|customer.address.address2|FieldNameAlt: Complpment d&#8217;adresse|customer.address.postcode|customer.email|FieldNameAlt: Courriel|customer.phone|quotation.ite_prime|company.name|FieldNameAlt: Raison sociale|contract.quoted_at.ddmmyyyy.0|contract.quoted_at.ddmmyyyy.1|contract.quoted_at.ddmmyyyy.3|contract.quoted_at.ddmmyyyy.4|contract.quoted_at.ddmmyyyy.6|contract.quoted_at.ddmmyyyy.7|contract.quoted_at.ddmmyyyy.8|contract.quoted_at.ddmmyyyy.9|contract.quoted_at|contract</variables><lang>fr</lang><content></content><created_at>2020-07-08 13:32:43</created_at><updated_at>2020-07-08 13:32:44</updated_at></i18n></pre><post><id>7</id><name>ITE THEME32</name><extension>pdf</extension><created_at>2020-07-09 15:36:50</created_at><updated_at>2020-07-09 15:36:50</updated_at><i18n><id>7</id><value>ITE THEME32</value><comments></comments><file>model.pdf</file><mapping></mapping><initiator_signature></initiator_signature><signature></signature><variables></variables><lang>fr</lang><content></content><created_at>2020-07-09 15:36:50</created_at><updated_at>2020-07-09 15:36:50</updated_at></i18n></post></document_quotation></polluter>

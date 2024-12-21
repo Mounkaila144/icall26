@@ -1,0 +1,1 @@
+ALTER TABLE t_domoprime_billing DROP FOREIGN KEY domoprime_billing_3;

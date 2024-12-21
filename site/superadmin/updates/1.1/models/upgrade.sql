@@ -1,0 +1,2 @@
+ALTER TABLE `t_sites` ADD `site_company` varchar(64)  NOT NULL AFTER `site_access_restricted`;
+ALTER TABLE `t_sites` ADD `is_customer` enum('YES','NO')  NOT NULL DEFAULT 'YES'  AFTER `site_access_restricted`;
