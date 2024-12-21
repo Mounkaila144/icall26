@@ -1,0 +1,7 @@
+SQL with module name
+
+INSERT INTO `t_modules` (`id`, `name`, `logo`, `type`, `title`, `description`, `mode`, `status`, `is_active`, `is_available`, `in_site`, `version`, `update`, `created_at`, `updated_at`) VALUES (NULL, 'seo_tag_manager_api', 'logo.png', 'seo', 'seo_tag_manager_api', 'seo_tag_manager_api', '', 'installed', 'YES', 'YES', 'NO', '1.0', '', '2023-03-02 13:04:53', '2023-03-02 13:04:53'); 
+
+/sites/[site]/install/[module]
+
+install.xml

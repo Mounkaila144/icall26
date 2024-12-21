@@ -1,0 +1,86 @@
+
+<IfModule mod_headers.c>
+Header set Accept-Ranges bytes
+</IfModule> 
+Options -Indexes
+IndexIgnore *
+RewriteEngine on
+
+RewriteRule .* - [E=REMOTE_USER:%{HTTP:Authorization},QSA]
+
+
+#####
+# set the system error documents
+#####
+#ErrorDocument 400 /view/error_doc/error.php?num=400
+#ErrorDocument 401 /view/error_doc/error.php?num=401
+#ErrorDocument 403 /view/error_doc/error.php?num=403
+#ErrorDocument 404 /view/error_doc/error.php?num=404
+#ErrorDocument 405 /view/error_doc/error.php?num=405
+#ErrorDocument 500 /view/error_doc/error.php?num=500
+
+#####
+#  Remove not authorized robot to save bandwidth
+#####
+
+#####
+# put on the rewrite Engine
+#####
+RewriteBase   /
+
+
+#################
+#Forbidden access
+#################
+RewriteRule .*\.svn/.* - [F]
+RewriteRule .*\.git/.* - [F]
+RewriteRule ^tmp/.*$ - [F]
+RewriteRule ^mfsys$ - [F]
+RewriteRule ^cron$ - [F]
+RewriteRule ^cron.bat$ - [F]
+RewriteRule ^test.bat$ - [F]
+RewriteRule ^prod_htaccess -[F]
+RewriteRule ^prod_config -[F]
+RewriteRule ^prod_superadmin -[F]
+RewriteRule ^p_htaccess -[F]
+RewriteRule ^p_config -[F]
+RewriteRule ^p_superadmin -[F]
+
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule "." - [L]
+
+#####################################
+# D I S P A T C H                   #
+#####################################
+SetEnv REGISTER_GLOBALS 0   
+SetEnv MAGIC_QUOTES 0
+SetEnv SYSTEM_ENV  dev           
+SetEnv SYSTEM_DEBUG  true   
+       
+
+RewriteRule  ^install/$                                             /install/index.php [QSA,L]
+
+#####################################
+# Front Office rewriting rules      #
+#####################################
+
+RewriteRule  ^/?((..)/)?admin/ - [S=3]
+RewriteRule  ^/?((..)/)?superadmin/ - [S=4]
+RewriteRule  ^/?((..)/)?web/(.+)?$                                 /apps/frontend/urlrewriting_frontend.php [QSA,L]
+RewriteRule  ^/?((..)/)?(.+)?$                                     /apps/frontend/start_frontend.php [QSA,L]
+
+#####################################
+# Admin Office rewriting rules      #
+#####################################
+RewriteRule  ^/?((..)/)?admin/web/(.+)?$                           /apps/admin/urlrewriting_admin.php [QSA,L]
+RewriteRule  ^/?((..)/)?admin/(.+)?$                               /apps/admin/start_admin.php [QSA,L]
+
+
+######################################
+# Super Admin Office rewriting rules #
+######################################
+RewriteRule  ^/?((..)/)?superadmin/web/(.+)?$                      /apps/superadmin/urlrewriting_superadmin.php [QSA,L]
+RewriteRule  ^/?((..)/)?superadmin/(.+)?$                          /apps/superadmin/start_superadmin.php [QSA,L]
+
+
+

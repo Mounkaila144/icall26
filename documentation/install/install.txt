@@ -1,0 +1,7 @@
+- ioncube loader 5.6
+- apache2 rewrite mod
+- copy .htaccess to the root project
+copy 
+- install DB site_mini.sql to mysql
+- create log directory on root
+- copy /docs/config.php & /docs/superadmin.php dans /config

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <title>Facebook Auth</title>
+    <type>admin</type>
+    <version>1.0</version>
+    <logo>logo.jpg</logo>
+    <description>this module manage the system emails actions.</description>
+    <author>F.Mallet</author>    
+</module> 
